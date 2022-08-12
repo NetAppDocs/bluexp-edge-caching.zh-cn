@@ -49,7 +49,7 @@ image:diagram_gfc_image1.png["显示远程办公室位置如何使用全局文�
 * 全局文件缓存边缘（部署在远程位置）
 
 
-全局文件缓存核心实例挂载到您选择的后端存储平台（例如 Cloud Volumes ONTAP ， Cloud Volumes Service ， 和 Azure NetApp Files ），并创建全局文件缓存网络结构，使其能够将非结构化数据集中并整合到一组数据中，而无论这些数据位于公有云中的一个或多个存储平台上。
+全局文件缓存核心实例挂载到您选择的后端存储平台(例如Cloud Volumes ONTAP 、Cloud Volumes Service 、 和Azure NetApp Files)、并创建全局文件缓存"网络结构"、以便将非结构化数据集中并整合到一组数据中、无论这些数据位于公有 云中的一个或多个存储平台上。
 
 image:diagram_gfc_image2.png["显示在远程办公室和云中的中央服务器上安装了软件的全局文件缓存部署详细信息的图表。"]
 
@@ -75,7 +75,7 @@ image:diagram_gfc_image2.png["显示在远程办公室和云中的中央服务�
 
 === 手动部署选项
 
-在公有云存储基础架构上安装的 Cloud Volumes ONTAP ， Cloud Volumes Service ， Azure NetApp Files 和 Amazon FSx for ONTAP 系统也支持全局文件缓存配置。此外， NetApp AFF 和 FAS 平台还提供内部解决方案。在这些安装中，必须手动配置和部署全局文件缓存服务器端组件，而不是使用 Cloud Manager 。
+在公有云存储基础架构上安装的 Cloud Volumes ONTAP ， Cloud Volumes Service ， Azure NetApp Files 和 Amazon FSx for ONTAP 系统也支持全局文件缓存配置。此外， NetApp AFF 和 FAS 平台还提供内部解决方案。在这些安装中、必须手动配置和部署全局文件缓存服务器端组件、而不是使用Cloud Manager。
 
 请参见 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%201.3.0%20User%20Guide.pdf["《 NetApp 全局文件缓存用户指南》"^] 了解详细信息。
 
@@ -118,7 +118,7 @@ image:diagram_gfc_image3.png["一个图，显示边缘和核心的全局文件�
 
 使用全局文件缓存的成本取决于您选择的安装类型。
 
-* 所有安装都要求您在云（ Cloud Volumes ONTAP ， Cloud Volumes Service 或 Azure NetApp Files ）中部署一个或多个卷。这会导致从选定云提供商处收取费用。
+* 所有安装都要求您在云中部署一个或多个卷(例如Cloud Volumes ONTAP 、Cloud Volumes Service 或Azure NetApp Files)。这会导致从选定云提供商处收取费用。
 * 所有安装还要求您在云中部署两个或更多虚拟机（ VM ）。这会导致从选定云提供商处收取费用。
 +
 ** 全局文件缓存管理服务器：
@@ -137,7 +137,12 @@ image:diagram_gfc_image3.png["一个图，显示边缘和核心的全局文件�
 
 
 
-* 如果在 Azure 或 AWS 中安装了 Cloud Volumes ONTAP （完全通过 Cloud Manager 部署受支持的配置），则每个站点每年需要支付 3 ， 000 美元的费用（对于每个全局文件缓存边缘实例）。
+* 如果在Azure或AWS中安装了Cloud Volumes ONTAP (完全通过Cloud Manager部署受支持的配置)、则有两种定价选项：
++
+** 对于Azure或AWS中的Cloud Volumes ONTAP 系统、您可以每年为每个全局文件缓存边缘实例支付3、000美元的费用。
+** 或者、对于Azure中的Cloud Volumes ONTAP 系统、您也可以选择Cloud Volumes ONTAP 边缘缓存软件包。通过此基于容量的许可证、您可以为所配置的每个3 TiB容量部署一个全局文件缓存边缘实例。 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#capacity-based-licensing["单击此处了解更多信息"]。
+
+
 * 如果使用手动部署选项安装，则定价会有所不同。要查看成本概要，请参见 https://cloud.netapp.com/global-file-cache/roi["计算您的节省潜力"^] 或者，请咨询全球文件缓存解决方案工程师，以讨论适用于您的企业部署的最佳方案。
 
 
@@ -159,6 +164,4 @@ image:diagram_gfc_image3.png["一个图，显示边缘和核心的全局文件�
 
 Cloud Manager 中支持的全局文件缓存版本要求用作中央存储的后端存储平台必须是一个工作环境，在此环境中，您已在 Azure 或 AWS 中部署了 Cloud Volumes ONTAP 单节点或 HA 对。
 
-目前，使用 Cloud Manager 不支持其他存储平台和其他云提供商，但可以使用传统部署过程进行部署。
-
-这些其他配置，例如在 Microsoft Azure ， Google Cloud 或 AWS 上使用 Cloud Volumes ONTAP 或 Cloud Volumes Service 的全局文件缓存，仍可通过原有过程获得支持。请参见 link:https://cloud.netapp.com/global-file-cache/onboarding["全局文件缓存概述和入职"^] 了解详细信息。
+目前，使用 Cloud Manager 不支持其他存储平台和其他云提供商，但可以使用传统部署过程进行部署。这些其他配置、例如、在Google Cloud、Azure NetApp Files 或适用于ONTAP 系统的Amazon FSX上使用Cloud Volumes ONTAP 或Cloud Volumes Service 的全局文件缓存、均可使用原有过程进行支持。请参见 link:https://cloud.netapp.com/global-file-cache/onboarding["全局文件缓存概述和入职"^] 了解详细信息。

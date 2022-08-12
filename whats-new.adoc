@@ -18,6 +18,38 @@ summary: 了解全局文件缓存中的新增功能。
 
 
 
+== 2022年7月25日(2.0版)
+
+此版本提供了以下列出的新功能。此外、它还修复了中所述的问题 https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["已修复的问题"]。
+
+
+
+=== 通过Azure Marketplace为全局文件缓存提供基于容量的新许可模式
+
+新的"Edge Cache"许可证具有与"CVO专业版"许可证相同的功能、但也支持全局文件缓存。在Azure中部署新Cloud Volumes ONTAP 系统时、您将看到此选项。您有权为Cloud Volumes ONTAP 系统上配置的每个3 TiB容量部署一个全局文件缓存边缘系统。应至少配置30 TiB。GFC License Manager服务已得到增强、可提供基于容量的许可。
+
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#capacity-based-licensing["了解有关Edge Cache许可证包的更多信息。"]
+
+
+
+=== 现在、全局文件缓存已与Cloud Insights 集成
+
+NetApp Cloud Insights (CI)可全面了解您的基础架构和应用程序。现在、全局文件缓存已与CI集成在一起、可全面查看所有边缘和核心；监控实例上运行的进程。将各种全局文件缓存指标推送到CI、以便在CI信息板上提供完整的概述。
+
+https://cloud.netapp.com/cloud-insights["了解有关Cloud Insights 的更多信息。"]
+
+
+
+=== 许可证管理服务器已进行了增强、可在限制性极高的环境中运行
+
+在许可证配置期间、许可证管理服务器(LMS)应能够访问Internet、以便从NetApp/Zuora收集许可详细信息。配置成功后、尽管环境受限、但LMS仍可继续在脱机模式下工作并提供许可功能。
+
+
+
+=== Optimus中的Edge Sync UI已进行了增强、可在协调者Edge上显示已连接客户端的列表
+
+
+
 == 2022年6月23日(版本1.3.1)
 
 可从获取适用于1.3.1版的Global File Cache Edge软件 https://docs.netapp.com/us-en/cloud-manager-file-cache/download-gfc-resources.html#download-required-resources["此页面"]。此版本可修复中所述的问题 https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["已修复的问题"]。
@@ -46,13 +78,13 @@ summary: 了解全局文件缓存中的新增功能。
 
 
 
-=== OpenSSL 模块已升级到 1.1.1l 版。
+=== OpenSSL模块已升级到1.1.1l版
 
 这是最新版本，更安全。此模块用于在 GFC Edge 和 GFC 核心之间进行安全通信。
 
 
 
-=== 日志记录基础架构已得到增强。
+=== 日志记录基础架构已得到增强
 
 
 
@@ -60,38 +92,18 @@ summary: 了解全局文件缓存中的新增功能。
 
 
 
-=== 已添加 " 边缘同步 " 功能。
+=== 已添加"边缘同步"功能
 
 此功能可使远程办公室的多个边缘保持同步，并且数据始终处于缓存 / 预热状态。在一个 Edge 上刷新 / 提取文件时，将更新和缓存参与 Edge Sync 的所有边缘上的同一文件。请参见中的第 8.4 节 https://repo.cloudsync.netapp.com/gfc/Netapp%20GFC%20User%20Guide%201.1.0.pdf["《 NetApp 全局文件缓存用户指南》"^] 了解详细信息。
 
 
 
-=== OpenSSL 模块已升级到 1.1.1k 版。
+=== OpenSSL模块已升级到1.1.1k版
 
 这是最新版本，更安全。此模块用于在 GFC Edge 和 GFC 核心之间进行安全通信。
 
 
 
-=== 已更新许可证注册页面。
+=== 已更新许可证注册页面
 
 现在， GFC 许可证注册页面将显示通过 NetApp 订阅激活的许可证数量。
-
-
-
-== 2021 年 3 月 21 日（ 1.0.3 版）
-
-
-
-=== 软件安装程序会更新，以自动从 Windows Defender 中排除 GFC 进程。
-
-现在，全局文件缓存软件安装程序会将所有 GFC 进程排除在 Windows Defender 软件按需扫描之外。
-
-
-
-=== 已向配置控制台添加一个新的策略配置选项卡。
-
-通过此配置选项卡，您可以从 GFC 核心添加预填充作业。
-
-
-
-=== 增强了软件功能，可减少内存使用量，同时提高性能和稳定性。

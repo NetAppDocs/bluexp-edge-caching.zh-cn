@@ -49,6 +49,9 @@ https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%201.3.0%20User%20Gui
 link:task-deploy-gfc-edge-instances.html#update-global-file-cache-edge-software["请按照以下步骤操作"] 升级全局文件缓存边缘软件。
 
 
+NOTE: 在Windows Server 2016上部署全局文件缓存时、应使用.NET Framework 4.8。
+
+
 
 == 设计和部署全局文件缓存边缘
 
