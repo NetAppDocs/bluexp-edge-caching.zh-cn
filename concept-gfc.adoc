@@ -123,7 +123,7 @@ image:diagram_gfc_image3.png["一个图，显示边缘和核心的全局文件�
 +
 ** 全局文件缓存管理服务器：
 +
-在 Azure 中，此操作在具有 127 GB 高级 SSD 的 D2S_V3 或等效虚拟机（ 2 个 vCPU/8 GB RAM ）上运行
+在Azure中、此操作在具有127 GB标准SSD的D2S_V3或等效虚拟机(2个vCPU/8 GB RAM)上运行
 
 +
 在 AWS 中，此操作在具有 127 GB 通用 SSD 的 m4.large 或等效（ 2 个 vCPU/8 GB RAM ）实例上运行

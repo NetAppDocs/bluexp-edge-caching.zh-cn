@@ -56,10 +56,10 @@ NOTE: 您可以同时利用多个全局文件缓存边缘和核心实例根据�
 
 === 每个 Edge 实例的并发用户数
 
-全局文件缓存边缘可处理缓存算法和文件级差分方面的繁重工作。一个全局文件缓存边缘实例可为每个专用物理边缘实例最多 400 个用户提供服务，而对于专用虚拟部署，最多可为 200 个用户提供服务。这在很大程度上取决于最常见工作负载的类型和平均文件大小。对于较大的协作文件类型，请引导每个全局文件缓存边缘的最大用户数的 50% 下限（具体取决于物理或虚拟部署）。对于平均文件大小小于 1 MB 的更常见 Office 项目，请参考每个全局文件缓存边缘的 100% 用户上限（具体取决于物理或虚拟部署）。
+全局文件缓存边缘可处理缓存算法和文件级差分方面的繁重工作。一个全局文件缓存边缘实例可以为每个专用物理边缘实例最多500个用户提供服务、而对于专用虚拟部署、最多可为300个用户提供服务。这在很大程度上取决于最常见工作负载的类型和平均文件大小。对于较大的协作文件类型，请引导每个全局文件缓存边缘的最大用户数的 50% 下限（具体取决于物理或虚拟部署）。对于平均文件大小小于 1 MB 的更常见 Office 项目，请参考每个全局文件缓存边缘的 100% 用户上限（具体取决于物理或虚拟部署）。
 
 
-NOTE: 全局文件缓存边缘会检测它是在虚拟实例还是物理实例上运行，它会将与本地虚拟文件共享的 SMB 连接数限制为最多 200 或 400 个并发连接。
+NOTE: 全局文件缓存边缘会检测它是在虚拟实例还是物理实例上运行、它会将与本地虚拟文件共享的SMB连接数限制为最多300或500个并发连接。
 
 
 
@@ -97,8 +97,18 @@ NOTE: 全局文件缓存边缘会检测它是在虚拟实例还是物理实例�
 
 此全局文件缓存管理服务器需要通过 HTTPS （ TCP 端口 443 ）进行外部访问，才能连接到云提供商订阅服务并访问以下 URL ：
 
-* https://talonazuremicroservices.azurewebsites.net["https://talonazuremicroservices.azurewebsites.net"]
-* https://talonlicensing.table.core.windows.net["https://talonlicensing.table.core.windows.net"]
+* 如果您使用的是基于 GFC 订阅的许可：
++
+** https://rest.zuora.com/v1/subscriptions/
+** https://rest.zuora.com/oauth/token
+
+
+* 如果您使用的是基于 NetApp 传统的许可：
++
+** https://talonazuremicroservices.azurewebsites.net
+** https://talonlicensing.table.core.windows.net
+
+
 
 
 要使全局文件缓存软件正常运行，必须从任何 WAN 优化设备或防火墙限制策略中排除此端口。
@@ -143,7 +153,7 @@ NOTE: 一个管理服务器可以支持部署在不同工作环境中的多个�
 
 * 全球文件缓存许可证管理服务器（ LMS ）应配置在 Microsoft Windows Server 2016 标准版或数据中心版或 Windows Server 2019 标准版或数据中心版上，最好配置在数据中心或云中的全局文件缓存核心实例上。
 * 如果需要单独的全局文件缓存 LMS 实例，则需要在原始 Microsoft Windows Server 实例上安装最新的全局文件缓存软件安装包。
-* LMS 实例需要能够使用 HTTPS （ TCP 端口 443 ）连接到订阅服务（ Azure 服务 / 公有 Internet ）。
+* LMS实例需要能够使用HTTPS (TCP端口443)连接到订阅服务(公有 Internet)。
 * 核心和边缘实例需要使用 HTTPS （ TCP 端口 443 ）连接到 LMS 实例。
 
 

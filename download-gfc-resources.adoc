@@ -36,10 +36,6 @@ https://repo.cloudsync.netapp.com/gfc/2k19_GFC_2_1_0_31IMAGE.zip["包括 NetApp 
 +
 https://repo.cloudsync.netapp.com/gfc/GFC-2-1-0-31-Release.exe["NetApp GFC 软件安装包（ .exe ）"^]
 
-* 全局文件缓存 SCOM （ Microsoft Systems Center Operations Manager ）软件包：
-+
-https://repo.cloudsync.netapp.com/gfc/SCOM-151.zip["NetApp GFC SCOM 管理软件包（ .ZIP ）"]
-
 * 全局文件缓存文档：
 +
 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["《 NetApp 全局文件缓存用户指南》（ .PDF ）"^]
@@ -49,7 +45,7 @@ https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Gui
 link:task-deploy-gfc-edge-instances.html#update-global-file-cache-edge-software["请按照以下步骤操作"] 升级全局文件缓存边缘软件。
 
 
-NOTE: 在Windows Server 2016上部署全局文件缓存时、应使用.NET Framework 4.8。
+NOTE: 在Windows Server 2016上部署全局文件缓存时、您应使用.NET Framework 4.8和Windows Web View2 Framework。
 
 
 
@@ -204,7 +200,7 @@ VMware vSphere 6.x 及更高版本：
 
 === 防病毒最佳实践
 
-本节将帮助您了解在运行全局文件缓存的 Windows Server 实例上运行防病毒软件的要求。Global File Cache 已测试最常用的防病毒产品，包括 Cylance ， McAfee ， Symantec ， Sophos ， Trend Micro ， 与全局文件缓存结合使用的 Kaspersky 和 Windows Defender 。
+本节将帮助您了解在运行全局文件缓存的 Windows Server 实例上运行防病毒软件的要求。Global File Cache已测试最常用的防病毒产品、包括Cylance、McAfee、Symantec、Sophos、Trend Micro、 与全局文件缓存结合使用的Kaspersky、群击、Cisco AMP、Tannium和Windows Defender。防病毒软件应通过NetApp认证、只有在配置了正确的排除列表后才受支持。请参见中的附录A https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["《 NetApp 全局文件缓存用户指南》"^]
 
 
 NOTE: 向 Edge 设备添加防病毒软件可能会对用户性能产生 10 – 20% 的影响。
@@ -228,6 +224,7 @@ NOTE: 向 Edge 设备添加防病毒软件可能会对用户性能产生 10 – 
 * `C ： \Program Files\TalonFAST\Bin\tapp.exe`
 * `C ： \Program Files\TalonFAST\Bin\TappN.exe`
 * `C ： \Program Files\TalonFAST\Bin\FTLSummaryGenerate.exe`
+* C：\Program Files\TalonFAST\Bin\GfcCIAgentService.exe
 * `C ： \Program Files\TalonFAST\Bin\RFASTSetupWizard.exe`
 * `C ： \Program Files\TalonFAST\Bin\TService.exe`
 * `C ： \Program Files\TalonFAST\Bin\tm.exe`
