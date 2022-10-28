@@ -636,12 +636,7 @@
   <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">通过提交非技术案例<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
   <block id="ad0c7a22fde49fbb11b817c08acbd362" category="paragraph"><block ref="ad0c7a22fde49fbb11b817c08acbd362" category="inline-link-rx"></block></block>
   <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有 Cloud Manager 文档</block>
-  <block id="2331299ea4e1274ea1e795e9061e6f4f" category="paragraph">请参见中的第 13 章<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block> 以获取其他材料。</block>
   <block id="c12a9331c62a66dbe42e75f038a71f7a" category="list-text"><block ref="c12a9331c62a66dbe42e75f038a71f7a" category="inline-link-rx"></block></block>
-  <block id="5e69691f5d475a3b65c0155011543ee9" category="paragraph"><block ref="f5576b6632dde85ccf0d016507692a9d" category="inline-link-rx"></block>
-<block ref="b01859cc1fbd73f5b9a9154d79ae85fc" category="inline-link-rx"></block></block>
-  <block id="20e4d382da5a62bf07e7f79eb29f3a71" category="paragraph"><block ref="a53645675256480c99fed4a542cb3aca" category="inline-link-rx"></block>
-<block ref="7185d928ff4f453b95f1143740ffdcd5" category="inline-link-rx"></block></block>
   <block id="5ce7f81a8ae145f3b72b93e3696353d9" category="inline-link">《 NetApp 全局文件缓存用户指南》（ .PDF ）</block>
   <block id="1d1bfd34476102ea6ec7ced86c8e9040" category="paragraph"><block ref="1d1bfd34476102ea6ec7ced86c8e9040" category="inline-link-rx"></block></block>
   <block id="bb032dd5c38245e2d3146751c045fe34" category="paragraph">有关详细信息，请参见<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block>。</block>
@@ -658,7 +653,6 @@
   <block id="ef4cb0e259adaefa47416a87fabc3c35" category="list-text">修复了在单击"将实例注册到CI"按钮时不会挂起的Optimus配置UI。</block>
   <block id="806b6ec151c368ef2f2399efcb865ab5" category="list-text">修复了在初始配置期间手动保留Tservice监控器的问题描述。</block>
   <block id="2ef92b78d697de97a16de7ae1849aeb8" category="list-text">已修复GFC CI Agent客户端服务中的小错误。</block>
-  <block id="2a2ba06a5d72a7a43d2202f6a8a6296f" category="admonition">在Windows Server 2016上部署全局文件缓存时、您应使用.NET Framework 4.8和Windows Web View2 Framework。</block>
   <block id="6455f1f0c6620c2d02084eaf5b65e986" category="paragraph">本节将帮助您了解在运行全局文件缓存的 Windows Server 实例上运行防病毒软件的要求。Global File Cache已测试最常用的防病毒产品、包括Cylance、McAfee、Symantec、Sophos、Trend Micro、 与全局文件缓存结合使用的Kaspersky、群击、Cisco AMP、Tannium和Windows Defender。防病毒软件应通过NetApp认证、只有在配置了正确的排除列表后才受支持。请参见中的附录A<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block></block>
   <block id="8460b630b603901ff605873a4c5d90e2" category="list-text">C：\Program Files\TalonFAST\Bin\GfcCIAgentService.exe</block>
   <block id="bca1fbce4a3bdcddfdb1aa5bb1b5f6da" category="paragraph">在Azure中、此操作在具有127 GB标准SSD的D2S_V3或等效虚拟机(2个vCPU/8 GB RAM)上运行</block>
@@ -669,9 +663,21 @@
   <block id="9952545455211dde3dd54a36ff1e0fd9" category="paragraph">如果LMS没有Internet连接、无法使用许可证源验证许可证、则脱机或非公开站点的许可证管理服务器(License Management Server、LMS)最有用。在初始配置期间、需要Internet连接和许可证源连接。配置后、LMS实例可能会变暗。所有边缘/核心都应与LMS建立连接、以便持续验证许可证。</block>
   <block id="7954886e5818e91e397e0ca331d15d48" category="section-title">经过增强的Optimus PSMs可配置云许可</block>
   <block id="3bf86cee85be3992be11d6813b4f6b14" category="section-title">增强了Optimus UI (边缘配置)中的Edge Sync功能、可显示所有已连接的客户端</block>
-  <block id="51bf740c4d4976d09a651540625df6fd" category="paragraph">NetApp Cloud Insights (CI)可全面了解您的基础架构和应用程序。现在、全局文件缓存已与CI集成在一起、可全面查看所有边缘和核心；监控实例上运行的进程。将各种全局文件缓存指标推送到CI、以便在CI信息板上提供完整的概述。请参见中的第11章<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block></block>
   <block id="9cbdd46155d21eeb894d82c0612ab801" category="paragraph">全局文件缓存边缘可处理缓存算法和文件级差分方面的繁重工作。一个全局文件缓存边缘实例可以为每个专用物理边缘实例最多500个用户提供服务、而对于专用虚拟部署、最多可为300个用户提供服务。这在很大程度上取决于最常见工作负载的类型和平均文件大小。对于较大的协作文件类型，请引导每个全局文件缓存边缘的最大用户数的 50% 下限（具体取决于物理或虚拟部署）。对于平均文件大小小于 1 MB 的更常见 Office 项目，请参考每个全局文件缓存边缘的 100% 用户上限（具体取决于物理或虚拟部署）。</block>
   <block id="ef240c0052e8156425d8b39cfeb2d632" category="admonition">全局文件缓存边缘会检测它是在虚拟实例还是物理实例上运行、它会将与本地虚拟文件共享的SMB连接数限制为最多300或500个并发连接。</block>
   <block id="23fc360c2573b4c9bee90db0e02de4cd" category="list-text">https://rest.zuora.com/v1/subscriptions/</block>
   <block id="aa2be03e10176973cbb1d2299c98996b" category="list-text">LMS实例需要能够使用HTTPS (TCP端口443)连接到订阅服务(公有 Internet)。</block>
+  <block id="df19cf6281f0ac141839cda71b8136bb" category="paragraph">请参见中的第14章<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block> 以获取其他材料。</block>
+  <block id="5125c5dbc4823481461bfada1bc11efd" category="paragraph"><block ref="3a81a4f05e21aa91091722261afd5aaf" category="inline-link-rx"></block>
+<block ref="b01859cc1fbd73f5b9a9154d79ae85fc" category="inline-link-rx"></block></block>
+  <block id="68bd2d9dc8ce644fa266363eb3c8a2a4" category="paragraph"><block ref="c63479f0fbc3dbee0fb764d414be40d7" category="inline-link-rx"></block>
+<block ref="7185d928ff4f453b95f1143740ffdcd5" category="inline-link-rx"></block></block>
+  <block id="a82f8775c45fb832c573ea5925281014" category="list-text">适用于Cloud Insights 的全局文件缓存信息板：</block>
+  <block id="79970e54ed0f206381160ddc9c16ebfb" category="inline-link">NetApp GFC Cloud Insights 信息板(.ZIP)</block>
+  <block id="161bce40034252bf3bd18e8b63136e82" category="paragraph"><block ref="161bce40034252bf3bd18e8b63136e82" category="inline-link-rx"></block></block>
+  <block id="c1fa707a3e59855bf910866f7bab29df" category="admonition">在Windows Server 2016上部署全局文件缓存时、您应使用.NET Framework 4.8和Windows WebView2 Framework。</block>
+  <block id="6ad27e169d4768e9a46a134513c55556" category="paragraph">此版本提供了以下列出的新功能。此外、它还修复了中所述的问题<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>。可从获取更新的软件包<block ref="2c81bb98c990e9738e500d000082628f" category="inline-link-rx"></block>。</block>
+  <block id="c0e3f3bf15a62c059b94a8ed402b05a1" category="section-title">边缘实例可以支持其他并发用户</block>
+  <block id="dac6d17442feba1d57f29d8031c05963" category="paragraph">一个全局文件缓存边缘实例可以为每个专用物理边缘实例最多500个用户提供服务、而对于专用虚拟部署、最多可为300个用户提供服务。过去、最大用户数分别为400和200。</block>
+  <block id="cf7c224c7b8d702f6384270dadb22ca0" category="paragraph">NetApp Cloud Insights (CI)可全面了解您的基础架构和应用程序。现在、全局文件缓存已与CI集成在一起、可全面查看所有边缘和核心；监控实例上运行的进程。将各种全局文件缓存指标推送到CI、以便在CI信息板上提供完整的概述。请参见中的第11章<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block></block>
 </blocks>

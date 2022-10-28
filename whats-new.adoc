@@ -20,7 +20,7 @@ summary: 了解全局文件缓存中的新增功能。
 
 == 2022年10月24日(2.1版)
 
-此版本提供了以下列出的新功能。此外、它还修复了中所述的问题 https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["已修复的问题"]。
+此版本提供了以下列出的新功能。此外、它还修复了中所述的问题 https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["已修复的问题"]。可从获取更新的软件包 https://docs.netapp.com/us-en/cloud-manager-file-cache/download-gfc-resources.html#download-required-resources["此页面"]。
 
 
 
@@ -33,6 +33,12 @@ summary: 了解全局文件缓存中的新增功能。
 === 添加了对使用脱机许可证管理服务器的支持
 
 如果LMS没有Internet连接、无法使用许可证源验证许可证、则脱机或非公开站点的许可证管理服务器(License Management Server、LMS)最有用。在初始配置期间、需要Internet连接和许可证源连接。配置后、LMS实例可能会变暗。所有边缘/核心都应与LMS建立连接、以便持续验证许可证。
+
+
+
+=== 边缘实例可以支持其他并发用户
+
+一个全局文件缓存边缘实例可以为每个专用物理边缘实例最多500个用户提供服务、而对于专用虚拟部署、最多可为300个用户提供服务。过去、最大用户数分别为400和200。
 
 
 
