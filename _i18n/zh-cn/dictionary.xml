@@ -16,10 +16,7 @@
   <block id="2d586fed9d23ea26489008f327e1394f" category="list-text">登录到 NetApp 支持部门，网址为<block ref="4ae7ca7e30d53354eb9b40e218393b2c" category="inline-link-rx"></block> 使用您的 NSS 凭据</block>
   <block id="bd409d83b208b51683f34be90cb2a669" category="list-text">要获得 P1 问题描述呼叫的即时帮助，请拨打： +1 856.481.3990 （选项 2 ）</block>
   <block id="9a036c7eaca0f0813d22bd59bd333dc4" category="list-text">您的提供商可通过标准支持为使用 Cloud Volumes Services 和 Azure NetApp Files 的全局文件缓存用户提供客户支持。请分别联系 Google 客户支持或 Microsoft 客户支持。</block>
-  <block id="3b8fedc1b41b6f7a3619ff96f76571cf" category="summary">您可以使用 Cloud Manager 在工作环境中部署全局文件缓存管理服务器和全局文件缓存核心软件。</block>
   <block id="cb59b87e00d11222bfd9159d0d23836f" category="doc">入门</block>
-  <block id="191f6a6f9751dafdeae2307eac2e588e" category="section-title">使用 Cloud Manager 启用全局文件缓存</block>
-  <block id="7f619c805ea91cbd4bad99a0259dc84f" category="paragraph">在此配置中，您将在使用 Cloud Manager 创建 Cloud Volumes ONTAP 系统的同一工作环境中部署全局文件缓存管理服务器和全局文件缓存核心。</block>
   <block id="201e09e85ad81db8a19ef9f20c05d1a5" category="inline-link-macro">此视频</block>
   <block id="81b4cc67e8f60e41997293efceba160b" category="paragraph">观看 <block ref="182ef5a05e7c682b0210b8852ec20646" category="inline-link-macro-rx"></block> 以查看从开始到结束的步骤。</block>
   <block id="06ad314b340900d226b1196e1fe289e9" category="section-title">快速入门</block>
@@ -31,7 +28,6 @@
   <block id="0e7c4b1d0864abab13fd8a086a179f5b" category="paragraph">在与 Cloud Volumes ONTAP 实例相同的工作环境中部署全局文件缓存核心的一个或多个实例，并将其加入到 Active Directory 域中。</block>
   <block id="de06dbc0084bf6af6184289f308be0a6" category="paragraph">在全局文件缓存核心实例上配置全局文件缓存许可证管理服务器（ LMS ）服务。要激活您的订阅，您需要使用您的 NSS 凭据或 NetApp 提供的客户 ID 和订阅编号。</block>
   <block id="175d4a7fba1f2c02d227a7916d20ff9d" category="inline-link-macro">部署全局文件缓存边缘实例</block>
-  <block id="2cfe745a33e154bc52d27ca9c658682b" category="paragraph">请参见 <block ref="14014d518c33fe634be510ffd082f6e6" category="inline-link-macro-rx"></block> 在每个远程位置部署全局文件缓存边缘实例。此步骤不能使用 Cloud Manager 完成。</block>
   <block id="7be40d2cd621549d68e8fff4ffead179" category="section-title">将 Cloud Volumes ONTAP 部署为您的存储平台</block>
   <block id="679690d1daf36392f2889211bd47240c" category="paragraph">在当前版本中，全局文件缓存支持在 Azure 或 AWS 中部署 Cloud Volumes ONTAP 。有关详细的前提条件，要求和部署说明，请参见<block ref="e515c0e95325e358a799acebafdf6235" category="inline-link-rx"></block> 或<block ref="497bfdbba9caf2f6a6f7d799eda40dc3" category="inline-link-rx"></block>。</block>
   <block id="670790b206f952300b65bfcba3f18571" category="paragraph">请注意以下其他全局文件缓存要求：</block>
@@ -132,10 +128,8 @@
   <block id="e55dde8ab8d8ac9594c265cd439c94bf" category="section-title">支持的存储平台</block>
   <block id="4639eb8d355012539c92019d722efa12" category="paragraph">根据您选择的部署选项，支持的全局文件缓存存储平台会有所不同。</block>
   <block id="af1bba2ce5f90eecf243bb554ad8673d" category="section-title">自动化部署选项</block>
-  <block id="6ac4d1d538d783665d09fed4246c817b" category="paragraph">使用 Cloud Manager 部署时，以下类型的工作环境支持全局文件缓存：</block>
   <block id="0e8f3fb260ced5550398e677e8e16659" category="list-text">Azure 中的 Cloud Volumes ONTAP</block>
   <block id="bdcb25a0b74cb8c3c6dc4deb7e7dc876" category="list-text">AWS 中的 Cloud Volumes ONTAP</block>
-  <block id="0f654146c1b65006561ea8e31d5516dc" category="paragraph">通过此配置，您可以在 Cloud Manager 中部署和管理整个全局文件缓存服务器端部署，包括全局文件缓存管理服务器和全局文件缓存核心。</block>
   <block id="a4bae3b774c4cc05ca00a01a97ff00ca" category="section-title">手动部署选项</block>
   <block id="18fdbdb3de2540e1f631602b7bc2010f" category="section-title">全局文件缓存的工作原理</block>
   <block id="8564f172539c6a5101d48785899b17a0" category="paragraph">全局文件缓存可创建一个软件网络结构，用于在全球远程办公室缓存活动数据集。因此，企业用户可以获得透明的数据访问保障，并在全球范围内获得最佳性能。</block>
@@ -169,7 +163,6 @@
   <block id="24b5cd8cad83af73f3fef17c36994df9" category="paragraph">在数据中心或云中部署第一个核心实例时，您可以选择将该实例指定为组织的 LMS 。此 LMS 实例配置一次，通过 HTTPS 连接到订阅服务，并使用我们的支持 / 运营部门在订阅启用后提供的客户 ID 验证您的订阅。指定此名称后，您可以通过提供您的客户 ID 和 LMS 实例的 IP 地址来将您的 Edge 实例与 LMS 相关联。</block>
   <block id="3fbdffd6b695a9bc6ac6bcd1e40fd200" category="paragraph">当您购买其他 Edge 许可证或续订订订阅时，我们的支持 / 运营部门会更新许可证详细信息，例如站点数量或订阅结束日期。在 LMS 查询订阅服务后，许可证详细信息将自动在 LMS 实例上更新，并将应用于您的 GFC 核心和边缘实例。</block>
   <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">限制</block>
-  <block id="077a85a83497688c4768eb7e293d344f" category="list-text">Cloud Manager 中支持的全局文件缓存版本要求用作中央存储的后端存储平台必须是一个工作环境，在此环境中，您已在 Azure 或 AWS 中部署了 Cloud Volumes ONTAP 单节点或 HA 对。</block>
   <block id="01eb0b4b5071a2cfc0876bc37b144a78" category="inline-link-macro">全局文件缓存概述和入职</block>
   <block id="8dad639df001ffd300f26b14bb31b017" category="summary">在远程办公室安装全局文件缓存边缘软件之前，您需要了解许多要求。</block>
   <block id="880c5f720679786a7ae73fdda6982c7f" category="doc">开始部署全局文件缓存边缘实例之前</block>
@@ -290,7 +283,6 @@
   <block id="6d712ec6825e52d97c46202643237199" category="doc">全局文件缓存的新增功能</block>
   <block id="df62d5ca9c29346bfeb41f9581ecdf5b" category="section-title">2021 年 12 月 17 日（版本 1.2.0 ）</block>
   <block id="9d15f44f2f441c9fbcdc28d40b323389" category="paragraph">这是最新版本，更安全。此模块用于在 GFC Edge 和 GFC 核心之间进行安全通信。</block>
-  <block id="ce21e7ae4271271294ccbf54c8fd6864" category="summary">NetApp 通过多种方式为 Cloud Manager 提供支持。全天候提供丰富的免费自助支持选项，例如知识库（ KB ）文章和社区论坛。您的支持注册包括通过 Web 服务单提供的远程技术支持。</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">获取帮助</block>
   <block id="922a8d78e53c1dc3158a6ee5d95c210f" category="summary">确认您的环境满足所有要求后，您可以在每个远程办公室安装全局文件缓存边缘软件。</block>
   <block id="922da05fe50477cd0460596ea2c098d2" category="doc">部署全局文件缓存边缘实例</block>
@@ -353,8 +345,6 @@
   <block id="ca226cca3bd1375b5e9fbcf3bd9cb3be" category="paragraph">安装过程将开始。</block>
   <block id="749c0e89c28cfa8efa0ef88d80e309b9" category="list-text">安装完成后，根据提示重新启动服务器。</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律声明</block>
-  <block id="4940124e8487cb4ea36f1511a195cf66" category="inline-link-macro">有关 Cloud Manager 3.9 的注意事项</block>
-  <block id="c069fcc68c5dfa73ccc99924c836cae9" category="list-text"><block ref="c069fcc68c5dfa73ccc99924c836cae9" category="inline-link-macro-rx"></block></block>
   <block id="82d6d852e451cd6267366962a46a2505" category="inline-link-macro">全局文件缓存通知</block>
   <block id="fbbe13dd9588de5f06be4fa1584d51bb" category="list-text"><block ref="fbbe13dd9588de5f06be4fa1584d51bb" category="inline-link-macro-rx"></block></block>
   <block id="98e243361a5fc5b92ef589f00fcfa177" category="summary">在云和远程办公室中部署全局文件缓存之前，您需要了解许多要求。</block>
@@ -386,7 +376,6 @@
   <block id="a47494fbd5157213a61c49892644da68" category="paragraph">此全局文件缓存管理服务器需要通过 HTTPS （ TCP 端口 443 ）进行外部访问，才能连接到云提供商订阅服务并访问以下 URL ：</block>
   <block id="e1b81ed17087b40845c09ad31044d74c" category="paragraph">要使全局文件缓存软件正常运行，必须从任何 WAN 优化设备或防火墙限制策略中排除此端口。</block>
   <block id="3976f666cc09b4e1bed026524e9aa1e0" category="paragraph">此外，全局文件缓存管理服务器还要求实例（例如， GFC-MS1 ）具有唯一（地理）的 NetBIOS 名称。</block>
-  <block id="87dd764d6a7a2734e0def11b1ebbacef" category="admonition">一个管理服务器可以支持部署在不同工作环境中的多个全局文件缓存核心实例。从 Cloud Manager 部署时，每个工作环境都有自己单独的后端存储，并且不包含相同的数据。</block>
   <block id="9e10323c703b812588b3825aa73be595" category="paragraph">此全局文件缓存核心侦听 TCP 端口范围 6618-6630 。根据您的防火墙或网络安全组（ Network Security Group ， NSG ）配置，您可能需要明确允许通过入站端口规则访问这些端口。此外，要使全局文件缓存软件正常运行，必须从任何 WAN 优化设备或防火墙限制策略中排除这些端口。</block>
   <block id="7ca7ac09873d3ac9e6ed2cad23d4c9d0" category="paragraph">全局文件缓存核心要求包括：</block>
   <block id="2a14e1d9fe1117503124653da7bc0c2e" category="list-text">实例的唯一（地理） NetBIOS 名称（例如， GFC-Core1 ）</block>
@@ -399,7 +388,6 @@
   <block id="1a8ec43728ef4fec5d16fa2c32372467" category="list-text">它必须具有 " 运行即服务 " 权限。</block>
   <block id="de445129d8b81820aff750dbf9c0b34c" category="list-text">密码应设置为 " 永不过期 " 。</block>
   <block id="e334178450758be114591fc0de3df592" category="list-text">应禁用（未选中）帐户选项 " 用户必须在下次登录时更改密码 " 。</block>
-  <block id="5cc0aeb91cd7a714b36c32db7ae91a01" category="list-text">它必须是后端文件服务器内置备份操作员组的成员（通过 Cloud Manager 部署时会自动启用此功能）。</block>
   <block id="51a2657902a94cb28cb094cca2f5d9ea" category="section-title">许可证管理服务器</block>
   <block id="a667680dd0efe4957987b134614b1fef" category="list-text">全球文件缓存许可证管理服务器（ LMS ）应配置在 Microsoft Windows Server 2016 标准版或数据中心版或 Windows Server 2019 标准版或数据中心版上，最好配置在数据中心或云中的全局文件缓存核心实例上。</block>
   <block id="a9556fa226a4c90b2c33f740d860b4ba" category="list-text">如果需要单独的全局文件缓存 LMS 实例，则需要在原始 Microsoft Windows Server 实例上安装最新的全局文件缓存软件安装包。</block>
@@ -440,7 +428,6 @@
   <block id="13879d09fb35e1a9c0fd7f6435bfa323" category="paragraph"><block ref="13879d09fb35e1a9c0fd7f6435bfa323" category="inline-link-macro-rx"></block></block>
   <block id="b9c5f151d07a94019ba26f5d3579bcf9" category="inline-link-macro">Word 文档（ .docx ）</block>
   <block id="a314a20204b96ce855b4edecf455498b" category="list-text">入职沟通<block ref="ec13a4ed87a907c97165059568a0b0f6" category="inline-link-macro-rx"></block></block>
-  <block id="3c10116b37b407ac79092a38ffb292e4" category="summary">在向 NetApp 技术支持创建支持案例之前，您需要先将 NetApp 支持站点帐户添加到 Cloud Manager 中，然后注册获取支持。</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">注册以获得支持</block>
   <block id="e0533a7cc48f1b65dc6efe4d93506732" category="sidebar">全局文件缓存文档</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">发行说明</block>
@@ -460,14 +447,11 @@
   <block id="e289bcbad000bdd54bcb8ae57eec662f" category="sidebar">培训用户</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">博客社区</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 社区</block>
-  <block id="ff6c37cbc252e306a6b4e390ec13cbc1" category="sidebar">Cloud Central 博客</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">云网络研讨会</block>
   <block id="4c7d5d7dfde4a7bd82b54348182043d3" category="sidebar">其他资源</block>
-  <block id="cc81b1698333ba727fd5bde305c3cf08" category="sidebar">Cloud Central 用例</block>
   <block id="c312a13dafd8799651830cedd659bf52" category="admonition">对于全局文件缓存边缘，了解非常重要 <block ref="e948e8be7ddbb6b86ab680f17f3dc3fb" category="inline-link-macro-rx"></block>。这将有助于您为全局文件缓存部署制定正确的设计。此外，您还需要确定在规模，资源可用性和冗余方面哪些方面适合您的环境。</block>
   <block id="189b29195f2b3701055f4c94a0c1ffad" category="paragraph">要使全局文件缓存边缘以最佳状态运行，需要以下硬件和软件资源。有关整体规模估算准则的详细信息，请参见 <block ref="e948e8be7ddbb6b86ab680f17f3dc3fb" category="inline-link-macro-rx"></block>。</block>
   <block id="03120f4ae41820e46fabced95a93dbb5" category="paragraph">建议卷的大小足以容纳应用程序的总数据集，并能够随着数据集的增长相应地进行扩展。如果工作环境中有多个聚合，请参见<block ref="acc2071beb330a8d456d30e0940aedbc" category="inline-link-rx"></block> 确定哪个聚合可为新卷提供最多的可用空间。</block>
-  <block id="0046efb3377274ff3215d4b30269809e" category="list-text">在 Cloud Manager 控制台右上角，单击帮助图标，然后选择 * 支持 * 。</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">帮助菜单的屏幕截图，其中列出的第一个选项为支持</block>
   <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">单击 * NSS 管理 &gt; 添加 NSS 帐户 * 。</block>
@@ -487,21 +471,15 @@
   <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">开放源代码</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知文件提供有关 NetApp 软件中使用的第三方版权和许可证的信息。</block>
-  <block id="51719eefc68685ac0e2a11057a44b8be" category="paragraph">NetApp 通过多种方式为 Cloud Manager 及其云服务提供支持。全天候提供丰富的免费自助支持选项，例如知识库（ KB ）文章和社区论坛。您的支持注册包括通过 Web 服务单提供的远程技术支持。</block>
   <block id="07d41912a6ab6b97216f8cf89e93205c" category="section-title">自助支持</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">这些选项每周 7 天，每天 24 小时免费提供：</block>
   <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">知识库</block>
   <block id="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="list-text"><block ref="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="inline-link-rx"></block></block>
-  <block id="76b571fb5edea1c1994fa0ff01f7b1e2" category="paragraph">通过 Cloud Manager 知识库搜索，查找有助于解决问题的文章。</block>
   <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">社区</block>
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
-  <block id="7f3490343cad8dc3bfdb72dd5d957e8d" category="paragraph">加入 Cloud Manager 社区，关注正在进行的讨论或创建新的讨论。</block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">文档。</block>
-  <block id="3c313458d6e15dd2c4336e47118d0a8f" category="paragraph">您当前正在查看的 Cloud Manager 文档。</block>
   <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto ： ng-cloudmanager-feedback@netapp.com （反馈电子邮件）</block>
-  <block id="bff60abbc46aceed0f73a3a4f6cfb123" category="paragraph">我们非常重视您的反馈意见。提交反馈以帮助我们改进 Cloud Manager 。</block>
   <block id="0659d428df833a806e29e65e632d380a" category="section-title">NetApp 支持</block>
-  <block id="6c08c57e382a25a778455184cd9b1a4a" category="list-text">在 Cloud Manager 中，单击 * 帮助 &gt; 支持 * 。</block>
   <block id="f5052c65917d7341726235d4d4941461" category="list-text">在 "Technical Support" 下选择一个可用选项：</block>
   <block id="25cd9b4ac7b3c20c21ee2a72afe32aa0" category="section-title">2022年5月19日(版本1.3.0)</block>
   <block id="ef54ea7bd608d08bb74526be3bf7a9b6" category="list-text">此时将更新Edge Sync功能的配置UI页面。</block>
@@ -529,13 +507,10 @@
   <block id="e4e361b13d8ce3c010df78be535b3aeb" category="list-text">现在、GFC License Manager Service (LMS)将更新配置信息、而不是覆盖此信息。</block>
   <block id="08b34be098f59c81e94653cf34a7c9ae" category="list-text">现在、配置UI会在升级过程中绑定到正确的System.net.http DLL。</block>
   <block id="6cf141680c0334de379f689cbeaa3b2d" category="paragraph">全局文件缓存核心实例挂载到您选择的后端存储平台(例如Cloud Volumes ONTAP 、Cloud Volumes Service 、 和Azure NetApp Files)、并创建全局文件缓存"网络结构"、以便将非结构化数据集中并整合到一组数据中、无论这些数据位于公有 云中的一个或多个存储平台上。</block>
-  <block id="fc1d446f2d6669bec4ad1659ec4d3e1f" category="paragraph">在公有云存储基础架构上安装的 Cloud Volumes ONTAP ， Cloud Volumes Service ， Azure NetApp Files 和 Amazon FSx for ONTAP 系统也支持全局文件缓存配置。此外， NetApp AFF 和 FAS 平台还提供内部解决方案。在这些安装中、必须手动配置和部署全局文件缓存服务器端组件、而不是使用Cloud Manager。</block>
   <block id="35ca268e4e28a68df6a6a7a036db06fa" category="list-text">所有安装都要求您在云中部署一个或多个卷(例如Cloud Volumes ONTAP 、Cloud Volumes Service 或Azure NetApp Files)。这会导致从选定云提供商处收取费用。</block>
-  <block id="bab3e5cc0aa04608e9b8b4265196697d" category="list-text">如果在Azure或AWS中安装了Cloud Volumes ONTAP (完全通过Cloud Manager部署受支持的配置)、则有两种定价选项：</block>
   <block id="291bd74fa12d16e84f830819cbdad5c5" category="list-text">对于Azure或AWS中的Cloud Volumes ONTAP 系统、您可以每年为每个全局文件缓存边缘实例支付3、000美元的费用。</block>
   <block id="ec9614a46239aa59499c4a94e919963a" category="inline-link">单击此处了解更多信息</block>
   <block id="623692f0d22bbb5a97cac1afe932d1ba" category="list-text">或者、对于Azure中的Cloud Volumes ONTAP 系统、您也可以选择Cloud Volumes ONTAP 边缘缓存软件包。通过此基于容量的许可证、您可以为所配置的每个3 TiB容量部署一个全局文件缓存边缘实例。<block ref="35ff2d66b85e74dad13c74d82001d0b0" category="inline-link-rx"></block>。</block>
-  <block id="ff0beb597406ae3edf94ed38baf30c6b" category="paragraph">目前，使用 Cloud Manager 不支持其他存储平台和其他云提供商，但可以使用传统部署过程进行部署。这些其他配置、例如、在Google Cloud、Azure NetApp Files 或适用于ONTAP 系统的Amazon FSX上使用Cloud Volumes ONTAP 或Cloud Volumes Service 的全局文件缓存、均可使用原有过程进行支持。请参见 <block ref="fa63b406bdb9a9e3c27b49aa6f287806" category="inline-link-macro-rx"></block> 了解详细信息。</block>
   <block id="a207f0479f1471fc5336b474cf75c28a" category="section-title">2022年7月25日(2.0版)</block>
   <block id="8fce252333669c3cf55b3ff49aa55f09" category="list-text">通过为预填充作业添加配置的日期/时间参数添加边界限制、优化得到了增强。</block>
   <block id="fc8535e7a72afd618bd1f73c8a0e81a1" category="list-text">现在、Optimus PSM会在系统预申请详细信息中显示正确的CPU详细信息。</block>
@@ -556,28 +531,18 @@
   <block id="1b66d26240c6a01df03ec7dc4a6d1a2b" category="section-title">Optimus中的Edge Sync UI已进行了增强、可在协调者Edge上显示已连接客户端的列表</block>
   <block id="24c153e30c311602185df383bdc152fd" category="section-title">OpenSSL模块已升级到1.1.1l版</block>
   <block id="e3c8f19755f12539be7c74e7dc14b3fe" category="section-title">日志记录基础架构已得到增强</block>
-  <block id="d1a9582568e79d0f7df77bf8db0c78c2" category="paragraph">在向NetApp技术支持部门创建支持案例之前、您需要先将NetApp 支持站点 (NSS)帐户添加到Cloud Manager中、然后注册获取支持。</block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">支持注册概述</block>
   <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">激活支持授权有两种形式的注册：</block>
-  <block id="e84e72c56ec69ee05b16bee368f2f4cb" category="list-text">注册Cloud Manager帐户ID支持订阅(您的20位960xxxxxxxxx序列号、位于Cloud Manager的支持资源页面上)。</block>
-  <block id="86d34aa6dedf863c0a4ff5e293c1ec79" category="paragraph">此ID可用作Cloud Manager中任何服务的单一支持订阅ID。必须注册每个Cloud Manager帐户级别的支持订阅。</block>
   <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">在云提供商的市场中注册与订阅关联的Cloud Volumes ONTAP 序列号(即20位909201xxxxxxxx序列号)。</block>
-  <block id="dbea8abd63832b9ce98fbfac8dbb8c15" category="paragraph">这些序列号通常称为_PAYGO序列号、并由Cloud Manager在部署Cloud Volumes ONTAP 时生成。</block>
-  <block id="a9e835b028baaab9d917fafc714e25a5" category="paragraph">注册这两种类型的序列号可实现打开支持服务单、自动生成案例和Active IQ 等功能。</block>
   <block id="98bc603dcb6d5a57d540b13b541fa41a" category="paragraph">您的注册方式取决于您是新客户还是现有客户或合作伙伴。</block>
   <block id="e5646198d2e01aab2cec9ef946f9c53a" category="list-text">现有客户或合作伙伴</block>
-  <block id="60791d56f45a3f9f1287510b65d323df" category="paragraph">作为现有NetApp客户或合作伙伴、您可以使用NetApp 支持站点 (NSS) SSO帐户执行上述注册。在支持信息板中、Cloud Manager提供了一个* NSS管理*页面、您可以在其中添加NSS帐户。添加NSS帐户后、Cloud Manager会自动为您注册这些序列号。</block>
   <block id="4e6af37fb81d50483d832d4de6e2b26a" category="inline-xref">了解如何添加NSS帐户</block>
-  <block id="32e82838df6d3ab4de32d996ebbe98cd" category="paragraph"><block ref="27c44e31a17502f2e9a25a83f2f37696" category="inline-xref-macro-rx"></block>。</block>
   <block id="1c91f3adc957364cb01d33e100ee1ea3" category="list-text">NetApp新手</block>
-  <block id="bcce750f51c727121c6fa1fb7d2c91f8" category="paragraph">如果您是NetApp的新用户、则必须在NetApp的支持注册站点上一次性注册Cloud Manager帐户ID序列号。完成此注册并创建新的NSS帐户后、您可以在Cloud Manager中使用此帐户进行自动注册。</block>
   <block id="00fc9d0c515c69ea2c368521453d982e" category="inline-xref">了解如何向NetApp注册</block>
   <block id="97454ce87333f7ebd50ee38b8126fb39" category="paragraph"><block ref="37544f11913357c4e8c8a4ec607ae247" category="inline-xref-macro-rx"></block>。</block>
-  <block id="f6c4c1e9625a13b1b4d06a8f53f2ccfd" category="section-title">将NSS帐户添加到Cloud Manager</block>
   <block id="77bdda0b5be7d2725f2b5941d74db0e2" category="paragraph">通过支持信息板、您可以添加和管理NetApp 支持站点 帐户、以便与Cloud Manager结合使用。</block>
   <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">如果您拥有客户级别的帐户、则可以添加一个或多个NSS帐户。</block>
   <block id="4fde72c535fd0cd463dbeb49347cdfae" category="list-text">如果您有合作伙伴或经销商帐户、则可以添加一个或多个NSS帐户、但不能将其与客户级别的帐户一起添加。</block>
-  <block id="0bfa39d13bc65474a81520ace129413d" category="paragraph">通过这些操作、Cloud Manager可以使用您的NSS帐户执行许可证下载、软件升级验证和未来支持注册等操作。</block>
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">请注意以下事项：</block>
   <block id="0f0a0d646a020cf3a65ce82ada4cfb01" category="list-text">此帐户必须是客户级别的帐户（而不是来宾或临时帐户）。</block>
   <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">由三个水平点组成的图标</block>
@@ -586,8 +551,6 @@
   <block id="ad56c7289bc13dcf4f78c285f7f03878" category="section-title">向NetApp注册</block>
   <block id="f1bac79c2c71fbd93863b9fbd718094c" category="paragraph">如何注册NetApp支持取决于您是否已拥有NetApp 支持站点 (NSS)帐户。</block>
   <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">具有NSS帐户的现有客户</block>
-  <block id="d4b6092976537c153c496a428098980c" category="paragraph">如果您是拥有NSS帐户的NetApp客户、则只需通过Cloud Manager注册支持即可。</block>
-  <block id="c9d4df035d54072bb393bd27f6769cc7" category="list-text">如果您尚未将NSS帐户添加到Cloud Manager中、请执行此操作。</block>
   <block id="819aff12752b7e6a1828e755c7664de7" category="list-text">在*资源*页面上、单击*注册支持*。</block>
   <block id="e8a3d9970b8fc1d92caaf33d9e116bd4" category="inline-image-macro">显示帐户序列号和注册支持选项的屏幕截图</block>
   <block id="113f9cd7bac6f4faa6b8d58e3e099a8e" category="paragraph"><block ref="113f9cd7bac6f4faa6b8d58e3e099a8e" category="inline-image-macro-rx" type="image"></block></block>
@@ -610,17 +573,12 @@
   <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">在电子邮件中确认操作。</block>
   <block id="201080500e946070a2e4873042507c77" category="paragraph">确认将向NetApp提交您的请求、并建议您创建NetApp 支持站点 帐户。</block>
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">在此过程中、NetApp应与您联系。这是针对新用户的一次性入职练习。</block>
-  <block id="cc7175a084ebd6e004cb2c751c162569" category="paragraph">拥有NetApp 支持站点 帐户后、您可以导航到Cloud Manager以添加此NSS帐户以供将来注册。</block>
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">除了上述自助支持选项之外、您还可以在激活支持后与NetApp支持专家合作解决任何问题。</block>
   <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">了解如何注册获取支持</block>
-  <block id="09651e14b46d7e8697d32de90d0deacb" category="paragraph">要使用*创建案例*功能、您必须先一次性注册Cloud Manager帐户ID序列号(即960xxxx)。 <block ref="3349e4b3d05f646f2f1421bee7c2ad26" category="inline-link-macro-rx"></block>。</block>
   <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">如果您要通过电话与某人通话、请单击*致电我们*。系统会将您定向到netapp.com上的一个页面、其中列出了您可以拨打的电话号码。</block>
   <block id="bf5bc6ab0f95f17f4e98c9d766b8c11d" category="list-text">单击*创建案例*、向NetApp支持专家开一个服务单：</block>
   <block id="b53e0a259f4a0c8e7da80d6c94e26c84" category="list-text">* NetApp 支持站点 Account*：选择与创建支持案例的人员关联的适用帐户。除下面提供的其他电子邮件外、此人还将是NetApp的主要联系人。</block>
-  <block id="ec65cc87efda54741062da1fce99ff76" category="paragraph">如果未看到您的NSS帐户、您可以导航到Cloud Manager支持部分中的* NSS管理*选项卡将其添加到该选项卡中。</block>
-  <block id="b3144caf7d928b7954447c757b3ed77b" category="list-text">*服务*：选择与问题描述 关联的服务。例如、Cloud Manager适用于具有服务中工作流或功能的技术支持问题描述。</block>
   <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*工作环境*：如果适用于存储、请选择* Cloud Volumes ONTAP *或* on-Prem*、然后选择关联的工作环境。</block>
-  <block id="1e38219c106fb9d07d173c027b8911c7" category="paragraph">工作环境列表属于您在服务顶部横幅中选择的Cloud Manager帐户、工作空间和连接器的范围。</block>
   <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*案例优先级*：选择案例的优先级、可以是"低"、"中"、"高"或"严重"。</block>
   <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">要了解有关这些优先级的更多详细信息、请将鼠标悬停在字段名称旁边的信息图标上。</block>
   <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*问题描述 *：提供问题的详细问题描述 、包括任何适用的错误消息或您执行的故障排除步骤。</block>
@@ -631,11 +589,9 @@
   <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">有关支持案例的历史记录、您可以单击*设置&gt;时间线*并查找名为"创建支持案例"的操作。 最右侧的按钮可用于展开操作以查看详细信息。</block>
   <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">尝试创建案例时、您可能会遇到以下错误消息：</block>
   <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"您无权针对选定服务创建案例"</block>
-  <block id="148f13242c3e296dc276821cdc574921" category="paragraph">此错误可能意味着NSS帐户及其关联的记录公司与Cloud Manager帐户序列号(即960xxxx)或工作环境序列号。您可以查看*创建案例*表顶部的NSS帐户列表以找到正确的匹配项、也可以使用以下选项之一寻求帮助：</block>
   <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">使用产品内聊天功能</block>
   <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">通过提交非技术案例<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
   <block id="ad0c7a22fde49fbb11b817c08acbd362" category="paragraph"><block ref="ad0c7a22fde49fbb11b817c08acbd362" category="inline-link-rx"></block></block>
-  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有 Cloud Manager 文档</block>
   <block id="c12a9331c62a66dbe42e75f038a71f7a" category="list-text"><block ref="c12a9331c62a66dbe42e75f038a71f7a" category="inline-link-rx"></block></block>
   <block id="5ce7f81a8ae145f3b72b93e3696353d9" category="inline-link">《 NetApp 全局文件缓存用户指南》（ .PDF ）</block>
   <block id="1d1bfd34476102ea6ec7ced86c8e9040" category="paragraph"><block ref="1d1bfd34476102ea6ec7ced86c8e9040" category="inline-link-rx"></block></block>
@@ -680,4 +636,49 @@
   <block id="c0e3f3bf15a62c059b94a8ed402b05a1" category="section-title">边缘实例可以支持其他并发用户</block>
   <block id="dac6d17442feba1d57f29d8031c05963" category="paragraph">一个全局文件缓存边缘实例可以为每个专用物理边缘实例最多500个用户提供服务、而对于专用虚拟部署、最多可为300个用户提供服务。过去、最大用户数分别为400和200。</block>
   <block id="cf7c224c7b8d702f6384270dadb22ca0" category="paragraph">NetApp Cloud Insights (CI)可全面了解您的基础架构和应用程序。现在、全局文件缓存已与CI集成在一起、可全面查看所有边缘和核心；监控实例上运行的进程。将各种全局文件缓存指标推送到CI、以便在CI信息板上提供完整的概述。请参见中的第11章<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block></block>
+  <block id="243263104c829e77835d632f591230d5" category="summary">在向NetApp技术支持部门创建支持案例之前、您需要向BlueXP添加一个NetApp 支持站点 帐户、然后注册获取支持。</block>
+  <block id="8bf30fadf784022b073adb9233678a71" category="paragraph">在向NetApp技术支持部门创建支持案例之前、您需要向BlueXP添加NetApp 支持站点 (NSS)帐户、然后注册获取支持。</block>
+  <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">注册您的BlueXP帐户ID支持订阅(您的20位960xxxxxxxxx序列号、位于BlueXP的支持资源页面上)。</block>
+  <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">这是您在BlueXP中使用的任何服务的单一支持订阅ID。必须注册每个BlueXP帐户级别的支持订阅。</block>
+  <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">这些序列号通常称为_PAYGO序列号、并由BlueXP在部署Cloud Volumes ONTAP 时生成。</block>
+  <block id="9d4125dc88bb9db6eb4be939905761ce" category="paragraph">注册这两种类型的序列号可实现打开支持服务单和自动生成案例等功能。</block>
+  <block id="76928f97884b4332b83c5be9b99d93d3" category="paragraph">作为现有NetApp客户或合作伙伴、您可以使用NetApp 支持站点 (NSS) SSO帐户执行上述注册。在支持信息板中、BlueXP提供了一个* NSS管理*页面、您可以在其中添加NSS帐户。添加NSS帐户后、BlueXP会自动为您注册这些序列号。</block>
+  <block id="8d80298f51b7ff2da78e26e60195c7a3" category="paragraph"><block ref="cbec7c1a4a2acff5e84457dd449ac01d" category="inline-xref-macro-rx"></block>。</block>
+  <block id="679f2cae4657f177cc89458d49c97e5f" category="paragraph">如果您是NetApp的新用户、则必须在NetApp的支持注册站点上一次性注册您的BlueXP帐户ID序列号。完成此注册并创建新的NSS帐户后、您可以在BlueXP中使用此帐户进行自动注册。</block>
+  <block id="a92ec860f505b318fd0f0eba6165d607" category="section-title">将NSS帐户添加到BlueXP</block>
+  <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">在BlueXP控制台的右上角、单击帮助图标、然后选择*支持*。</block>
+  <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">通过这些操作、BlueXP可以使用您的NSS帐户执行许可证下载、软件升级验证和未来支持注册等操作。</block>
+  <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">如果您是拥有NSS帐户的NetApp客户、则只需通过BlueXP注册支持即可。</block>
+  <block id="25b94e7b58140f12be91fa8fd935fa59" category="list-text">如果您尚未将NSS帐户添加到BlueXP、请执行此操作。</block>
+  <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">请务必复制上面用于序列号字段的BlueXP帐户序列号(960xxxx)。这样可以加快帐户处理速度。</block>
+  <block id="1c0e45ef07d0dbc13ca2394d5e285fd7" category="paragraph">拥有NetApp 支持站点 帐户后、您可以导航到BlueXP以添加此NSS帐户以供将来注册。</block>
+  <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp通过多种方式为BlueXP提供支持。全天候提供丰富的免费自助支持选项，例如知识库（ KB ）文章和社区论坛。您的支持注册包括通过 Web 服务单提供的远程技术支持。</block>
+  <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">NetApp通过多种方式为BlueXP及其云服务提供支持。全天候提供丰富的免费自助支持选项，例如知识库（ KB ）文章和社区论坛。您的支持注册包括通过 Web 服务单提供的远程技术支持。</block>
+  <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">搜索BlueXP知识库、查找有助于解决问题的文章。</block>
+  <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">加入BlueXP社区、关注正在进行的讨论或创建新的讨论。</block>
+  <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">您当前正在查看的BlueXP文档。</block>
+  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">我们非常重视您的反馈意见。提交反馈以帮助我们改进BlueXP。</block>
+  <block id="1012a287397c66025d7748edf06a36e2" category="paragraph">要使用*创建案例*功能、您必须先一次性注册您的BlueXP帐户ID序列号(即960xxxx)。 <block ref="3349e4b3d05f646f2f1421bee7c2ad26" category="inline-link-macro-rx"></block>。</block>
+  <block id="6254a4afeeb76765a127fe74d31c1b3d" category="list-text">在BlueXP中、单击*帮助&gt;支持*。</block>
+  <block id="d950fb930d7f7e6bfdda1b91b4639a02" category="paragraph">如果您未看到NSS帐户、则可以导航到BlueXP支持部分中的* NSS管理*选项卡以将其添加到该选项卡中。</block>
+  <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*服务*：选择与问题描述 关联的服务。例如、当特定于技术支持问题描述 时、如果服务中包含工作流或功能、则为BlueXP。</block>
+  <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">工作环境列表属于您在服务顶部横幅中选择的BlueXP帐户、工作空间和Connector的范围。</block>
+  <block id="fa6b601b2fb4e3e5c7b466ecb8bd70ac" category="paragraph">此错误可能意味着NSS帐户及其关联的记录公司与BlueXP帐户序列号(即960xxxx)或工作环境序列号。您可以查看*创建案例*表顶部的NSS帐户列表以找到正确的匹配项、也可以使用以下选项之一寻求帮助：</block>
+  <block id="705747979fdb18babaa4206426262de4" category="summary">您可以使用BlueXP在工作环境中部署全局文件缓存管理服务器和全局文件缓存核心软件。</block>
+  <block id="3b0b1fdec7f01aabaee9a05b4df49948" category="section-title">使用BlueXP启用全局文件缓存</block>
+  <block id="eefc4873406f7f23700e36fdf37548e8" category="paragraph">在此配置中、您将在使用BlueXP创建Cloud Volumes ONTAP 系统的同一工作环境中部署全局文件缓存管理服务器和全局文件缓存核心。</block>
+  <block id="00742b8e6b70e2e6be54e786e0f0e0dc" category="paragraph">请参见 <block ref="14014d518c33fe634be510ffd082f6e6" category="inline-link-macro-rx"></block> 在每个远程位置部署全局文件缓存边缘实例。此步骤不能使用BlueXP完成。</block>
+  <block id="ccb3361e0bb74752d28539cecb11c698" category="paragraph">使用BlueXP (以前称为Cloud Manager)部署时、以下类型的工作环境支持全局文件缓存：</block>
+  <block id="047ef27152e6e48c1cd6cdc817a1a994" category="paragraph">通过此配置、您可以在BlueXP中部署和管理整个全局文件缓存服务器端部署、包括全局文件缓存管理服务器和全局文件缓存核心。</block>
+  <block id="35d08938d7a31dc353ca3c0ba6e0b0d2" category="paragraph">在公有云存储基础架构上安装的 Cloud Volumes ONTAP ， Cloud Volumes Service ， Azure NetApp Files 和 Amazon FSx for ONTAP 系统也支持全局文件缓存配置。此外， NetApp AFF 和 FAS 平台还提供内部解决方案。在这些安装中、必须手动配置和部署全局文件缓存服务器端组件、而不是使用BlueXP。</block>
+  <block id="842ad855e63b8b164194537c32f70fd6" category="list-text">在Azure或AWS中安装Cloud Volumes ONTAP (通过BlueXP完全部署受支持的配置)时、有两种定价选项：</block>
+  <block id="b7884b5b0ee1db7cf277ad778e802b12" category="paragraph">BlueXP中支持的全局文件缓存版本要求用作中央存储的后端存储平台必须是一个工作环境、在此环境中、您已在Azure或AWS中部署了Cloud Volumes ONTAP 单节点或HA对。</block>
+  <block id="5ecf46dba941f703531873c5dfcf0440" category="paragraph">目前、使用BlueXP不支持其他存储平台和其他云提供商、但可以使用传统部署过程进行部署。这些其他配置、例如、在Google Cloud、Azure NetApp Files 或适用于ONTAP 系统的Amazon FSX上使用Cloud Volumes ONTAP 或Cloud Volumes Service 的全局文件缓存、均可使用原有过程进行支持。请参见 <block ref="fa63b406bdb9a9e3c27b49aa6f287806" category="inline-link-macro-rx"></block> 了解详细信息。</block>
+  <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXP通知</block>
+  <block id="e8a6d0f19a957eac14b9917a6c92899b" category="list-text"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
+  <block id="1021643a2bbf7e9452d2fe532d5b828c" category="admonition">一个管理服务器可以支持部署在不同工作环境中的多个全局文件缓存核心实例。从BlueXP部署时、每个工作环境都有自己单独的后端存储、并且不包含相同的数据。</block>
+  <block id="e182461a5cdbf7556eaec25749caec6a" category="list-text">它必须是后端文件服务器内置备份操作员组的成员(通过BlueXP部署时会自动启用此功能)。</block>
+  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP博客</block>
+  <block id="e4f8a35ee8df8b5c247f6e3286e42891" category="sidebar">BlueXP用例</block>
+  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文档</block>
 </blocks>

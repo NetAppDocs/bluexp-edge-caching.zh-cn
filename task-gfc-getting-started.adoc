@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-gfc-getting-started.html 
 keywords: global file cache, core, management server 
-summary: 您可以使用 Cloud Manager 在工作环境中部署全局文件缓存管理服务器和全局文件缓存核心软件。 
+summary: 您可以使用BlueXP在工作环境中部署全局文件缓存管理服务器和全局文件缓存核心软件。 
 ---
 = 入门
 :hardbreaks:
@@ -14,13 +14,13 @@ summary: 您可以使用 Cloud Manager 在工作环境中部署全局文件缓�
 
 
 [role="lead"]
-您可以使用 Cloud Manager 在工作环境中部署全局文件缓存管理服务器和全局文件缓存核心软件。
+您可以使用BlueXP在工作环境中部署全局文件缓存管理服务器和全局文件缓存核心软件。
 
 
 
-== 使用 Cloud Manager 启用全局文件缓存
+== 使用BlueXP启用全局文件缓存
 
-在此配置中，您将在使用 Cloud Manager 创建 Cloud Volumes ONTAP 系统的同一工作环境中部署全局文件缓存管理服务器和全局文件缓存核心。
+在此配置中、您将在使用BlueXP创建Cloud Volumes ONTAP 系统的同一工作环境中部署全局文件缓存管理服务器和全局文件缓存核心。
 
 观看 link:https://www.youtube.com/watch?v=TGIQVssr43A["此视频"^] 以查看从开始到结束的步骤。
 
@@ -43,7 +43,7 @@ summary: 您可以使用 Cloud Manager 在工作环境中部署全局文件缓�
 在全局文件缓存核心实例上配置全局文件缓存许可证管理服务器（ LMS ）服务。要激活您的订阅，您需要使用您的 NSS 凭据或 NetApp 提供的客户 ID 和订阅编号。
 
 [role="quick-margin-para"]
-请参见 link:task-deploy-gfc-edge-instances.html["部署全局文件缓存边缘实例"^] 在每个远程位置部署全局文件缓存边缘实例。此步骤不能使用 Cloud Manager 完成。
+请参见 link:task-deploy-gfc-edge-instances.html["部署全局文件缓存边缘实例"^] 在每个远程位置部署全局文件缓存边缘实例。此步骤不能使用BlueXP完成。
 
 
 
