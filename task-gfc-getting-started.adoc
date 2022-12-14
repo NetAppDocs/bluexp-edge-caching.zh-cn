@@ -30,18 +30,23 @@ summary: 您可以使用BlueXP在工作环境中部署全局文件缓存管理�
 
 按照以下步骤快速入门，或者向下滚动到其余部分以了解完整详细信息。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 部署 Cloud Volumes ONTAP
 [role="quick-margin-para"]
 在 Azure 或 AWS 中部署 Cloud Volumes ONTAP 并配置 SMB 文件共享。有关详细信息，请参见 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["在 Azure 中启动 Cloud Volumes ONTAP"^] 或 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["在 AWS 中启动 Cloud Volumes ONTAP"^]。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 部署全局文件缓存管理服务器
 [role="quick-margin-para"]
 在与 Cloud Volumes ONTAP 实例相同的工作环境中部署全局文件缓存管理服务器的实例。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 部署全局文件缓存核心
 [role="quick-margin-para"]
 在与 Cloud Volumes ONTAP 实例相同的工作环境中部署全局文件缓存核心的一个或多个实例，并将其加入到 Active Directory 域中。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 许可证全局文件缓存
 [role="quick-margin-para"]
 在全局文件缓存核心实例上配置全局文件缓存许可证管理服务器（ LMS ）服务。要激活您的订阅，您需要使用您的 NSS 凭据或 NetApp 提供的客户 ID 和订阅编号。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["五个"] 部署全局文件缓存边缘实例
 [role="quick-margin-para"]
 请参见 link:task-deploy-gfc-edge-instances.html["部署全局文件缓存边缘实例"^] 在每个远程位置部署全局文件缓存边缘实例。此步骤不能使用BlueXP完成。
 
@@ -151,6 +156,7 @@ image:screenshot_gfc_license_subscription.png["在 GFC 许可证订阅页面中�
 . 您也可以单击 * 许可证信息 * 选项卡查看所有 GFC 许可证信息。
 
 
+.下一步是什么？
 如果您确定需要部署多个全局文件缓存核心来支持您的配置，请单击信息板中的 * 添加核心实例 * ，然后按照部署向导进行操作。
 
 完成核心部署后，您需要 link:download-gfc-resources.html["部署全局文件缓存边缘实例"^] 在每个远程办公室中。
