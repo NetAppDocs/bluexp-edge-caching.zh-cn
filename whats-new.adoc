@@ -103,17 +103,3 @@ https://cloud.netapp.com/cloud-insights["了解有关Cloud Insights 的更多信
 === License Manager Service增强功能
 
 全局文件缓存许可证管理服务器(LMS)服务已进行增强、可自动检测代理设置。这样可以实现无缝配置。
-
-
-
-== 2021 年 12 月 17 日（版本 1.2.0 ）
-
-
-
-=== OpenSSL模块已升级到1.1.1l版
-
-这是最新版本，更安全。此模块用于在 GFC Edge 和 GFC 核心之间进行安全通信。
-
-
-
-=== 日志记录基础架构已得到增强

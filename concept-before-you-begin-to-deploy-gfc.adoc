@@ -22,7 +22,7 @@ summary: 在云和远程办公室中部署全局文件缓存之前，您需要�
 
 根据您的要求，您可能需要部署一个或多个全局文件缓存核心实例来创建全局文件缓存网络结构。核心实例可用作分布式全局文件缓存边缘实例与数据中心文件服务器资源（例如文件共享，文件夹和文件）之间的流量 COP 。
 
-在设计全局文件缓存部署时，您需要确定在扩展性，资源可用性和冗余方面适合您的环境的因素。全局文件缓存核心可通过以下方式进行部署：
+在设计全局文件缓存部署时、您需要确定在扩展性、资源可用性和冗余方面适合您的环境的因素。全局文件缓存核心可通过以下方式进行部署：
 
 * GFC 核心独立实例
 * GFC 核心负载分布式设计（冷备用）
@@ -81,7 +81,7 @@ NOTE: 全局文件缓存边缘会检测它是在虚拟实例还是物理实例�
 
 === 存储平台（卷）
 
-在这种情况下，后端存储平台（即已部署的 Cloud Volumes ONTAP 实例）应显示 SMB 文件共享。要通过全局文件缓存公开的任何共享都必须在共享级别允许 Everyone 组完全控制，同时通过 NTFS 权限限制权限。
+后端存储平台(在本示例中为您部署的Cloud Volumes ONTAP 实例)应显示SMB文件共享。要通过全局文件缓存公开的任何共享都必须在共享级别允许 Everyone 组完全控制，同时通过 NTFS 权限限制权限。
 
 如果尚未在 Cloud Volumes ONTAP 实例上至少设置一个 SMB 文件共享，则需要准备好以下信息，以便可以在安装期间配置此信息：
 
@@ -97,18 +97,11 @@ NOTE: 全局文件缓存边缘会检测它是在虚拟实例还是物理实例�
 
 此全局文件缓存管理服务器需要通过 HTTPS （ TCP 端口 443 ）进行外部访问，才能连接到云提供商订阅服务并访问以下 URL ：
 
-* 如果您使用的是基于 GFC 订阅的许可：
-+
-** https://rest.zuora.com/v1/subscriptions/
-** https://rest.zuora.com/oauth/token
-
-
-* 如果您使用的是基于 NetApp 传统的许可：
-+
-** https://talonazuremicroservices.azurewebsites.net
-** https://talonlicensing.table.core.windows.net
-
-
+* https://gfcproxyforcm-prod.azurewebsites.net/
+* https://rest.zuora.com/v1/subscriptions/
+* https://rest.zuora.com/oauth/token
+* https://talonazuremicroservices.azurewebsites.net
+* https://talonlicensing.table.core.windows.net
 
 
 要使全局文件缓存软件正常运行，必须从任何 WAN 优化设备或防火墙限制策略中排除此端口。
@@ -189,6 +182,6 @@ NOTE: 一个管理服务器可以支持部署在不同工作环境中的多个�
 === 网络
 
 * 防火墙：应允许在全局文件缓存边缘和核心实例之间使用 TCP 端口。
-* 全局文件缓存 TCP 端口： 443 （ HTTPS ）， 6618 – 6630 。
+* 全局文件缓存TCP端口：443 (HTTPS)、6618-6630。
 * 必须将网络优化设备（例如 Riverbed Steelhead ）配置为直通全局文件缓存专用端口（ TCP 6618-6630 ）。
 

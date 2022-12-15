@@ -282,7 +282,6 @@
   <block id="05afb31a8c6a9f33471f04fc566255e1" category="summary">了解全局文件缓存中的新增功能。</block>
   <block id="6d712ec6825e52d97c46202643237199" category="doc">全局文件缓存的新增功能</block>
   <block id="df62d5ca9c29346bfeb41f9581ecdf5b" category="section-title">2021 年 12 月 17 日（版本 1.2.0 ）</block>
-  <block id="9d15f44f2f441c9fbcdc28d40b323389" category="paragraph">这是最新版本，更安全。此模块用于在 GFC Edge 和 GFC 核心之间进行安全通信。</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">获取帮助</block>
   <block id="922a8d78e53c1dc3158a6ee5d95c210f" category="summary">确认您的环境满足所有要求后，您可以在每个远程办公室安装全局文件缓存边缘软件。</block>
   <block id="922da05fe50477cd0460596ea2c098d2" category="doc">部署全局文件缓存边缘实例</block>
@@ -351,7 +350,6 @@
   <block id="e9b776ca4aec81050e673f885b2eac06" category="doc">开始部署全局文件缓存之前</block>
   <block id="cd738516a0c7368cddca5d2174fbd3ce" category="section-title">全局文件缓存核心设计注意事项</block>
   <block id="6e85eb06ef3edf77062f6d45c1910526" category="paragraph">根据您的要求，您可能需要部署一个或多个全局文件缓存核心实例来创建全局文件缓存网络结构。核心实例可用作分布式全局文件缓存边缘实例与数据中心文件服务器资源（例如文件共享，文件夹和文件）之间的流量 COP 。</block>
-  <block id="12b3668e4ae5e9987b7658b649439e54" category="paragraph">在设计全局文件缓存部署时，您需要确定在扩展性，资源可用性和冗余方面适合您的环境的因素。全局文件缓存核心可通过以下方式进行部署：</block>
   <block id="5d60d6afb236f653125b44b76be39ca9" category="list-text">GFC 核心独立实例</block>
   <block id="3f56cdce3a042ceab7f4ba6e1cf5f6f7" category="list-text">GFC 核心负载分布式设计（冷备用）</block>
   <block id="628a4a2f6eaf1d1281369e04da7f5585" category="paragraph">请参见 <block ref="dff9f26728968e7b308d7b9ca46f5bdd" category="inline-xref-macro-rx"></block> 要了解每个配置可以支持的最大 Edge 实例数和用户总数，请执行以下操作：</block>
@@ -368,7 +366,6 @@
   <block id="b878b843693a16500d3da98423bf22b6" category="paragraph">本节所述的前提条件适用于云中安装的组件：全局文件缓存管理服务器和全局文件缓存核心。</block>
   <block id="b51baa22d09e6c9f1931a23ebef6347d" category="paragraph">本节介绍了全局文件缓存边缘前提条件 <block ref="dc13b95521107f0e6174e0d4f00812b4" category="inline-link-macro-rx"></block>。</block>
   <block id="891a589deeeaf68084584fbfae4c3ae7" category="section-title">存储平台（卷）</block>
-  <block id="e6da02886af47462759989718f62ea49" category="paragraph">在这种情况下，后端存储平台（即已部署的 Cloud Volumes ONTAP 实例）应显示 SMB 文件共享。要通过全局文件缓存公开的任何共享都必须在共享级别允许 Everyone 组完全控制，同时通过 NTFS 权限限制权限。</block>
   <block id="152468376710017819b274fb14a70617" category="paragraph">如果尚未在 Cloud Volumes ONTAP 实例上至少设置一个 SMB 文件共享，则需要准备好以下信息，以便可以在安装期间配置此信息：</block>
   <block id="981640f9fb09fe09a937c7da955d9dfb" category="list-text">Active Directory 域名，名称服务器 IP 地址， Active Directory 管理员凭据。</block>
   <block id="794cb058ebafe2e7b0df56dea2e389d4" category="list-text">要创建的卷的名称和大小，要创建卷的聚合的名称以及共享名称。</block>
@@ -405,7 +402,6 @@
   <block id="90fa5a5ac66630ff8491eb335e51bdc9" category="list-text">https://talonazuremicroservices.azurewebsites.net</block>
   <block id="5ed3a104f8850c15acaec08814cbd9b4" category="list-text">https://talonlicensing.table.core.windows.net</block>
   <block id="8503ae56f9a302bb9d549115b584b0fc" category="list-text">防火墙：应允许在全局文件缓存边缘和核心实例之间使用 TCP 端口。</block>
-  <block id="6c912ddbaed2bf80fe819c9899e03b7d" category="list-text">全局文件缓存 TCP 端口： 443 （ HTTPS ）， 6618 – 6630 。</block>
   <block id="658440d8d27188f150f9c72390090606" category="summary">查看全局文件缓存中已修复的问题。</block>
   <block id="2ad3d2af445ee46b95129c175cce6515" category="doc">已修复全局文件缓存中的问题</block>
   <block id="dc7104ff29582271cbda56277263eec5" category="list-text">配置 UI （ Optimus ）经过了增强，可在添加预填充作业时验证日期字段条目。</block>
@@ -529,8 +525,6 @@
   <block id="1f56bc157b53331171e2209738abd411" category="section-title">许可证管理服务器已进行了增强、可在限制性极高的环境中运行</block>
   <block id="706163f56e3d19088d2a54cd0451269e" category="paragraph">在许可证配置期间、许可证管理服务器(LMS)应能够访问Internet、以便从NetApp/Zuora收集许可详细信息。配置成功后、尽管环境受限、但LMS仍可继续在脱机模式下工作并提供许可功能。</block>
   <block id="1b66d26240c6a01df03ec7dc4a6d1a2b" category="section-title">Optimus中的Edge Sync UI已进行了增强、可在协调者Edge上显示已连接客户端的列表</block>
-  <block id="24c153e30c311602185df383bdc152fd" category="section-title">OpenSSL模块已升级到1.1.1l版</block>
-  <block id="e3c8f19755f12539be7c74e7dc14b3fe" category="section-title">日志记录基础架构已得到增强</block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">支持注册概述</block>
   <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">激活支持授权有两种形式的注册：</block>
   <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">在云提供商的市场中注册与订阅关联的Cloud Volumes ONTAP 序列号(即20位909201xxxxxxxx序列号)。</block>
@@ -695,4 +689,8 @@
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">从支持注册页面找到您的帐户ID序列号。</block>
   <block id="50a1dc01b7312307c34a888071586955" category="list-text">复制上述第2步中的帐户序列号、完成安全检查、然后确认您已阅读NetApp的全球数据隐私政策。</block>
   <block id="cc8b0535948da368f832027c19b7f853" category="list-text">请务必复制上面用于序列号字段的帐户序列号(960xxxx)。这样可以加快帐户处理速度。</block>
+  <block id="d0ae1d418af223e06e706dd1705e0d76" category="paragraph">在设计全局文件缓存部署时、您需要确定在扩展性、资源可用性和冗余方面适合您的环境的因素。全局文件缓存核心可通过以下方式进行部署：</block>
+  <block id="eebe944a361fcd12586147893245a793" category="paragraph">后端存储平台(在本示例中为您部署的Cloud Volumes ONTAP 实例)应显示SMB文件共享。要通过全局文件缓存公开的任何共享都必须在共享级别允许 Everyone 组完全控制，同时通过 NTFS 权限限制权限。</block>
+  <block id="ca8b4d0fc39e2135cbcdf391be62059b" category="list-text">https://gfcproxyforcm-prod.azurewebsites.net/</block>
+  <block id="e59af2ecfd4c7dd3a53e6980dc28d267" category="list-text">全局文件缓存TCP端口：443 (HTTPS)、6618-6630。</block>
 </blocks>
