@@ -25,16 +25,16 @@ summary: 在远程办公室安装全局文件缓存边缘软件之前，您需�
 * Windows Server 2016 虚拟模板：
 +
 https://repo.cloudsync.netapp.com/gfc/2k16-2.1.zip["包括 NetApp GFC （ VMware vSphere 6.5 及更高版本）的 Windows Server 2016 .OVA"^]
-https://repo.cloudsync.netapp.com/gfc/2k16_GFC_2_1_0_31IMAGE.zip["包括 NetApp GFC （ Microsoft Hyper-V ）的 Windows Server 2016 .vhdx"^]
+https://repo.cloudsync.netapp.com/gfc/2k16_GFC_2_2_0_41IMAGE.zip["包括 NetApp GFC （ Microsoft Hyper-V ）的 Windows Server 2016 .vhdx"^]
 
 * Windows Server 2019 虚拟模板：
 +
 https://repo.cloudsync.netapp.com/gfc/2k19-2.1.zip["包括 NetApp GFC （ VMware vSphere 6.5 及更高版本）的 Windows Server 2019 .OVA"^]
-https://repo.cloudsync.netapp.com/gfc/2k19_GFC_2_1_0_31IMAGE.zip["包括 NetApp GFC （ Microsoft Hyper-V ）的 Windows Server 2019 .vhdx"^]
+https://repo.cloudsync.netapp.com/gfc/2k19_GFC_2_2_0_41IMAGE.zip["包括 NetApp GFC （ Microsoft Hyper-V ）的 Windows Server 2019 .vhdx"^]
 
 * 全局文件缓存边缘软件：
 +
-https://repo.cloudsync.netapp.com/gfc/GFC-2-1-0-31-Release.exe["NetApp GFC 软件安装包（ .exe ）"^]
+https://repo.cloudsync.netapp.com/gfc/GFC-2-2-0-41-Release.exe["NetApp GFC 软件安装包（ .exe ）"^]
 
 * 适用于Cloud Insights 的全局文件缓存信息板：
 +
@@ -42,7 +42,7 @@ https://repo.cloudsync.netapp.com/gfc/ci-gfc-dashboards.zip["NetApp GFC Cloud In
 
 * 全局文件缓存文档：
 +
-https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["《 NetApp 全局文件缓存用户指南》（ .PDF ）"^]
+https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["《 NetApp 全局文件缓存用户指南》（ .PDF ）"^]
 
 
 
@@ -58,7 +58,7 @@ NOTE: 在Windows Server 2016上部署全局文件缓存时、您应使用.NET Fr
 根据您的要求，您可能需要根据分支机构中的并发用户会话部署一个或多个全局文件缓存边缘实例。Edge 实例将虚拟文件共享呈现给分支机构的最终用户，该实例已从关联的全局文件缓存核心实例透明地扩展。全局文件缓存边缘应包含 `D ： \` NTFS 卷，该卷包含分支机构内的缓存文件。
 
 
-NOTE: 对于全局文件缓存边缘，了解非常重要 link:concept-before-you-begin-to-deploy-gfc.html#sizing-guidelines["规模估算准则"]。这将有助于您为全局文件缓存部署制定正确的设计。此外，您还需要确定在规模，资源可用性和冗余方面哪些方面适合您的环境。
+NOTE: 对于全局文件缓存边缘，了解非常重要 link:concept-before-you-begin-to-deploy-gfc.html#sizing-guidelines["规模估算准则"]。这将有助于您为全局文件缓存部署制定正确的设计。您还需要确定在规模、资源可用性和冗余方面哪些适合您的环境。
 
 
 
@@ -149,7 +149,7 @@ VMware vSphere 6.x 及更高版本：
 
 全局文件缓存智能文件缓存磁盘（ D ： \ ）上的磁盘延迟应为每个并发用户提供小于 0.5 毫秒的平均 I/O 磁盘延迟和 1 MiBps 吞吐量。
 
-有关详细信息，请参见 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["《 NetApp 全局文件缓存用户指南》"^]。
+有关详细信息，请参见 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["《 NetApp 全局文件缓存用户指南》"^]。
 
 
 
@@ -157,7 +157,7 @@ VMware vSphere 6.x 及更高版本：
 
 * 防火墙：应允许在全局文件缓存边缘和管理服务器与核心实例之间使用 TCP 端口。
 +
-全局文件缓存 TCP 端口： 443 （ HTTPS - LMS ）， 6618 – 6630 。
+全局文件缓存TCP端口：443 (HTTPS - LMS)、6618 - 6630。
 
 * 必须将网络优化设备（例如 Riverbed Steelhead ）配置为直通全局文件缓存专用端口（ TCP 6618-6630 ）。
 
@@ -166,11 +166,11 @@ VMware vSphere 6.x 及更高版本：
 
 === 客户端工作站和应用程序最佳实践
 
-全局文件缓存可透明地集成到客户环境中，从而使用户可以使用其客户端工作站访问集中式数据，并运行企业级应用程序。使用全局文件缓存，可以通过直接驱动器映射或 DFS 命名空间访问数据。有关全局文件缓存网络结构，智能文件缓存以及软件关键方面的详细信息，请参见 link:concept-before-you-begin-to-deploy-gfc.html["开始部署全局文件缓存之前"^] 部分。
+全局文件缓存可透明地集成到客户环境中、使用户可以使用其客户端工作站访问集中式数据、并运行企业级应用程序。使用全局文件缓存，可以通过直接驱动器映射或 DFS 命名空间访问数据。有关全局文件缓存网络结构，智能文件缓存以及软件关键方面的详细信息，请参见 link:concept-before-you-begin-to-deploy-gfc.html["开始部署全局文件缓存之前"^] 部分。
 
 为了确保获得最佳体验和性能，请务必遵循《全局文件缓存用户指南》中所述的 Microsoft Windows 客户端要求和最佳实践。此适用场景适用于所有版本的 Microsoft Windows 。
 
-有关详细信息，请参见 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["《 NetApp 全局文件缓存用户指南》"^]。
+有关详细信息，请参见 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["《 NetApp 全局文件缓存用户指南》"^]。
 
 
 
@@ -178,7 +178,7 @@ VMware vSphere 6.x 及更高版本：
 
 虽然全局文件缓存会尽力验证最常见的防病毒应用程序套件是否与全局文件缓存兼容，但对于这些程序或其相关更新，服务包或修改导致的任何不兼容或性能问题， NetApp 不能提供担保，也不承担任何责任。
 
-全局文件缓存不建议在任何启用了全局文件缓存的实例（核心或边缘）上安装或应用监控或防病毒解决方案。如果是根据选择或策略安装解决方案，则必须应用以下最佳实践和建议。有关常见防病毒套件，请参见中的附录 A https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["《 NetApp 全局文件缓存用户指南》"^]。
+全局文件缓存不建议在任何启用了全局文件缓存的实例（核心或边缘）上安装或应用监控或防病毒解决方案。如果是根据选择或策略安装解决方案，则必须应用以下最佳实践和建议。有关常见防病毒套件，请参见中的附录 A https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["《 NetApp 全局文件缓存用户指南》"^]。
 
 
 
@@ -204,12 +204,12 @@ VMware vSphere 6.x 及更高版本：
 
 === 防病毒最佳实践
 
-本节将帮助您了解在运行全局文件缓存的 Windows Server 实例上运行防病毒软件的要求。Global File Cache已测试最常用的防病毒产品、包括Cylance、McAfee、Symantec、Sophos、Trend Micro、 与全局文件缓存结合使用的Kaspersky、群击、Cisco AMP、Tannium和Windows Defender。防病毒软件应通过NetApp认证、只有在配置了正确的排除列表后才受支持。请参见中的附录A https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["《 NetApp 全局文件缓存用户指南》"^]
+本节将帮助您了解在运行全局文件缓存的 Windows Server 实例上运行防病毒软件的要求。Global File Cache已测试最常用的防病毒产品、包括Cylance、McAfee、Symantec、Sophos、Trend Micro、 与全局文件缓存结合使用的Kaspersky、群击、Cisco AMP、Tannium和Windows Defender。防病毒软件应通过NetApp认证、只有在配置了正确的排除列表后才受支持。请参见中的附录A https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["《 NetApp 全局文件缓存用户指南》"^]
 
 
-NOTE: 向 Edge 设备添加防病毒软件可能会对用户性能产生 10 – 20% 的影响。
+NOTE: 向Edge设备添加防病毒软件可能会对用户性能产生10-20%的影响。
 
-有关详细信息，请参见 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["《 NetApp 全局文件缓存用户指南》"^]。
+有关详细信息，请参见 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["《 NetApp 全局文件缓存用户指南》"^]。
 
 
 
@@ -259,14 +259,14 @@ NOTE: 向 Edge 设备添加防病毒软件可能会对用户性能产生 10 – 
 * 业务部门生产效率软件，通常需要大量资源，例如数据库服务器，邮件服务器等。 不支持。
 * 客户负责可能安装在运行全局文件缓存的服务器上的任何非全局文件缓存软件：
 +
-** 如果任何第三方软件包导致软件或资源与全局文件缓存发生冲突或性能受到影响，则全局文件缓存的支持组织可能会要求客户在运行全局文件缓存的服务器上禁用或删除该软件。
-** 客户负责安装，集成，支持和升级添加到运行全局文件缓存应用程序的服务器的任何软件。
+** 如果任何第三方软件包导致软件或资源与全局文件缓存发生冲突或性能受到影响、则全局文件缓存的支持组织可能会要求客户在运行全局文件缓存的服务器上禁用或删除该软件。
+** 客户负责安装、集成、支持和升级添加到运行全局文件缓存应用程序的服务器的任何软件。
 
 
 * 防病毒工具和许可代理等系统管理实用程序 / 代理可能可以共存。但是，除了上面列出的受支持服务和应用程序之外，全局文件缓存不支持这些应用程序，并且仍必须遵循上述准则：
 +
-** 客户负责安装，集成，支持和升级所添加的任何软件。
-** 如果客户安装的任何第三方软件包导致或怀疑导致软件或资源与全局文件缓存冲突或性能受到影响，则全局文件缓存的支持组织可能要求禁用 / 删除该软件。
+** 客户负责安装、集成、支持和升级所添加的任何软件。
+** 如果客户安装的任何第三方软件包导致或怀疑导致软件或资源与全局文件缓存发生冲突或性能受到影响、则全局文件缓存的支持组织可能要求禁用/删除此软件。
 
 
 

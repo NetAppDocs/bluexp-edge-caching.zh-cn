@@ -67,7 +67,7 @@ summary: 确认您的环境满足所有要求后，您可以在每个远程办�
 ** 密码： * 。 Tal0nFAST ！ *
 
 
-. 配置 Windows Server VM ，加入组织的 Active Directory 域，然后继续执行全局文件缓存边缘配置部分。
+. 配置Windows Server VM、加入组织的Active Directory域、然后继续执行全局文件缓存边缘配置部分。
 
 
 
@@ -131,4 +131,4 @@ NetApp 建议您使用默认安装位置。
 
 
 .下一步是什么？
-有关全局文件缓存边缘高级配置的详细信息，请参见 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["《 NetApp 全局文件缓存用户指南》"^]。
+有关全局文件缓存边缘高级配置的详细信息，请参见 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["《 NetApp 全局文件缓存用户指南》"^]。

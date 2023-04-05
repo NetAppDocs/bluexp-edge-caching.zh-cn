@@ -32,7 +32,7 @@ summary: 您可以使用BlueXP在工作环境中部署全局文件缓存管理�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 部署 Cloud Volumes ONTAP
 [role="quick-margin-para"]
-在 Azure 或 AWS 中部署 Cloud Volumes ONTAP 并配置 SMB 文件共享。有关详细信息，请参见 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["在 Azure 中启动 Cloud Volumes ONTAP"^] 或 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["在 AWS 中启动 Cloud Volumes ONTAP"^]。
+部署Cloud Volumes ONTAP 并配置SMB文件共享。有关详细信息，请参见 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["在 Azure 中启动 Cloud Volumes ONTAP"^]， https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["在 AWS 中启动 Cloud Volumes ONTAP"^]或 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-gcp.html["在 Google Cloud 中启动 Cloud Volumes ONTAP"^]。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 部署全局文件缓存管理服务器
 [role="quick-margin-para"]
@@ -54,7 +54,7 @@ summary: 您可以使用BlueXP在工作环境中部署全局文件缓存管理�
 
 === 将 Cloud Volumes ONTAP 部署为您的存储平台
 
-在当前版本中，全局文件缓存支持在 Azure 或 AWS 中部署 Cloud Volumes ONTAP 。有关详细的前提条件，要求和部署说明，请参见 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["在 Azure 中启动 Cloud Volumes ONTAP"^] 或 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["在 AWS 中启动 Cloud Volumes ONTAP"^]。
+全局文件缓存支持部署在Azure、AWS和Google Cloud中的Cloud Volumes ONTAP。有关详细的前提条件，要求和部署说明，请参见 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["在 Azure 中启动 Cloud Volumes ONTAP"^]， https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["在 AWS 中启动 Cloud Volumes ONTAP"^]或 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-gcp.html["在 Google Cloud 中启动 Cloud Volumes ONTAP"^]
 
 请注意以下其他全局文件缓存要求：
 
@@ -91,7 +91,7 @@ image:screenshot_gfc_install3.png["一个屏幕截图，显示在 SMB 共享不�
 image:screenshot_gfc_install4.png["显示部署全局文件缓存管理服务器和核心实例之前的前提条件的屏幕截图。"]
 
 . 确认已满足要求或您已获得满足这些要求的信息后，单击 * 继续 * 。
-. 输入用于访问全局文件缓存管理服务器虚拟机的管理员凭据，然后单击 * 启用 GFC 服务 * 。对于 Azure ，请以用户名和密码的形式输入凭据；对于 AWS ，请选择相应的密钥对。您可以根据需要更改 VM/ 实例名称。
+. 输入用于访问全局文件缓存管理服务器虚拟机的管理员凭据，然后单击 * 启用 GFC 服务 * 。对于Azure和Google Cloud、您可以输入凭据作为用户名和密码；对于AWS、请选择相应的密钥对。您可以根据需要更改 VM/ 实例名称。
 +
 image:screenshot_gfc_install5.png["显示设置全局文件缓存管理服务器所需配置信息的屏幕截图。"]
 
@@ -105,7 +105,7 @@ image:screenshot_gfc_install6.png["显示设置全局文件缓存核心活动目
 
 
 
-. 输入用于访问全局文件缓存核心 VM 的管理员凭据，然后单击 * 部署 GFC 核心 * 。对于 Azure ，请以用户名和密码的形式输入凭据；对于 AWS ，请选择相应的密钥对。您可以根据需要更改 VM/ 实例名称。
+. 输入用于访问全局文件缓存核心 VM 的管理员凭据，然后单击 * 部署 GFC 核心 * 。对于Azure和Google Cloud、您可以输入凭据作为用户名和密码；对于AWS、请选择相应的密钥对。您可以根据需要更改 VM/ 实例名称。
 +
 image:screenshot_gfc_install7.png["显示设置全局文件缓存核心实例所需的配置信息的屏幕截图。"]
 
@@ -182,7 +182,7 @@ image:screenshot_gfc_install6.png["显示设置全局文件缓存核心活动目
 
 
 
-. 输入用于访问全局文件缓存核心 VM 的管理员凭据，然后单击 * 部署 GFC 核心 * 。对于 Azure ，请以用户名和密码的形式输入凭据；对于 AWS ，请选择相应的密钥对。您可以根据需要更改虚拟机名称。
+. 输入用于访问全局文件缓存核心 VM 的管理员凭据，然后单击 * 部署 GFC 核心 * 。对于Azure和Google Cloud、您可以输入凭据作为用户名和密码；对于AWS、请选择相应的密钥对。您可以根据需要更改虚拟机名称。
 +
 image:screenshot_gfc_install7.png["显示设置全局文件缓存核心实例所需的配置信息的屏幕截图。"]
 
