@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: fixed-issues.html 
 keywords: fixed issues, release notes, fixes, gfc, global file cache 
-summary: 查看全局文件缓存中已修复的问题。 
+summary: 了解BlueXP边缘缓存中已修复的问题。 
 ---
-= 已修复全局文件缓存中的问题
+= 已修复BlueXP边缘缓存中的问题
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 查看全局文件缓存中已修复的问题。
 
 
 [role="lead"]
-查看全局文件缓存中已修复的问题。
+了解BlueXP边缘缓存中已修复的问题。
 
 
 

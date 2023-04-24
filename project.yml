@@ -1,6 +1,6 @@
 ---
 settings:
-  name: Global File Cache
+  name: BlueXP edge caching
   platform: cloud
   internal:
     pdf_enabled: true
@@ -11,7 +11,7 @@ settings:
   langs: zh-cn,us-en,ja-jp,ko-kr,zh-tw,de-de,es-es,fr-fr
 sidebar:
   entries:
-  - title: 全局文件缓存文档
+  - title: BlueXP Edge缓存文档
     url: "/index.html"
   - title: 发行说明
     entries:
@@ -21,17 +21,17 @@ sidebar:
       url: "/fixed-issues.html"
   - title: 入门
     entries:
-    - title: 了解全局文件缓存
+    - title: 了解BlueXP边缘缓存
       url: "/concept-gfc.html"
-    - title: 全局文件缓存前提条件
+    - title: BlueXP边缘缓存前提条件
       url: "/concept-before-you-begin-to-deploy-gfc.html"
-    - title: 部署并许可全局文件缓存
+    - title: 部署和许可BlueXP边缘缓存
       url: "/task-gfc-getting-started.html"
-    - title: 全局文件缓存边缘前提条件
+    - title: BlueXP Edge缓存Edge前提条件
       url: "/download-gfc-resources.html"
-    - title: 部署全局文件缓存边缘
+    - title: 部署BlueXP Edge缓存边缘
       url: "/task-deploy-gfc-edge-instances.html"
-  - title: 使用全局文件缓存
+  - title: 使用BlueXP边缘缓存
     entries:
     - title: 最终用户培训
       url: "/concept-gfc-enduser-training.html"
@@ -49,7 +49,7 @@ homepage:
   tiles:
   - title: 入门
     links:
-    - title: 了解全局文件缓存
+    - title: 了解BlueXP边缘缓存
       url: concept-gfc.html
     - title: 新增功能
       url: whats-new.html
@@ -59,9 +59,9 @@ homepage:
     links:
     - title: 将 Cloud Volumes ONTAP 部署为存储平台
       url: task-gfc-getting-started.html#deploy-cloud-volumes-ontap-as-your-storage-platform
-    - title: 部署全局文件缓存管理服务器和全局文件缓存核心
-      url: task-gfc-getting-started.html#enable-global-file-cache-in-your-working-environment
-    - title: 部署全局文件缓存边缘实例
+    - title: 部署BlueXP边缘缓存管理服务器和核心
+      url: task-gfc-getting-started.html#enable-bluexp-edge caching-in-your-working-environment
+    - title: 部署BlueXP Edge缓存边缘实例
       url: task-deploy-gfc-edge-instances.html
   - title: 培训用户
     links:

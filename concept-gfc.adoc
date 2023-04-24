@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concept-gfc.html 
 keywords: global file cache 
-summary: 借助 NetApp 全局文件缓存，您可以将分布式文件服务器孤岛整合到公有云中一个统一的全局存储占用空间中。这样就可以在云中创建一个可全局访问的文件系统，所有远程位置都可以像在本地一样使用该系统。 
+summary: 借助NetApp BlueXP边缘缓存、您可以将分布式文件服务器孤岛整合到公有云中的一个统一全局存储空间中。这样就可以在云中创建一个可全局访问的文件系统，所有远程位置都可以像在本地一样使用该系统。 
 ---
-= 了解全局文件缓存
+= 了解BlueXP边缘缓存
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,21 +14,23 @@ summary: 借助 NetApp 全局文件缓存，您可以将分布式文件服务器
 
 
 [role="lead"]
-借助 NetApp 全局文件缓存，您可以将分布式文件服务器孤岛整合到公有云中一个统一的全局存储占用空间中。这样就可以在云中创建一个可全局访问的文件系统，所有远程位置都可以像在本地一样使用该系统。
+借助NetApp BlueXP边缘缓存、您可以将分布式文件服务器孤岛整合到公有云中的一个统一全局存储空间中。这样就可以在云中创建一个可全局访问的文件系统，所有远程位置都可以像在本地一样使用该系统。
+
+BlueXP边缘缓存可通过两种部署模式来满足您的企业架构需求：在Cloud Volumes ONTAP实例中组合使用集成服务(Cloud Volumes Edge Cache)、或作为企业存储战略的附加组件(全局文件缓存)
 
 
 
 == 概述
 
-实施全局文件缓存会产生一个集中的存储占用空间，而分布式存储架构则需要在每个位置进行本地数据管理，备份，安全管理，存储和基础架构占用空间。
+实施BlueXP边缘缓存会占用一个集中式存储空间、而分布式存储架构则需要在每个位置占用本地数据管理、备份、安全管理、存储和基础架构空间。
 
-image:diagram_gfc_image1.png["显示远程办公室位置如何使用全局文件缓存访问单个共享文件系统的示意图。"]
+image:diagram_gfc_image1.png["显示远程办公室位置如何使用BlueXP边缘缓存访问单个共享文件系统的示意图。"]
 
 
 
 == 功能
 
-全局文件缓存可启用以下功能：
+BlueXP边缘缓存支持以下功能：
 
 * 将数据整合并集中到公有云中，并利用企业级存储解决方案的可扩展性和性能
 * 为全球用户创建一组数据，并利用智能文件缓存来改善全局数据访问，协作和性能
@@ -36,57 +38,57 @@ image:diagram_gfc_image1.png["显示远程办公室位置如何使用全局文�
 * 通过全局命名空间从分支位置进行透明访问，并实时锁定中央文件
 
 
-查看有关全局文件缓存功能和用例的更多信息 https://bluexp.netapp.com/global-file-cache["此处"^]。
+了解有关BlueXP边缘缓存功能和用例的更多信息 https://bluexp.netapp.com/global-file-cache["此处"^]。
 
 
 
-== 全局文件缓存组件
+== BlueXP边缘缓存组件
 
-全局文件缓存包含以下组件：
+BlueXP边缘缓存由以下组件组成：
 
-* 全局文件缓存管理服务器
-* 全局文件缓存核心
-* 全局文件缓存边缘（部署在远程位置）
+* 管理服务器
+* 核心
+* 边缘(部署在远程位置)
 
 
-全局文件缓存核心实例挂载到您选择的后端存储平台(例如Cloud Volumes ONTAP 、Cloud Volumes Service 、 和Azure NetApp Files)、并创建全局文件缓存"网络结构"、以便将非结构化数据集中并整合到一组数据中、无论这些数据位于公有 云中的一个或多个存储平台上。
+BlueXP边缘缓存核心实例会挂载到您选择的后端存储平台(例如Cloud Volumes ONTAP、Cloud Volumes Service、 和Azure NetApp Files)、并创建BlueXP边缘缓存"网络结构"、使其能够将非结构化数据集中并整合到一组数据中、无论数据驻留在公共云的一个存储平台上还是多个存储平台上。
 
-image:diagram_gfc_image2.png["显示在远程办公室和云中的中央服务器上安装了软件的全局文件缓存部署详细信息的图表。"]
+image:diagram_gfc_image2.png["显示BlueXP边缘缓存部署详细信息的示意图、其中软件安装在远程办公室和云中的中央服务器中。"]
 
 
 
 == 支持的存储平台
 
-根据您选择的部署选项，支持的全局文件缓存存储平台会有所不同。
+根据您选择的部署选项、BlueXP边缘缓存支持的存储平台会有所不同。
 
 
 
 === 自动化部署选项
 
-使用BlueXP (以前称为Cloud Manager)部署时、以下类型的工作环境支持全局文件缓存：
+使用BlueXP部署时、以下类型的工作环境支持BlueXP边缘缓存：
 
 * Azure 中的 Cloud Volumes ONTAP
 * AWS 中的 Cloud Volumes ONTAP
 * Google Cloud中的Cloud Volumes ONTAP
 
 
-通过此配置、您可以在BlueXP中部署和管理整个全局文件缓存服务器端部署、包括全局文件缓存管理服务器和全局文件缓存核心。
+通过此配置、您可以在BlueXP中部署和管理整个BlueXP边缘缓存服务器端部署、包括BlueXP边缘缓存管理服务器和BlueXP边缘缓存核心。
 
 
 
 === 手动部署选项
 
-Cloud Volumes ONTAP 、Azure NetApp Files 、适用于ONTAP 系统的Amazon FSx以及Google Cloud上的Cloud Volumes Service 也支持全局文件缓存配置。此外， NetApp AFF 和 FAS 平台还提供内部解决方案。在这些安装中、必须手动配置和部署全局文件缓存服务器端组件、而不是使用BlueXP。
+Cloud Volumes ONTAP、Azure NetApp Files、Amazon FSx for ONTAP系统以及Google Cloud上的Cloud Volumes Service也支持BlueXP边缘缓存配置。此外， NetApp AFF 和 FAS 平台还提供内部解决方案。在这些安装中、必须手动配置和部署BlueXP边缘缓存服务器端组件、而不是使用BlueXP。
 
 请参见 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["《 NetApp 全局文件缓存用户指南》"^] 了解详细信息。
 
 
 
-== 全局文件缓存的工作原理
+== BlueXP边缘缓存的工作原理
 
-全局文件缓存可创建一个软件网络结构，用于在全球远程办公室缓存活动数据集。因此，企业用户可以获得透明的数据访问保障，并在全球范围内获得最佳性能。
+BlueXP边缘缓存可创建一个软件网络结构、用于在全球远程办公室缓存活动数据集。因此，企业用户可以获得透明的数据访问保障，并在全球范围内获得最佳性能。
 
-image:diagram_gfc_image3.png["一个图，显示边缘和核心的全局文件缓存组件。"]
+image:diagram_gfc_image3.png["显示边缘和核心的BlueXP边缘缓存组件的示意图。"]
 
 本示例中引用的拓扑是一种中心和轮辐模型，远程办公室 / 位置的网络正在访问云中的一组通用数据。此示例的要点如下：
 
@@ -95,11 +97,11 @@ image:diagram_gfc_image3.png["一个图，显示边缘和核心的全局文件�
 ** 企业级公有云存储平台，例如 Cloud Volumes ONTAP
 
 
-* 全局文件缓存网络结构：
+* BlueXP边缘缓存网络结构：
 +
 ** 将中央数据存储扩展到远程位置
-** 全局文件缓存核心实例，挂载到公司文件共享（ SMB ）。
-** 在每个远程位置运行的全局文件缓存边缘实例。
+** BlueXP边缘缓存核心实例、挂载到企业文件共享(SMB)。
+** 在每个远程位置运行的BlueXP边缘缓存边缘实例。
 ** 在每个远程位置提供一个虚拟文件共享，用于访问中央数据。
 ** 在自定义大小的 NTFS 卷（ `D ： \` ）上托管智能文件缓存。
 
@@ -117,19 +119,19 @@ image:diagram_gfc_image3.png["一个图，显示边缘和核心的全局文件�
 
 == 成本
 
-使用全局文件缓存的成本取决于您选择的安装类型。
+使用BlueXP边缘缓存的成本取决于您选择的安装类型。
 
 * 所有安装都要求您在云中部署一个或多个卷(例如Cloud Volumes ONTAP 、Cloud Volumes Service 或Azure NetApp Files)。这会导致从选定云提供商处收取费用。
 * 所有安装还要求您在云中部署两个或更多虚拟机（ VM ）。这会导致从选定云提供商处收取费用。
 +
-** 全局文件缓存管理服务器：
+** BlueXP边缘缓存管理服务器：
 +
 在Azure中、此操作在具有127 GB标准SSD的D2S_V3或等效虚拟机(2个vCPU/8 GB RAM)上运行
 
 +
 在 AWS 中，此操作在具有 127 GB 通用 SSD 的 m4.large 或等效（ 2 个 vCPU/8 GB RAM ）实例上运行
 
-** 全局文件缓存核心：
+** BlueXP边缘缓存核心：
 +
 在 Azure 中，此操作在具有 127 GB 高级 SSD 的 D4s_V3 或等效虚拟机（ 4 个 vCPU/16 GB RAM ）上运行
 
@@ -140,18 +142,18 @@ image:diagram_gfc_image3.png["一个图，显示边缘和核心的全局文件�
 
 * 如果随Cloud Volumes ONTAP (通过BlueXP完全部署的受支持配置)一起安装、则有两种定价选项：
 +
-** 对于Cloud Volumes ONTAP 系统、您可以为每个全局文件缓存边缘实例每年支付3、000美元的费用。
-** 或者、对于Azure和GCP中的Cloud Volumes ONTAP 系统、您也可以选择Cloud Volumes ONTAP 边缘缓存软件包。通过此基于容量的许可证、您可以为购买的每个3 TiB容量部署一个全局文件缓存边缘实例。 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#capacity-based-licensing["单击此处了解更多信息"]。
+** 对于Cloud Volumes ONTAP系统、您每年可以为每个BlueXP边缘缓存边缘实例支付3、000美元。
+** 或者、对于Azure和GCP中的Cloud Volumes ONTAP 系统、您也可以选择Cloud Volumes ONTAP 边缘缓存软件包。通过此基于容量的许可证、您可以为购买的每3 TiB容量部署一个BlueXP边缘缓存边缘实例。 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#capacity-based-licensing["单击此处了解更多信息"^]。
 
 
-* 如果使用手动部署选项安装，则定价会有所不同。要查看成本概要，请参见 https://cloud.netapp.com/global-file-cache/roi["计算您的节省潜力"^] 或者，请咨询全球文件缓存解决方案工程师，以讨论适用于您的企业部署的最佳方案。
+* 如果使用手动部署选项安装，则定价会有所不同。要查看成本概要，请参见 https://bluexp.netapp.com/global-file-cache/roi["计算您的节省潜力"^] 或者咨询您的NetApp解决方案工程师、讨论适合您企业部署的最佳方案。
 
 
 
 
 == 许可
 
-全局文件缓存包括一个基于软件的许可证管理服务器（ LMS ），通过该服务器，您可以使用自动化机制整合许可证管理并将许可证部署到所有核心和边缘实例。
+BlueXP边缘缓存包括一个基于软件的许可证管理服务器(LMS)、可用于整合许可证管理、并使用自动化机制将许可证部署到所有Core和Edge实例。
 
 在数据中心或云中部署第一个核心实例时，您可以选择将该实例指定为组织的 LMS 。此 LMS 实例配置一次，通过 HTTPS 连接到订阅服务，并使用我们的支持 / 运营部门在订阅启用后提供的客户 ID 验证您的订阅。指定此名称后，您可以通过提供您的客户 ID 和 LMS 实例的 IP 地址来将您的 Edge 实例与 LMS 相关联。
 
@@ -163,6 +165,6 @@ image:diagram_gfc_image3.png["一个图，显示边缘和核心的全局文件�
 
 == 限制
 
-BlueXP中支持的全局文件缓存版本要求用作中央存储的后端存储平台必须是一个工作环境、在此环境中、您已在Azure、AWS或Google Cloud中部署了Cloud Volumes ONTAP 单节点或HA对。
+BlueXP (Cloud Volumes Edge Cache)中支持的BlueXP边缘缓存版本要求用作中央存储的后端存储平台必须是一个工作环境、您已在Azure、AWS或Google Cloud中部署Cloud Volumes ONTAP单节点或HA对。
 
 目前、使用BlueXP不支持其他存储平台、但可以使用原有部署过程进行部署。这些其他配置、例如、使用适用于ONTAP 系统的Amazon FSx的全局文件缓存、Azure NetApp Files 或Google Cloud上的Cloud Volumes Service 、均可使用原有过程进行支持。请参见 https://bluexp.netapp.com/global-file-cache/onboarding["全局文件缓存概述和入职"^] 了解详细信息。

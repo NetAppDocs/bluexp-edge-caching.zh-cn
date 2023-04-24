@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: reference-gfc-additional-information.html 
 keywords: global file cache 
-summary: 使用以下链接可了解有关全局文件缓存和其他 NetApp 产品的更多信息。 
+summary: 通过以下链接了解有关BlueXP边缘缓存和其他NetApp产品的更多信息。 
 ---
 = 追加信息
 :hardbreaks:
@@ -14,9 +14,9 @@ summary: 使用以下链接可了解有关全局文件缓存和其他 NetApp 产
 
 
 [role="lead"]
-使用以下链接可了解有关全局文件缓存和其他 NetApp 产品的更多信息：
+请通过以下链接详细了解BlueXP边缘缓存和其他NetApp产品：
 
-* 全局文件缓存常见问题解答
+* BlueXP边缘缓存常见问题解答
 +
 ** 查看常见问题解答列表 https://bluexp.netapp.com/global-file-cache-faq["此处"^]
 
@@ -28,12 +28,12 @@ summary: 使用以下链接可了解有关全局文件缓存和其他 NetApp 产
 ** 请参见所有 NetApp 产品的其他文档 https://www.netapp.com/support-and-training/documentation/["此处"^]
 
 
-* 可通过以下渠道为使用 Cloud Volumes ONTAP 的全局文件缓存用户提供客户支持：
+* 通过以下渠道为使用Cloud Volumes ONTAP的BlueXP边缘缓存用户提供客户支持：
 +
 ** 引导式问题解决，案例管理，知识库，下载，工具， 等等 https://bluexp.netapp.com/gfc-support["此处"^]
 ** 登录到 NetApp 支持部门，网址为 https://mysupport.netapp.com[] 使用您的 NSS 凭据
 ** 要获得 P1 问题描述呼叫的即时帮助，请拨打： +1 856.481.3990 （选项 2 ）
 
 
-* 您的提供商可通过标准支持为使用 Cloud Volumes Services 和 Azure NetApp Files 的全局文件缓存用户提供客户支持。请分别联系 Google 客户支持或 Microsoft 客户支持。
+* 通过您的提供商提供的标准支持、可以为使用Cloud Volumes Services和Azure NetApp Files的BlueXP边缘缓存用户提供客户支持。请分别联系 Google 客户支持或 Microsoft 客户支持。
 

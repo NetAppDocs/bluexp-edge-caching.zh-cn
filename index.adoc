@@ -2,10 +2,10 @@
 layout: astra 
 sidebar: sidebar 
 permalink: index.html 
-lead: 'Enable real-time global file sharing for your distributed workforce by using NetApp"s intelligent Global File Cache.' 
-summary: 使用NetApp的智能全局文件缓存为分布式员工实现实时全局文件共享。 
+lead: BlueXP edge caching lets you create a centralized file store that serves remote locations around the globe. With edge caching, frequently accessed data is maintained in each of the associated remote edge locations and can be accessed without the latency involved with accessing data over WAN, while remaining under central control. 
+summary: 通过BlueXP边缘缓存、您可以创建一个集中式文件存储、为全球各地的远程位置提供服务。借助边缘缓存、经常访问的数据会保留在每个相关的远程边缘位置、并且可以在通过WAN访问数据时不会出现延迟、同时仍受中央控制。 
 ---
-= 全局文件缓存文档
+= BlueXP Edge缓存文档
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
