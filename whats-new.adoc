@@ -20,7 +20,7 @@ summary: 了解BlueXP边缘缓存的新增功能。
 
 == 2023年4月5日(2.2版)
 
-此版本提供了以下列出的新功能。此外、它还修复了中所述的问题 https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["已修复的问题"]。可从获取更新的软件包 https://docs.netapp.com/us-en/cloud-manager-file-cache/download-gfc-resources.html#download-required-resources["此页面"]。
+此版本提供了以下列出的新功能。此外、它还修复了中所述的问题 https://docs.netapp.com/us-en/bluexp-edge-caching/fixed-issues.html["已修复的问题"]。可从获取更新的软件包 https://docs.netapp.com/us-en/bluexp-edge-caching/download-gfc-resources.html#download-required-resources["此页面"]。
 
 
 
@@ -28,7 +28,7 @@ summary: 了解BlueXP边缘缓存的新增功能。
 
 在Google Cloud中部署Cloud Volumes ONTAP 系统时、可以使用新的"Edge Cache"许可证。您有权为Cloud Volumes ONTAP 系统上购买的每3 TiB容量部署一个全局文件缓存边缘系统。
 
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#packages["了解有关Edge Cache许可证包的更多信息。"]
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#packages["了解有关Edge Cache许可证包的更多信息。"]
 
 
 
@@ -42,7 +42,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensin
 
 == 2022年10月24日(2.1版)
 
-此版本提供了以下列出的新功能。此外、它还修复了中所述的问题 https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["已修复的问题"]。
+此版本提供了以下列出的新功能。此外、它还修复了中所述的问题 https://docs.netapp.com/us-en/bluexp-edge-caching/fixed-issues.html["已修复的问题"]。
 
 
 
@@ -74,7 +74,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensin
 
 == 2022年7月25日(2.0版)
 
-此版本提供了以下列出的新功能。此外、它还修复了中所述的问题 https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["已修复的问题"]。
+此版本提供了以下列出的新功能。此外、它还修复了中所述的问题 https://docs.netapp.com/us-en/bluexp-edge-caching/fixed-issues.html["已修复的问题"]。
 
 
 
@@ -82,7 +82,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensin
 
 新的"Edge Cache"许可证具有与"CVO专业版"许可证相同的功能、但也支持全局文件缓存。在Azure中部署新Cloud Volumes ONTAP 系统时、您将看到此选项。您有权为Cloud Volumes ONTAP 系统上配置的每个3 TiB容量部署一个全局文件缓存边缘系统。应至少配置30 TiB。GFC License Manager服务已得到增强、可提供基于容量的许可。
 
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#capacity-based-licensing["了解有关Edge Cache许可证包的更多信息。"]
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#capacity-based-licensing["了解有关Edge Cache许可证包的更多信息。"]
 
 
 
@@ -106,13 +106,13 @@ https://cloud.netapp.com/cloud-insights["了解有关Cloud Insights 的更多信
 
 == 2022年6月23日(版本1.3.1)
 
-此版本可修复中所述的问题 https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["已修复的问题"]。
+此版本可修复中所述的问题 https://docs.netapp.com/us-en/bluexp-edge-caching/fixed-issues.html["已修复的问题"]。
 
 
 
 == 2022年5月19日(版本1.3.0)
 
-可从获取1.3.0版的全局文件缓存边缘软件 https://docs.netapp.com/us-en/cloud-manager-file-cache/download-gfc-resources.html#download-required-resources["此页面"]。
+可从获取1.3.0版的全局文件缓存边缘软件 https://docs.netapp.com/us-en/bluexp-edge-caching/download-gfc-resources.html#download-required-resources["此页面"]。
 
 
 

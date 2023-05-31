@@ -32,7 +32,7 @@ summary: 您可以使用BlueXP在工作环境中部署BlueXP边缘缓存管理�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 部署 Cloud Volumes ONTAP
 [role="quick-margin-para"]
-部署Cloud Volumes ONTAP 并配置SMB文件共享。有关详细信息，请参见 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["在 Azure 中启动 Cloud Volumes ONTAP"^]， https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["在 AWS 中启动 Cloud Volumes ONTAP"^]或 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-gcp.html["在 Google Cloud 中启动 Cloud Volumes ONTAP"^]。
+部署Cloud Volumes ONTAP 并配置SMB文件共享。有关详细信息，请参见 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-otc-azure.html["在 Azure 中启动 Cloud Volumes ONTAP"^]， https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-otc-aws.html["在 AWS 中启动 Cloud Volumes ONTAP"^]或 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-gcp.html["在 Google Cloud 中启动 Cloud Volumes ONTAP"^]。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 部署BlueXP边缘缓存管理服务器
 [role="quick-margin-para"]
@@ -54,7 +54,7 @@ summary: 您可以使用BlueXP在工作环境中部署BlueXP边缘缓存管理�
 
 === 将 Cloud Volumes ONTAP 部署为您的存储平台
 
-BlueXP边缘缓存支持在Azure、AWS和Google Cloud中部署Cloud Volumes ONTAP。有关详细的前提条件，要求和部署说明，请参见 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["在 Azure 中启动 Cloud Volumes ONTAP"^]， https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["在 AWS 中启动 Cloud Volumes ONTAP"^]或 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-gcp.html["在 Google Cloud 中启动 Cloud Volumes ONTAP"^]
+BlueXP边缘缓存支持在Azure、AWS和Google Cloud中部署Cloud Volumes ONTAP。有关详细的前提条件，要求和部署说明，请参见 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-otc-azure.html["在 Azure 中启动 Cloud Volumes ONTAP"^]， https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-otc-aws.html["在 AWS 中启动 Cloud Volumes ONTAP"^]或 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-gcp.html["在 Google Cloud 中启动 Cloud Volumes ONTAP"^]
 
 请注意以下BlueXP边缘缓存附加要求：
 

@@ -143,7 +143,7 @@ image:diagram_gfc_image3.png["显示边缘和核心的BlueXP边缘缓存组件�
 * 如果随Cloud Volumes ONTAP (通过BlueXP完全部署的受支持配置)一起安装、则有两种定价选项：
 +
 ** 对于Cloud Volumes ONTAP系统、您每年可以为每个BlueXP边缘缓存边缘实例支付3、000美元。
-** 或者、对于Azure和GCP中的Cloud Volumes ONTAP 系统、您也可以选择Cloud Volumes ONTAP 边缘缓存软件包。通过此基于容量的许可证、您可以为购买的每3 TiB容量部署一个BlueXP边缘缓存边缘实例。 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#capacity-based-licensing["单击此处了解更多信息"^]。
+** 或者、对于Azure和GCP中的Cloud Volumes ONTAP 系统、您也可以选择Cloud Volumes ONTAP 边缘缓存软件包。通过此基于容量的许可证、您可以为购买的每3 TiB容量部署一个BlueXP边缘缓存边缘实例。 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#capacity-based-licensing["单击此处了解更多信息"^]。
 
 
 * 如果使用手动部署选项安装，则定价会有所不同。要查看成本概要，请参见 https://bluexp.netapp.com/global-file-cache/roi["计算您的节省潜力"^] 或者咨询您的NetApp解决方案工程师、讨论适合您企业部署的最佳方案。

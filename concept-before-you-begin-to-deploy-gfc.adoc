@@ -89,7 +89,7 @@ BlueXP边缘缓存核心实例具有极高的可扩展性、建议每个核心�
 * 要创建的卷的名称和大小，要创建卷的聚合的名称以及共享名称。
 
 
-建议卷的大小足以容纳应用程序的总数据集，并能够随着数据集的增长相应地进行扩展。如果工作环境中有多个聚合，请参见 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-aggregates.html["管理现有聚合"^] 确定哪个聚合可为新卷提供最多的可用空间。
+建议卷的大小足以容纳应用程序的总数据集，并能够随着数据集的增长相应地进行扩展。如果工作环境中有多个聚合，请参见 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-aggregates.html["管理现有聚合"^] 确定哪个聚合可为新卷提供最多的可用空间。
 
 
 
