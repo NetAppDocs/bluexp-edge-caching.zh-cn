@@ -24,17 +24,17 @@ summary: 开始在远程办公室安装BlueXP Edge缓存边缘软件之前、您
 
 * Windows Server 2016 虚拟模板：
 +
-https://repo.cloudsync.netapp.com/gfc/2k16-2.1.zip["包括 NetApp GFC （ VMware vSphere 6.5 及更高版本）的 Windows Server 2016 .OVA"^]
-https://repo.cloudsync.netapp.com/gfc/2k16_GFC_2_2_0_41IMAGE.zip["包括 NetApp GFC （ Microsoft Hyper-V ）的 Windows Server 2016 .vhdx"^]
+https://repo.cloudsync.netapp.com/gfc/2k16-2_3_0-55.zip["包括 NetApp GFC （ VMware vSphere 6.5 及更高版本）的 Windows Server 2016 .OVA"^]
+https://repo.cloudsync.netapp.com/gfc/2k16_GFC_2_3_0_55IMAGE.zip["包括 NetApp GFC （ Microsoft Hyper-V ）的 Windows Server 2016 .vhdx"^]
 
 * Windows Server 2019 虚拟模板：
 +
-https://repo.cloudsync.netapp.com/gfc/2k19-2.1.zip["包括 NetApp GFC （ VMware vSphere 6.5 及更高版本）的 Windows Server 2019 .OVA"^]
-https://repo.cloudsync.netapp.com/gfc/2k19_GFC_2_2_0_41IMAGE.zip["包括 NetApp GFC （ Microsoft Hyper-V ）的 Windows Server 2019 .vhdx"^]
+https://repo.cloudsync.netapp.com/gfc/2k19-2_3_0-55.zip["包括 NetApp GFC （ VMware vSphere 6.5 及更高版本）的 Windows Server 2019 .OVA"^]
+https://repo.cloudsync.netapp.com/gfc/2k19_GFC_2_3_0_55IMAGE.zip["包括 NetApp GFC （ Microsoft Hyper-V ）的 Windows Server 2019 .vhdx"^]
 
 * BlueXP Edge缓存边缘软件：
 +
-https://repo.cloudsync.netapp.com/gfc/GFC-2-2-0-41-Release.exe["NetApp GFC 软件安装包（ .exe ）"^]
+https://repo.cloudsync.netapp.com/gfc/GFC-2-3-0-55-Release.exe["NetApp GFC 软件安装包（ .exe ）"^]
 
 * 适用于Cloud Insights 的全局文件缓存信息板：
 +
@@ -42,11 +42,11 @@ https://repo.cloudsync.netapp.com/gfc/ci-gfc-dashboards.zip["NetApp GFC Cloud In
 
 * 全局文件缓存文档：
 +
-https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["《 NetApp 全局文件缓存用户指南》（ .PDF ）"^]
+https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf["《 NetApp 全局文件缓存用户指南》（ .PDF ）"^]
 
 
 
-链接：Task－Deploy－gFC-edge－instances．html#update-bluexp-edge caching－edge－softsoftware [按照以下步骤]升级BlueXP Edge缓存软件。
+link:task-deploy-gfc-edge-instances.html#update-bluexp-edge-caching-edge-software["请按照以下步骤操作"] 升级BlueXP Edge缓存Edge软件。
 
 
 NOTE: 在Windows Server 2016上部署BlueXP边缘缓存时、应使用.NET Framework 4.8和Windows WebView2 Framework。
@@ -149,7 +149,7 @@ Edge在Windows Server 2016和2019上运行、因此虚拟化平台需要支持�
 
 全局文件缓存智能文件缓存磁盘（ D ： \ ）上的磁盘延迟应为每个并发用户提供小于 0.5 毫秒的平均 I/O 磁盘延迟和 1 MiBps 吞吐量。
 
-有关详细信息，请参见 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["《 NetApp 全局文件缓存用户指南》"^]。
+有关详细信息，请参见 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf["《 NetApp 全局文件缓存用户指南》"^]。
 
 
 
@@ -170,7 +170,7 @@ BlueXP边缘缓存透明地集成到客户环境中、允许用户使用运行�
 
 为了确保获得最佳体验和性能，请务必遵循《全局文件缓存用户指南》中所述的 Microsoft Windows 客户端要求和最佳实践。此适用场景适用于所有版本的 Microsoft Windows 。
 
-有关详细信息，请参见 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["《 NetApp 全局文件缓存用户指南》"^]。
+有关详细信息，请参见 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf["《 NetApp 全局文件缓存用户指南》"^]。
 
 
 
@@ -178,7 +178,7 @@ BlueXP边缘缓存透明地集成到客户环境中、允许用户使用运行�
 
 虽然BlueXP边缘缓存会尽力验证最常见的防病毒应用程序套件是否与全局文件缓存兼容、但NetApp无法保证也不对这些程序或其关联更新、Service Pack或修改导致的任何不兼容性或性能问题负责。
 
-NetApp建议不要在任何启用了BlueXP边缘缓存的实例(Core或Edge)上安装或应用监控或防病毒解决方案。如果是根据选择或策略安装解决方案，则必须应用以下最佳实践和建议。有关常见防病毒套件，请参见中的附录 A https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["《 NetApp 全局文件缓存用户指南》"^]。
+NetApp建议不要在任何启用了BlueXP边缘缓存的实例(Core或Edge)上安装或应用监控或防病毒解决方案。如果是根据选择或策略安装解决方案，则必须应用以下最佳实践和建议。有关常见防病毒套件，请参见中的附录 A https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf["《 NetApp 全局文件缓存用户指南》"^]。
 
 
 
@@ -204,12 +204,12 @@ NetApp建议不要在任何启用了BlueXP边缘缓存的实例(Core或Edge)上�
 
 === 防病毒最佳实践
 
-NetApp已经测试了最常用的防病毒产品、包括Cylance、McAfee、Symantec、Sophos、Trend Micro、 Kaspersky、人群攻击、Cisco AMP、Tannium和Windows Defender、与BlueXP边缘缓存结合使用。防病毒软件应通过NetApp认证、只有在配置了正确的排除列表后才受支持。请参见中的附录A https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["《 NetApp 全局文件缓存用户指南》"^]
+NetApp已经测试了最常用的防病毒产品、包括Cylance、McAfee、Symantec、Sophos、Trend Micro、 Kaspersky、人群攻击、Cisco AMP、Tannium和Windows Defender、与BlueXP边缘缓存结合使用。防病毒软件应通过NetApp认证、只有在配置了正确的排除列表后才受支持。请参见中的附录A https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf["《 NetApp 全局文件缓存用户指南》"^]
 
 
 NOTE: 向Edge设备添加防病毒软件可能会对用户性能产生10-20%的影响。
 
-有关详细信息，请参见 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["《 NetApp 全局文件缓存用户指南》"^]。
+有关详细信息，请参见 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf["《 NetApp 全局文件缓存用户指南》"^]。
 
 
 

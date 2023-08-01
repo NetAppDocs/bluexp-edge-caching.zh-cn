@@ -21,7 +21,7 @@ summary: 通过以下链接了解有关BlueXP边缘缓存和其他NetApp产品�
 ** 查看常见问题解答列表 https://bluexp.netapp.com/global-file-cache-faq["此处"^]
 
 
-* https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["《全局文件缓存用户指南》"^]
+* https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf["《全局文件缓存用户指南》"^]
 * NetApp 产品文档
 +
 ** 请参见有关 NetApp 云产品的其他文档 https://docs.netapp.com/us-en/cloud/["此处"^]

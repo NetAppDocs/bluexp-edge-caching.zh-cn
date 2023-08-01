@@ -131,4 +131,4 @@ NetApp 建议您使用默认安装位置。
 
 
 .下一步是什么？
-有关全局文件缓存边缘高级配置的详细信息，请参见 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["《 NetApp 全局文件缓存用户指南》"^]。
+有关全局文件缓存边缘高级配置的详细信息，请参见 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf["《 NetApp 全局文件缓存用户指南》"^]。

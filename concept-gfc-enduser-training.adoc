@@ -30,4 +30,4 @@ link:media/Global_File_Cache_Onboarding_Email.msg["Windows 电子邮件模板（
 * 入职沟通link:https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%20Customer%20Onboarding%20-%20Draft.docx["Word 文档（ .docx ）"]
 
 
-请参见中的第14章 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["《 NetApp 全局文件缓存用户指南》"^] 以获取其他材料。
+请参见中的第14章 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf["《 NetApp 全局文件缓存用户指南》"^] 以获取其他材料。

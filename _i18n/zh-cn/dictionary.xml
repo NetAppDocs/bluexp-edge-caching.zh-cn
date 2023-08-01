@@ -156,7 +156,6 @@
   <block id="c718f76b60a0fc7efd97036a70cb36d9" category="list-text">打印服务</block>
   <block id="b70ae60e9922e0ed61cdd248b7d89c8c" category="list-text">Microsoft System Center Configuration Manager （ Microsoft System Center Configuration Manager ， SCCM" ）</block>
   <block id="ec7fd1c8b87a6f5d275bc4e24065e734" category="list-text">业务部门生产效率软件，通常需要大量资源，例如数据库服务器，邮件服务器等。 不支持。</block>
-  <block id="df62d5ca9c29346bfeb41f9581ecdf5b" category="section-title">2021 年 12 月 17 日（版本 1.2.0 ）</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">获取帮助</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="section-title">开始之前</block>
   <block id="3dccf72fe610d6922e392e93335fdb6d" category="list-text">子网掩码</block>
@@ -225,11 +224,6 @@
   <block id="7810d0ca3a66369587e6a56cf4192b2c" category="list-text">如果您使用的是基于 NetApp 传统的许可：</block>
   <block id="90fa5a5ac66630ff8491eb335e51bdc9" category="list-text">https://talonazuremicroservices.azurewebsites.net</block>
   <block id="5ed3a104f8850c15acaec08814cbd9b4" category="list-text">https://talonlicensing.table.core.windows.net</block>
-  <block id="dc7104ff29582271cbda56277263eec5" category="list-text">配置 UI （ Optimus ）经过了增强，可在添加预填充作业时验证日期字段条目。</block>
-  <block id="65c0ed4b8ed88949fa21fa5a60be6ddb" category="list-text">预填充功能得到了增强，可监控缓存利用率，如果缓存使用量接近缓存清理程序参数，则会跳过填充。</block>
-  <block id="f74032e7a801122d16bdf48f04518b8a" category="list-text">消除了使用策略配置在本地运行的许可证管理服务器（ LMS ）服务的硬依赖关系。</block>
-  <block id="1835c27cfc517067592779b50d13190c" category="list-text">GFC 内核驱动程序经过了增强，可避免 Windows Server 2016/2019 中的 SMB 服务器服务崩溃。</block>
-  <block id="5876df88731069c35bfd4f3ea17e7db0" category="list-text">修复了 LMS 服务中的异常。</block>
   <block id="1953aca0238eceda58cb0a10075ecc1e" category="doc">最终用户培训</block>
   <block id="939757145bf8db56f7d91bd08f60d0c6" category="paragraph">自定义以下资源并将其转发给最终用户，以便为部署做好准备：</block>
   <block id="538b051cfad962b73dbfb2f27206b1e6" category="inline-link-macro">最终用户培训视频</block>
@@ -253,8 +247,6 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">云网络研讨会</block>
   <block id="4c7d5d7dfde4a7bd82b54348182043d3" category="sidebar">其他资源</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">帮助菜单的屏幕截图，其中列出的第一个选项为支持</block>
-  <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">单击 * NSS 管理 &gt; 添加 NSS 帐户 * 。</block>
-  <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">出现提示时，单击 * 继续 * 以重定向到 Microsoft 登录页面。</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp 使用 Microsoft Azure Active Directory 作为身份提供程序来提供特定于支持和许可的身份验证服务。</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">在登录页面上，提供 NetApp 支持站点注册的电子邮件地址和密码以执行身份验证过程。</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法律声明提供对版权声明、商标、专利等的访问。</block>
@@ -285,12 +277,7 @@
   <block id="3e97d9d5f3ba2c244689f2b32f79b026" category="list-text">更新了TappN预填充服务、以便在可用缓存空间降至阈值下限以下时跳过提取文件。</block>
   <block id="91bd85b0510e37378b14fab4ad5a4129" category="list-text">修复了写入跟踪日志时许可证管理器服务器服务(LMS)中的问题描述。</block>
   <block id="c2a4e35926866a1322a751f57a7f847a" category="list-text">更新了Tum的日志记录基础架构、使其可扩展性更高、性能更高。</block>
-  <block id="959915525ca7f68401340816fbc38d13" category="list-text">License Manager Server Service (LMS)、License Manager Client Service (LMC)和预填充服务(TappN)的服务启动类型将从"Automatic delay"更改为"Automatic"。</block>
   <block id="8334797b9b3383d4f48d98178b8845ea" category="inline-link">此页面</block>
-  <block id="9463b6d7b9d38e544c6a7eb98988bb3b" category="section-title">新的元数据边缘同步功能</block>
-  <block id="2e0922ffb3ae1ae6ac16997e734d5154" category="paragraph">此"元数据边缘同步"功能使用边缘同步功能作为其核心框架。仅更新所有已订阅边缘上的元数据信息、并在边缘计算机上创建文件/文件夹。</block>
-  <block id="2273c570a2dcacbb1c4bb77abccca54b" category="section-title">License Manager Service增强功能</block>
-  <block id="03036f549995f5d3240d1c89c4f2f496" category="paragraph">全局文件缓存许可证管理服务器(LMS)服务已进行增强、可自动检测代理设置。这样可以实现无缝配置。</block>
   <block id="22c3479f6dd133b2d2d79cc8b481240f" category="section-title">2022年6月23日(版本1.3.1)</block>
   <block id="a720f7f5208abaac19d4db46d3bc0a7b" category="inline-link">已修复的问题</block>
   <block id="f12e4f9c6c0ea52ff0c85be8308ff143" category="list-text">升级后、未正确安装正确版本的Microsoft可重新分发版本、因此Tum无法启动。已修复GFC安装程序、以安装正确的可重新分发版本。</block>
@@ -337,7 +324,6 @@
   <block id="201080500e946070a2e4873042507c77" category="paragraph">确认将向NetApp提交您的请求、并建议您创建NetApp 支持站点 帐户。</block>
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">在此过程中、NetApp应与您联系。这是针对新用户的一次性入职练习。</block>
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">除了上述自助支持选项之外、您还可以在激活支持后与NetApp支持专家合作解决任何问题。</block>
-  <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">如果您要通过电话与某人通话、请单击*致电我们*。系统会将您定向到netapp.com上的一个页面、其中列出了您可以拨打的电话号码。</block>
   <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*工作环境*：如果适用于存储、请选择* Cloud Volumes ONTAP *或* on-Prem*、然后选择关联的工作环境。</block>
   <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*案例优先级*：选择案例的优先级、可以是"低"、"中"、"高"或"严重"。</block>
   <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">要了解有关这些优先级的更多详细信息、请将鼠标悬停在字段名称旁边的信息图标上。</block>
@@ -345,7 +331,6 @@
   <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*其他电子邮件地址*：如果您希望其他人了解此问题描述 、请输入其他电子邮件地址。</block>
   <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">创建案例表的屏幕截图、可用于向NetApp支持部门创建案例。</block>
   <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">此时将显示一个弹出窗口、其中包含您的支持案例编号。NetApp支持专家将审核您的案例、并尽快与您联系。</block>
-  <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">有关支持案例的历史记录、您可以单击*设置&gt;时间线*并查找名为"创建支持案例"的操作。 最右侧的按钮可用于展开操作以查看详细信息。</block>
   <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">尝试创建案例时、您可能会遇到以下错误消息：</block>
   <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"您无权针对选定服务创建案例"</block>
   <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">使用产品内聊天功能</block>
@@ -380,7 +365,6 @@
   <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">注册您的BlueXP帐户ID支持订阅(您的20位960xxxxxxxxx序列号、位于BlueXP的支持资源页面上)。</block>
   <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">这是您在BlueXP中使用的任何服务的单一支持订阅ID。必须注册每个BlueXP帐户级别的支持订阅。</block>
   <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">这些序列号通常称为_PAYGO序列号、并由BlueXP在部署Cloud Volumes ONTAP 时生成。</block>
-  <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">在BlueXP控制台的右上角、单击帮助图标、然后选择*支持*。</block>
   <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">通过这些操作、BlueXP可以使用您的NSS帐户执行许可证下载、软件升级验证和未来支持注册等操作。</block>
   <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">如果您是拥有NSS帐户的NetApp客户、则只需通过BlueXP注册支持即可。</block>
   <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">请务必复制上面用于序列号字段的BlueXP帐户序列号(960xxxx)。这样可以加快帐户处理速度。</block>
@@ -390,7 +374,6 @@
   <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">加入BlueXP社区、关注正在进行的讨论或创建新的讨论。</block>
   <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">您当前正在查看的BlueXP文档。</block>
   <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">我们非常重视您的反馈意见。提交反馈以帮助我们改进BlueXP。</block>
-  <block id="6254a4afeeb76765a127fe74d31c1b3d" category="list-text">在BlueXP中、单击*帮助&gt;支持*。</block>
   <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*服务*：选择与问题描述 关联的服务。例如、当特定于技术支持问题描述 时、如果服务中包含工作流或功能、则为BlueXP。</block>
   <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">工作环境列表属于您在服务顶部横幅中选择的BlueXP帐户、工作空间和Connector的范围。</block>
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXP通知</block>
@@ -418,7 +401,6 @@
   <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">使用自助支持选项</block>
   <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">向NetApp支持部门创建案例</block>
   <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">在*资源*页面上、在技术支持下选择一个可用选项：</block>
-  <block id="5be2e1dfe4bf215289731df45ec8157b" category="list-text">单击*创建案例*、向NetApp支持专家开一个服务单：</block>
   <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">*附件(可选)*：一次最多上传五个附件。</block>
   <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">每个文件的附件数限制为25 MB。支持以下文件扩展名：txt、log、pdf、jp6/jpeu、rtf、 doc/docx、xls/xlsx和csv。</block>
   <block id="898e35e1a4bf4b025c3edec879439b08" category="section-title">管理支持案例(预览)</block>
@@ -431,10 +413,8 @@
   <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">您可以添加或删除感兴趣的列、也可以筛选优先级和状态等列的内容。其他列仅提供排序功能。</block>
   <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">有关更多详细信息、请查看以下步骤。</block>
   <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">在每个案例级别、我们可以更新案例备注或关闭尚未处于"已关闭"或"待关闭"状态的案例。</block>
-  <block id="34b1296d31cefa72dae9b3a364b1f444" category="list-text">单击*案例管理*、如果出现提示、请将您的NSS帐户添加到BlueXP。</block>
   <block id="d8ce1865cf1fe3cffd60300b4b86ad63" category="paragraph">"*案例管理*"页面显示了与您的BlueXP用户帐户关联的NSS帐户相关的已打开案例。此NSS帐户与* NSS管理*页面顶部显示的NSS帐户相同。</block>
   <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">也可以修改表中显示的信息：</block>
-  <block id="27635a52fe4c34c39ffc6430f4244ec6" category="list-text">在*组织的案例*下、单击*查看*以查看与您的公司关联的所有案例。</block>
   <block id="059e856250b59be3069246887b74a23c" category="list-text">通过选择确切的日期范围或选择其他时间范围来修改日期范围。</block>
   <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">案例管理页面上表上方选项的屏幕截图、可用于选择确切的日期范围或过去7天、30天或3个月。</block>
   <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">筛选列的内容。</block>
@@ -444,7 +424,6 @@
   <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">包含三个点的图标、显示在表的最后一列中</block>
   <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*查看案例*：查看有关特定案例的完整详细信息。</block>
   <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*更新案例注释*：提供有关您的问题的更多详细信息、或者选择*上传文件*最多附加五个文件。</block>
-  <block id="f791bc685c526af8296381acff10f6a0" category="list-text">*关闭案例*：提供关闭案例的详细信息、然后单击*关闭案例*。</block>
   <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">屏幕截图、显示在表的最后一列中选择菜单后可以执行的操作。</block>
   <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">NSS帐户必须是客户级别的帐户(而不是来宾或临时帐户)。您可以拥有多个客户级别的NSS帐户。</block>
   <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">如果此帐户是合作伙伴级别的帐户、则只能有一个NSS帐户。如果您尝试添加客户级别的NSS帐户、并且存在合作伙伴级别的帐户、则会收到以下错误消息：</block>
@@ -453,23 +432,13 @@
   <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">成功登录后、NetApp将存储NSS用户名。</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">使用此选项将提示您重新登录。请注意、这些帐户的令牌将在90天后过期。系统将发布通知、提醒您注意这一点。</block>
   <block id="155ec659cc4e13b84e26ac8a60d0983e" category="list-text">Google Cloud中的Cloud Volumes ONTAP</block>
-  <block id="3dcadf3bb59f115f566e304bb89d2481" category="paragraph">请参见<block ref="16f037677ba4ac06616103e429c60f34" category="inline-link-rx"></block> 了解详细信息。</block>
   <block id="e3e9432fcac5223a00dade599290aa9e" category="list-text">与客户的Active Directory域服务集成。</block>
   <block id="6962e9afd3ce89facea38f30c619211e" category="list-text">如果随Cloud Volumes ONTAP (通过BlueXP完全部署的受支持配置)一起安装、则有两种定价选项：</block>
-  <block id="c8f4638b2e8300d1221c9f5fcd2483c6" category="paragraph">请参见<block ref="16f037677ba4ac06616103e429c60f34" category="inline-link-rx"></block> 有关许可的其他详细信息。</block>
   <block id="b25d47777a73708955cbc4e4a8cf5e9f" category="paragraph">目前、使用BlueXP不支持其他存储平台、但可以使用原有部署过程进行部署。这些其他配置、例如、使用适用于ONTAP 系统的Amazon FSx的全局文件缓存、Azure NetApp Files 或Google Cloud上的Cloud Volumes Service 、均可使用原有过程进行支持。请参见<block ref="9cbd9a7390d82046b7f64435219915f0" category="inline-link-rx"></block> 了解详细信息。</block>
-  <block id="d0d546da16d9832ff46d61dc5ef26932" category="paragraph"><block ref="3a81a4f05e21aa91091722261afd5aaf" category="inline-link-rx"></block>
-<block ref="27773895991caccde32f6e33c69fec61" category="inline-link-rx"></block></block>
-  <block id="a9d760d85bb88dc8163208d766f23ca4" category="paragraph"><block ref="c63479f0fbc3dbee0fb764d414be40d7" category="inline-link-rx"></block>
-<block ref="3ec6d5c1525af8f42b563a3c3ab31adf" category="inline-link-rx"></block></block>
-  <block id="363f1ad303ff20d0b886e3a63a56597e" category="paragraph"><block ref="363f1ad303ff20d0b886e3a63a56597e" category="inline-link-rx"></block></block>
-  <block id="5151bb6c17edd826d3b324de615dcc4c" category="paragraph"><block ref="5151bb6c17edd826d3b324de615dcc4c" category="inline-link-rx"></block></block>
-  <block id="7c3c8fffbe87f176330b29a1b26ca517" category="paragraph">有关详细信息，请参见<block ref="16f037677ba4ac06616103e429c60f34" category="inline-link-rx"></block>。</block>
   <block id="204d44b6be54971c264dcdd956240244" category="admonition">向Edge设备添加防病毒软件可能会对用户性能产生10-20%的影响。</block>
   <block id="4a8d00e7906604240a5e2ec80e310482" category="list-text">客户负责安装、集成、支持和升级所添加的任何软件。</block>
   <block id="8ecccfdcd4be3957ff4226f7ebc7a1a7" category="list-text">查看常见问题解答列表<block ref="fc2092b82edf81356eaedffaf3f1bee1" category="inline-link-rx"></block></block>
   <block id="d64a82ae72c0eea94e9d0109ce9f0e05" category="inline-link">《全局文件缓存用户指南》</block>
-  <block id="71048020ca8f58e44ec25370f4129cbc" category="list-text"><block ref="71048020ca8f58e44ec25370f4129cbc" category="inline-link-rx"></block></block>
   <block id="b7d4822080efa7a461a554d7acc5efc3" category="list-text">请参见所有 NetApp 产品的其他文档<block ref="9a789bf5bdb0e5a09882dca7f00da4c4" category="inline-link-rx"></block></block>
   <block id="88f09088b20b06e1a7012e3ffa65e388" category="list-text">引导式问题解决，案例管理，知识库，下载，工具， 等等<block ref="eca618e94346161a35fc2403dedce81f" category="inline-link-rx"></block></block>
   <block id="78d77960d647fd1dbafc3a595cdb709e" category="section-title">2023年3月27日(2.2版)</block>
@@ -485,8 +454,6 @@
   <block id="402a1502f5c39fb55ca79d59e3184a34" category="section-title">优化的PSM-用于配置Edge Sync功能</block>
   <block id="254d5c87d5ab437395f866390ea49cd0" category="inline-link">在 Google Cloud 中启动 Cloud Volumes ONTAP</block>
   <block id="17212542e3e7df3bdd7a3df903ed851c" category="paragraph"><block ref="17212542e3e7df3bdd7a3df903ed851c" category="inline-link-macro-rx"></block></block>
-  <block id="5513c31a1ae4ca4e61f2d6da378db64a" category="paragraph">请参见中的第14章<block ref="16f037677ba4ac06616103e429c60f34" category="inline-link-rx"></block> 以获取其他材料。</block>
-  <block id="8b2ab5f7a66955724c809328b3ba02c7" category="paragraph">有关全局文件缓存边缘高级配置的详细信息，请参见<block ref="16f037677ba4ac06616103e429c60f34" category="inline-link-rx"></block>。</block>
   <block id="91770f038cd944a1d3b9b347edeb2b10" category="sidebar">新增功能</block>
   <block id="f79eca534d02cb718a61576ea3936648" category="sidebar">BlueXP Edge缓存用例</block>
   <block id="55be43fdae1edd255f27ede47e8019f9" category="summary">开始在云中和远程办公室部署BlueXP边缘缓存之前、您需要了解许多要求。</block>
@@ -564,8 +531,6 @@
   <block id="841c1c7434f34d02643d009e13a8566c" category="summary">开始在远程办公室安装BlueXP Edge缓存边缘软件之前、您需要了解许多要求。</block>
   <block id="0e746721cb7975a7f711d0c0c110a187" category="doc">开始部署BlueXP边缘缓存边缘实例之前</block>
   <block id="f15f2f702e392fcba0a5949c7b3770ad" category="paragraph">下载计划在分支机构中使用的BlueXP边缘缓存虚拟模板、软件安装包和其他参考文档：</block>
-  <block id="d7cc1aba59ec6af15e3dcb99efd2c63b" category="list-text">BlueXP Edge缓存边缘软件：</block>
-  <block id="a484f2579f9294abcb73c22bbb7acba2" category="paragraph">链接：Task－Deploy－gFC-edge－instances．html#update-bluexp-edge caching－edge－softsoftware [按照以下步骤]升级BlueXP Edge缓存软件。</block>
   <block id="e761081d91a7bf50b6ca9cbb78f77c77" category="admonition">在Windows Server 2016上部署BlueXP边缘缓存时、应使用.NET Framework 4.8和Windows WebView2 Framework。</block>
   <block id="3f3b788ab9693618f52b194ad5887b67" category="section-title">设计和部署BlueXP Edge缓存边缘</block>
   <block id="4786b59c1c0d62cd8a5441020ac73455" category="paragraph">根据您的要求、您可能需要根据分支机构中的并发用户会话部署一个或多个边缘实例。边缘实例向分支机构内的最终用户提供虚拟文件共享、该共享已从关联的BlueXP边缘缓存核心实例透明扩展。BlueXP边缘缓存边缘应包含<block ref="b40b366b86664ec1c37b5e3e11120931" prefix=" " category="inline-code"></block> NTFS卷、其中包含分支机构内的缓存文件。</block>
@@ -588,12 +553,10 @@
   <block id="f74552635291c05f5dbac6f807093a7b" category="inline-link-macro">在开始部署BlueXP边缘缓存之前</block>
   <block id="4d5e7d1b9f92dee0b271fcc0c91eaf25" category="paragraph">BlueXP边缘缓存透明地集成到客户环境中、允许用户使用运行企业级应用程序的客户端工作站访问集中式数据。使用BlueXP边缘缓存、数据可通过直接驱动器映射或DFS命名空间进行访问。有关BlueXP边缘缓存网络结构、智能文件缓存和软件关键方面的详细信息、请参阅 <block ref="346cd08c004319943e87fc1cd75437fd" category="inline-link-macro-rx"></block> 部分。</block>
   <block id="f2bf4f5e837cbb53c709329da16d1010" category="paragraph">虽然BlueXP边缘缓存会尽力验证最常见的防病毒应用程序套件是否与全局文件缓存兼容、但NetApp无法保证也不对这些程序或其关联更新、Service Pack或修改导致的任何不兼容性或性能问题负责。</block>
-  <block id="cc592f796ca659bb3bcfb4607c16e589" category="paragraph">NetApp建议不要在任何启用了BlueXP边缘缓存的实例(Core或Edge)上安装或应用监控或防病毒解决方案。如果是根据选择或策略安装解决方案，则必须应用以下最佳实践和建议。有关常见防病毒套件，请参见中的附录 A<block ref="16f037677ba4ac06616103e429c60f34" category="inline-link-rx"></block>。</block>
   <block id="9c95cd2e29976c2a77fc08c0b0e9a4e9" category="list-text">建议：对于标准BlueXP边缘缓存边缘实例、将Microsoft防火墙设置和服务保留为默认设置Off、而不启动。</block>
   <block id="3a3fed7b6fa4f71e5b17fac7fae6cba3" category="list-text">BlueXP边缘缓存核心实例侦听TCP端口6618-6630、确保BlueXP边缘缓存边缘实例可以连接到这些TCP端口。</block>
   <block id="7dbb84ed55ace7eec6e2f7552615cb52" category="list-text">BlueXP边缘缓存实例需要通过TCP端口443 (HTTPS)与BlueXP边缘缓存管理服务器进行通信。</block>
   <block id="d4dae6ebb0e75f20eec6013ee1cecd33" category="list-text">必须将网络优化解决方案/设备配置为直通BlueXP边缘缓存专用端口。</block>
-  <block id="886158b7c4852279bc16ee81496631c9" category="paragraph">NetApp已经测试了最常用的防病毒产品、包括Cylance、McAfee、Symantec、Sophos、Trend Micro、 Kaspersky、人群攻击、Cisco AMP、Tannium和Windows Defender、与BlueXP边缘缓存结合使用。防病毒软件应通过NetApp认证、只有在配置了正确的排除列表后才受支持。请参见中的附录A<block ref="16f037677ba4ac06616103e429c60f34" category="inline-link-rx"></block></block>
   <block id="5523b8f9b9ca99db40c866cf20efca3c" category="paragraph">除了D：\驱动器之外、通常应从所有防病毒应用程序中排除以下BlueXP边缘缓存目录和进程：</block>
   <block id="978f14ea82410dcd7d29fc612d9b4d56" category="paragraph">BlueXP边缘缓存实例专门设计为在Windows Server 2016和2019平台上运行的主应用程序。BlueXP边缘缓存需要优先访问平台资源、例如磁盘、内存、网络接口、 并且可能会对这些资源提出很高的要求。虚拟部署需要预留内存 /CPU 和高性能磁盘。</block>
   <block id="cce2903dc1ce9deccf9ada962b6a3479" category="list-text">对于分支机构部署、运行BlueXP边缘缓存的服务器上支持的服务和应用程序仅限于：</block>
@@ -715,18 +678,13 @@
   <block id="278930628a6575fa0fe23ecd27374bfb" category="paragraph">部署Cloud Volumes ONTAP 并配置SMB文件共享。有关详细信息，请参见<block ref="8198e799bf373d0d471ff3f551725308" category="inline-link-rx"></block>，<block ref="3718aa4b740ed1680c17ac188cf71498" category="inline-link-rx"></block>或<block ref="958eb36238d0859ba89677740ca359aa" category="inline-link-rx"></block>。</block>
   <block id="b48c78d3da26a7311e5288a66ed4f4d8" category="paragraph">BlueXP边缘缓存支持在Azure、AWS和Google Cloud中部署Cloud Volumes ONTAP。有关详细的前提条件，要求和部署说明，请参见<block ref="8198e799bf373d0d471ff3f551725308" category="inline-link-rx"></block>，<block ref="3718aa4b740ed1680c17ac188cf71498" category="inline-link-rx"></block>或<block ref="958eb36238d0859ba89677740ca359aa" category="inline-link-rx"></block></block>
   <block id="45456d22bd7241b79d0f62620d5888d8" category="list-text">或者、对于Azure和GCP中的Cloud Volumes ONTAP 系统、您也可以选择Cloud Volumes ONTAP 边缘缓存软件包。通过此基于容量的许可证、您可以为购买的每3 TiB容量部署一个BlueXP边缘缓存边缘实例。<block ref="2ad67afc7a67ecb4970c40ef2d9c9dc1" category="inline-link-rx"></block>。</block>
-  <block id="10dc1eee3d75610cc244de50455508d3" category="paragraph">此版本提供了以下列出的新功能。此外、它还修复了中所述的问题<block ref="c98734a3bbf4b45bac275605eaeefc3f" category="inline-link-rx"></block>。可从获取更新的软件包<block ref="89fd140dfa15c4587519958830d6000f" category="inline-link-rx"></block>。</block>
   <block id="77474efd411b7748abfa1c88a3e0137c" category="paragraph"><block ref="77474efd411b7748abfa1c88a3e0137c" category="inline-link-rx"></block></block>
   <block id="975b3327995267bde41cd6b4ce0c772d" category="paragraph">此版本提供了以下列出的新功能。此外、它还修复了中所述的问题<block ref="c98734a3bbf4b45bac275605eaeefc3f" category="inline-link-rx"></block>。</block>
   <block id="f5f78956220294d550567ec883fe45c6" category="paragraph"><block ref="f5f78956220294d550567ec883fe45c6" category="inline-link-rx"></block></block>
-  <block id="2466aaf1d1f57cfbe736e835f936a857" category="paragraph">此版本可修复中所述的问题<block ref="c98734a3bbf4b45bac275605eaeefc3f" category="inline-link-rx"></block>。</block>
-  <block id="83a5e35b6b359abe6f4e440efbdffd38" category="paragraph">可从获取1.3.0版的全局文件缓存边缘软件<block ref="89fd140dfa15c4587519958830d6000f" category="inline-link-rx"></block>。</block>
   <block id="509259be6d5e15d8959f705cbe0cbcc1" category="paragraph"><block ref="509259be6d5e15d8959f705cbe0cbcc1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0972db30d942fdb65d1732e6e84bde99" category="paragraph"><block ref="0972db30d942fdb65d1732e6e84bde99" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cb6a777dd3c6e43b0dc441d38519d219" category="paragraph"><block ref="cb6a777dd3c6e43b0dc441d38519d219" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0f6cac2f77150840994f84044fc1b12b" category="list-text">通过单击更改表中显示的列 <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> 然后选择要显示的列。</block>
   <block id="e65065c4fd326b9f3a1eeb9453c30d73" category="paragraph"><block ref="e65065c4fd326b9f3a1eeb9453c30d73" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="6ba7d68d8b3ef0f3398afb9d3ea96172" category="list-text">单击以管理现有案例 <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> 并选择一个可用选项：</block>
   <block id="2ea260929e27ffcb623c8aa35689bd18" category="paragraph"><block ref="2ea260929e27ffcb623c8aa35689bd18" category="inline-image-macro-rx" type="image"></block></block>
   <block id="920fe1428c19533eda6222fe7e58efbe" category="inline-link">了解如何管理与BlueXP登录关联的凭据</block>
   <block id="e1d2e1a634647fd631081bc4f6f8e523" category="list-text">要使用*创建案例*功能、您必须先将NetApp 支持站点 凭据与BlueXP登录名关联起来。<block ref="2a0d8b66ca9e99d023b48cf25f40fb12" category="inline-link-rx"></block>。</block>
@@ -737,10 +695,7 @@
   <block id="e922b9aa0836a1d93e11cac0fe4c9004" category="paragraph">有关以下云提供商解决方案的技术支持、请参阅该产品的BlueXP文档中的"获得帮助"。</block>
   <block id="5a19febf1dcb23c10e8dcfde64ba764c" category="section-title">注册BlueXP帐户以获得NetApp支持</block>
   <block id="6bbc2ba432f59ab65ee3d8ac5a58336e" category="paragraph">要注册支持并激活支持授权、BlueXP帐户中的一个用户必须将NetApp 支持站点 帐户与其BlueXP登录名关联。如何注册NetApp支持取决于您是否已拥有NetApp 支持站点 (NSS)帐户。</block>
-  <block id="b019ab068deba8494415cbd226ca0c4e" category="list-text">在BlueXP控制台的右上角、单击设置图标、然后选择*凭据*。</block>
-  <block id="41e1e3cff4a07ce2ecc08e6c09f11092" category="list-text">单击*用户凭据*。</block>
   <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">选择*添加NSS凭证*，然后按照NetApp 支持站点(NSS)鉴定提示进行操作。</block>
-  <block id="8c916e828e9e5a3592c8cac4e25928be" category="list-text">要确认注册过程是否成功，请单击帮助图标，然后选择*Support*。</block>
   <block id="8add4eb0d3f6ce61d374f3df3ee4eadf" category="paragraph">“资源”页面应显示您的帐户已注册支持。</block>
   <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">屏幕截图、显示帐户序列号、绿色复选框以及注册支持的文本。</block>
   <block id="3d183819a15163ef2e2e7d9d764254a9" category="paragraph"><block ref="3d183819a15163ef2e2e7d9d764254a9" category="inline-image-macro-rx" type="image"></block></block>
@@ -757,4 +712,55 @@
   <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">将Cloud Volumes ONTAP 软件升级到最新版本</block>
   <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">将NSS凭据与BlueXP帐户关联与与与BlueXP用户登录关联的NSS帐户不同。</block>
   <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">这些NSS凭据与您的特定BlueXP帐户ID关联。属于BlueXP帐户的用户可以从*支持&gt; NSS管理*访问这些凭据。</block>
+  <block id="e5bc2a0e71d5abce484fd71fede7010b" category="list-text"><block ref="e5bc2a0e71d5abce484fd71fede7010b" category="inline-link-rx"></block></block>
+  <block id="0307a12e5749f8dd930472ee78f69d2c" category="list-text">在BlueXP控制台的右上角、选择设置图标、然后选择*凭据*。</block>
+  <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">选择*用户凭据*。</block>
+  <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">要确认注册过程是否成功，请选择帮助图标，然后选择*Support*。</block>
+  <block id="d889e6e7cc4c5509ab5b37f8fc894e46" category="list-text">在BlueXP控制台的右上角、选择帮助图标、然后选择*支持*。</block>
+  <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">选择* NSS管理&gt;添加NSS帐户*。</block>
+  <block id="85b9386ed443776127e099931d73448a" category="list-text">出现提示时、选择*继续*以重定向到Microsoft登录页面。</block>
+  <block id="5ba6747bf15f739cc0cf34dfcd9092cb" category="paragraph">请参见<block ref="c37d59ba163d6e06d70bc7a9326dd95e" category="inline-link-rx"></block> 了解详细信息。</block>
+  <block id="a44e790b16f9cffefa0f4187bd06f1b5" category="paragraph">请参见<block ref="c37d59ba163d6e06d70bc7a9326dd95e" category="inline-link-rx"></block> 有关许可的其他详细信息。</block>
+  <block id="924b35617c7b4bb0713e5eedb1777802" category="section-title">2023年8月1日(2.3版)</block>
+  <block id="4dbe51f9893020550dd4c70ac9a71474" category="paragraph">此版本可修复中所述的问题<block ref="c98734a3bbf4b45bac275605eaeefc3f" category="inline-link-rx"></block>。可从获取更新的软件包<block ref="89fd140dfa15c4587519958830d6000f" category="inline-link-rx"></block>。</block>
+  <block id="ee7763f06a0cdae5ce08a7b5b3e39caf" category="paragraph">请参见中的第14章<block ref="c37d59ba163d6e06d70bc7a9326dd95e" category="inline-link-rx"></block> 以获取其他材料。</block>
+  <block id="1b14c7d9f7e2a3e17c240838dca13ab2" category="list-text">以下Optimus配置UI修复已完成：</block>
+  <block id="3e07a70c311392c24189762666453bfb" category="list-text">显示有意义的错误信息、而不是异常字符串。</block>
+  <block id="4113def3f24a2cfb74396128b890048e" category="list-text">正确显示许可证到期日期、而不是任何默认值。</block>
+  <block id="9e88fd947fddc14c82d45ca71890b2f9" category="list-text">在UI中启用SSL后、正确显示用户名/密码字段。</block>
+  <block id="b1e950b28ed77a6dbc8551d956f50d5c" category="list-text">在Optimus UI Edge配置选项卡上配置了无法访问的GFC Core时、不会无响应。</block>
+  <block id="405e94e9006be134dde811526deb2d7e" category="list-text">用于从边缘下拉列表中选择多个缓存/边缘名称。</block>
+  <block id="6c2873fda507fdb945ac7d8621d8dab4" category="list-text">查看已过期和未过期的许可证时、会正确显示许可证摘要信息。</block>
+  <block id="77e41f7861d7c4ec1c29ad511af6b068" category="list-text">已修复TappN服务、使其仅在成功更新配置后重新启动。</block>
+  <block id="2dfe679cdebbdabcf634abc46769b41d" category="list-text">在首次向导中添加了一个刷新按钮、用于显示边缘计数。</block>
+  <block id="07f3d03058fddb1ba98cd7560e2d1e1c" category="list-text">现在、SSL信息将显示在首次向导摘要页面中。</block>
+  <block id="4c8e9d840cf969c51081257a1f678250" category="list-text">在Tum中添加了基础架构、以允许配置小型转储超时并正确执行小型转储。</block>
+  <block id="efa408be5d83ba4187b6a47f2e72d25d" category="list-text">Optimus和首次向导将显示相应的许可证计数、并在许可证计数变为零时显示异常。</block>
+  <block id="72fec5f6f82302eeed86aa7d4ccc57bb" category="list-text">现在、当输入的边缘服务器名称为空时、Optimus PSM会显示相应的错误消息。</block>
+  <block id="7af366a5f9f00d854ab6520964e5d709" category="list-text">修复了问题描述中的预填充作业未正确应用于Optimus PSM中的多个缓存名称的问题。</block>
+  <block id="849f9071693ee5f3ab1d3ea921d0d933" category="list-text">License Manager配置已得到增强、可显示硬错误、而不是软错误。</block>
+  <block id="6e8d1fe7df03bdc15df4dfdebc387d74" category="list-text">如果已配置、Zoura注册用户界面将显示错误。</block>
+  <block id="a3cbdfdc99ed48b83f55037334ad46e2" category="list-text">现在、Optimus UI和Optimus PSM分别显示了8个CPU和32 GB RAM的CPU和内存要求。</block>
+  <block id="7fe6981833e8fe7fd89e0a99a55573da" category="list-text">在BlueXP中、选择*帮助&gt;支持*。</block>
+  <block id="6a1b74969231967ed071d465206b15c7" category="list-text">如果您想通过电话与某人通话，请选择*呼叫我们*。系统会将您定向到netapp.com上的一个页面、其中列出了您可以拨打的电话号码。</block>
+  <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">选择*创建案例*向NetApp支持专家开立TT：</block>
+  <block id="0ff9b4b8684b9e03c9c1e1320935eae3" category="paragraph">要查看支持案例的历史记录，您可以选择*设置&gt;时间线*并查找名为“创建支持案例”的操作。 最右侧的按钮可用于展开操作以查看详细信息。</block>
+  <block id="0a4050ac39772e9281a9aba225254bf8" category="list-text">选择*案例管理*，如果出现提示，请将您的NSS帐户添加到BlueXP。</block>
+  <block id="1d39d3ab518e1e3f16cbafb2a56e1fd9" category="list-text">在“*组织案例*”下，选择“*查看*”以查看与贵公司关联的所有案例。</block>
+  <block id="cdf14d2156528231a5dbd12ad5c95d3f" category="list-text">通过选择更改表中显示的列 <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> 然后选择要显示的列。</block>
+  <block id="348552521b849746260fe8d296d34c15" category="list-text">通过选择管理现有案例 <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> 并选择一个可用选项：</block>
+  <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">*关闭案例*：提供关闭案例的详细原因，然后选择*关闭案例*。</block>
+  <block id="327a1d8b4a551bbdec4fcca282e3ac83" category="paragraph">有关全局文件缓存边缘高级配置的详细信息，请参见<block ref="c37d59ba163d6e06d70bc7a9326dd95e" category="inline-link-rx"></block>。</block>
+  <block id="08a835cc47bb06b7b15239f4039fb698" category="paragraph"><block ref="5bd9ed7124a4827b8a770916ec8eb391" category="inline-link-rx"></block>
+<block ref="f8a53e15446d9f92c48869f342d00b70" category="inline-link-rx"></block></block>
+  <block id="c80862bbcf8f857da81705513310d33a" category="paragraph"><block ref="e439e61317b9d8e0964fc4278b02da4f" category="inline-link-rx"></block>
+<block ref="6521fb91943407eb7773f8de6fb3c073" category="inline-link-rx"></block></block>
+  <block id="1ff2a72d772b591ce092f04090df1f7d" category="list-text">BlueXP Edge缓存边缘软件：</block>
+  <block id="4600738f0591f7ca9b82d1b1873f082f" category="paragraph"><block ref="4600738f0591f7ca9b82d1b1873f082f" category="inline-link-rx"></block></block>
+  <block id="0bc9b34d46e682262d4fe6eb551bdc94" category="paragraph"><block ref="0bc9b34d46e682262d4fe6eb551bdc94" category="inline-link-rx"></block></block>
+  <block id="e2ed07bb6933c98e532659727830bc52" category="inline-link-macro">请按照以下步骤操作</block>
+  <block id="ab22ada227591d3e283d838dc6821bf3" category="paragraph"><block ref="820d518b33801e5de2462ff4ce963d09" category="inline-link-macro-rx"></block> 升级BlueXP Edge缓存Edge软件。</block>
+  <block id="09efa83c68cf12fff60c19fb03384093" category="paragraph">有关详细信息，请参见<block ref="c37d59ba163d6e06d70bc7a9326dd95e" category="inline-link-rx"></block>。</block>
+  <block id="5c6e720ae4e0961cbdcf991a4f7b5126" category="paragraph">NetApp建议不要在任何启用了BlueXP边缘缓存的实例(Core或Edge)上安装或应用监控或防病毒解决方案。如果是根据选择或策略安装解决方案，则必须应用以下最佳实践和建议。有关常见防病毒套件，请参见中的附录 A<block ref="c37d59ba163d6e06d70bc7a9326dd95e" category="inline-link-rx"></block>。</block>
+  <block id="31acc98f70a8cd7f5a510a0ad5befbe8" category="paragraph">NetApp已经测试了最常用的防病毒产品、包括Cylance、McAfee、Symantec、Sophos、Trend Micro、 Kaspersky、人群攻击、Cisco AMP、Tannium和Windows Defender、与BlueXP边缘缓存结合使用。防病毒软件应通过NetApp认证、只有在配置了正确的排除列表后才受支持。请参见中的附录A<block ref="c37d59ba163d6e06d70bc7a9326dd95e" category="inline-link-rx"></block></block>
 </blocks>
