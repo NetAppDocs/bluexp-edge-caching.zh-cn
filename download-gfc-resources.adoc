@@ -95,8 +95,8 @@ BlueXP边缘缓存安装包可在任何Microsoft Windows Server实例上创建�
 
 === 物理硬件要求
 
-* 至少 4 个 CPU 核
-* 至少 16 GB RAM
+* 至少8个CPU核
+* 最小32 GB RAM
 * 专用单个或冗余 1 Gbps NIC
 * 10K RPM SAS HDD 或 SSD （首选）
 * 启用了回写缓存功能的 RAID 控制器
@@ -112,15 +112,15 @@ BlueXP边缘缓存安装包可在任何Microsoft Windows Server实例上创建�
 
 Microsoft Hyper-V 2012 R2 及更高版本：
 
-* 处理器（ CPU ）： CPU 必须设置为 * 静态 * ：最小： 4 个 vCPU 核心。
-* 内存（ RAM ）：最小： 16 GB 设置为 * 静态 * 。
+* 处理器(CPU)：CPU必须设置为*静态*：最少8个vCPU核。
+* 内存(RAM)：最小：32 GB设置为*Static*。
 * 硬盘配置：硬盘必须配置为 * 固定磁盘 * 。
 
 
 VMware vSphere 6.x 及更高版本：
 
-* 处理器（ CPU ）：必须设置 CPU 周期预留。最小值： 4 个 vCPU 核心 @ 10000 MHz 。
-* Memory （ RAM ）：最小：预留 16 GB 。
+* 处理器（ CPU ）：必须设置 CPU 周期预留。最低：8个vCPU核@ 10000 MHz。
+* 内存(RAM)：最低：预留32 GB。
 * 硬盘配置：
 +
 ** 磁盘配置必须设置为 * 厚配置主动置零 * 。

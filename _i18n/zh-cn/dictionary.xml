@@ -97,20 +97,14 @@
   <block id="137e4d3e0bc5586af6fc7ca9441511e1" category="inline-link-macro">规模估算准则</block>
   <block id="831485d3736514b490af98e2fdcac477" category="section-title">经过加固的服务器设备</block>
   <block id="976611c38f37696030731d275b8d5432" category="section-title">物理硬件要求</block>
-  <block id="602adfd1d4d2e2ef7316c32670824757" category="list-text">至少 4 个 CPU 核</block>
-  <block id="f5364e9691950b5411b570b3b7444ec4" category="list-text">至少 16 GB RAM</block>
   <block id="007aef1d58264ca7b5e941be27c7efe0" category="list-text">专用单个或冗余 1 Gbps NIC</block>
   <block id="683873eb7a29d80efb08b1ec4990f98d" category="list-text">10K RPM SAS HDD 或 SSD （首选）</block>
   <block id="27fe2dd4bc7bfc5f6cc10da8e820dd79" category="list-text">启用了回写缓存功能的 RAID 控制器</block>
   <block id="7ae06578c5e181b31c27950df9eeefff" category="section-title">虚拟部署要求</block>
   <block id="d58b313fe182fc0207ded02961ec8b3e" category="paragraph">为了在虚拟环境中获得最佳性能，除了物理主机要求之外，还必须满足以下要求和资源预留：</block>
   <block id="a39c39a13a34c8ae4f43e53b744d7a93" category="paragraph">Microsoft Hyper-V 2012 R2 及更高版本：</block>
-  <block id="4b2d1e89406fad567f90d7f405a89a0a" category="list-text">处理器（ CPU ）： CPU 必须设置为 * 静态 * ：最小： 4 个 vCPU 核心。</block>
-  <block id="a9c115a547ec0e88e446fac7e1437201" category="list-text">内存（ RAM ）：最小： 16 GB 设置为 * 静态 * 。</block>
   <block id="e2dc7db2b7946e399b3526201828d47b" category="list-text">硬盘配置：硬盘必须配置为 * 固定磁盘 * 。</block>
   <block id="193a7828172c581c20b5f99b87f0d8d5" category="paragraph">VMware vSphere 6.x 及更高版本：</block>
-  <block id="546eae45bf42f32b489133fe40c615ae" category="list-text">处理器（ CPU ）：必须设置 CPU 周期预留。最小值： 4 个 vCPU 核心 @ 10000 MHz 。</block>
-  <block id="da83ed8f749c1aeee277ef8b1e92e603" category="list-text">Memory （ RAM ）：最小：预留 16 GB 。</block>
   <block id="01c789b083ceb94098fc54bf2689692f" category="list-text">硬盘配置：</block>
   <block id="aa9003d495921644b8600f3e28ebe636" category="list-text">磁盘配置必须设置为 * 厚配置主动置零 * 。</block>
   <block id="8254451398fa8d542f44b8faf882706e" category="list-text">硬盘共享必须设置为 * 高 * 。</block>
@@ -251,15 +245,11 @@
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">在登录页面上，提供 NetApp 支持站点注册的电子邮件地址和密码以执行身份验证过程。</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法律声明提供对版权声明、商标、专利等的访问。</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版权</block>
-  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
   <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商标</block>
   <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp 、 NetApp 徽标和 NetApp 商标页面上列出的标记是 NetApp 、 Inc. 的商标。其他公司和产品名称可能是其各自所有者的商标。</block>
-  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
   <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">专利</block>
   <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">有关 NetApp 拥有的专利的最新列表，请访问：</block>
-  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">隐私政策</block>
-  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">开放源代码</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知文件提供有关 NetApp 软件中使用的第三方版权和许可证的信息。</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">这些选项每周 7 天，每天 24 小时免费提供：</block>
@@ -763,4 +753,18 @@
   <block id="09efa83c68cf12fff60c19fb03384093" category="paragraph">有关详细信息，请参见<block ref="c37d59ba163d6e06d70bc7a9326dd95e" category="inline-link-rx"></block>。</block>
   <block id="5c6e720ae4e0961cbdcf991a4f7b5126" category="paragraph">NetApp建议不要在任何启用了BlueXP边缘缓存的实例(Core或Edge)上安装或应用监控或防病毒解决方案。如果是根据选择或策略安装解决方案，则必须应用以下最佳实践和建议。有关常见防病毒套件，请参见中的附录 A<block ref="c37d59ba163d6e06d70bc7a9326dd95e" category="inline-link-rx"></block>。</block>
   <block id="31acc98f70a8cd7f5a510a0ad5befbe8" category="paragraph">NetApp已经测试了最常用的防病毒产品、包括Cylance、McAfee、Symantec、Sophos、Trend Micro、 Kaspersky、人群攻击、Cisco AMP、Tannium和Windows Defender、与BlueXP边缘缓存结合使用。防病毒软件应通过NetApp认证、只有在配置了正确的排除列表后才受支持。请参见中的附录A<block ref="c37d59ba163d6e06d70bc7a9326dd95e" category="inline-link-rx"></block></block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="7fdcb2e7bab8dde968f94629523c3479" category="list-text">至少8个CPU核</block>
+  <block id="c3d7c7f12c2d0cb827f5a59d380cf667" category="list-text">最小32 GB RAM</block>
+  <block id="d92cb6c5ede38c7175493ed5ba01458f" category="list-text">处理器(CPU)：CPU必须设置为*静态*：最少8个vCPU核。</block>
+  <block id="3bcc153cef59db2afe99744853c8dbe7" category="list-text">内存(RAM)：最小：32 GB设置为*Static*。</block>
+  <block id="2bf278f1b394b05a5448ef798a8d652f" category="list-text">处理器（ CPU ）：必须设置 CPU 周期预留。最低：8个vCPU核@ 10000 MHz。</block>
+  <block id="dd252ee19a826baa2383e45dcf0c937f" category="list-text">内存(RAM)：最低：预留32 GB。</block>
 </blocks>
