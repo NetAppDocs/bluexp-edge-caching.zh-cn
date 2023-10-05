@@ -131,12 +131,18 @@ image:diagram_gfc_image3.png["显示边缘和核心的BlueXP边缘缓存组件�
 +
 在 AWS 中，此操作在具有 127 GB 通用 SSD 的 m4.large 或等效（ 2 个 vCPU/8 GB RAM ）实例上运行
 
++
+在Google Cloud中、此功能可在具有127 GB通用SSD的n2-standard-2或等效(2个vCPU/8 GB RAM)实例上运行
+
 ** BlueXP边缘缓存核心：
 +
-在 Azure 中，此操作在具有 127 GB 高级 SSD 的 D4s_V3 或等效虚拟机（ 4 个 vCPU/16 GB RAM ）上运行
+在Azure中、此功能可在D8s_V4或具有127 GB高级SSD的等效虚拟机(8个vCPU/32 GB RAM)上运行
 
 +
-在 AWS 中，此操作在具有 127 GB 通用 SSD 的 m4.xlarge 或等效（ 4 个 vCPU/16 GB RAM ）实例上运行
+在AWS中、此配置可在m4.2倍大容量或等效(8个vCPU/32 GB RAM)实例上运行、并使用127 GB通用SSD
+
++
+在Google Cloud中、此功能可在具有127 GB通用SSD的n2-standard-8或等效(8个vCPU/32 GB RAM)实例上运行
 
 
 

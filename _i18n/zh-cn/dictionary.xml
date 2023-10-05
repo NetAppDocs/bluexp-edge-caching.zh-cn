@@ -74,8 +74,6 @@
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">成本</block>
   <block id="e5624fb8b348be8b0b94ecdc79a3e52a" category="list-text">所有安装还要求您在云中部署两个或更多虚拟机（ VM ）。这会导致从选定云提供商处收取费用。</block>
   <block id="c6b798b0bebd4b2ec1cf891e6cd66c67" category="paragraph">在 AWS 中，此操作在具有 127 GB 通用 SSD 的 m4.large 或等效（ 2 个 vCPU/8 GB RAM ）实例上运行</block>
-  <block id="817000ba632406cdb4b5a4da3a5c5221" category="paragraph">在 Azure 中，此操作在具有 127 GB 高级 SSD 的 D4s_V3 或等效虚拟机（ 4 个 vCPU/16 GB RAM ）上运行</block>
-  <block id="6869983628ce136a6778d9ced07d3b4b" category="paragraph">在 AWS 中，此操作在具有 127 GB 通用 SSD 的 m4.xlarge 或等效（ 4 个 vCPU/16 GB RAM ）实例上运行</block>
   <block id="d2893970aa4c57a02af5ca132a872653" category="inline-link">计算您的节省潜力</block>
   <block id="0b9c6eef4e3d3a222eb04e910d252339" category="section-title">许可</block>
   <block id="24b5cd8cad83af73f3fef17c36994df9" category="paragraph">在数据中心或云中部署第一个核心实例时，您可以选择将该实例指定为组织的 LMS 。此 LMS 实例配置一次，通过 HTTPS 连接到订阅服务，并使用我们的支持 / 运营部门在订阅启用后提供的客户 ID 验证您的订阅。指定此名称后，您可以通过提供您的客户 ID 和 LMS 实例的 IP 地址来将您的 Edge 实例与 LMS 相关联。</block>
@@ -369,7 +367,6 @@
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXP通知</block>
   <block id="e182461a5cdbf7556eaec25749caec6a" category="list-text">它必须是后端文件服务器内置备份操作员组的成员(通过BlueXP部署时会自动启用此功能)。</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP博客</block>
-  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文档</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">一个</block>
   <block id="bb28d23fa130988b09464a6057aef85b" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 部署 Cloud Volumes ONTAP</block>
   <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">两个</block>
@@ -769,4 +766,8 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">获得云提供商文件服务支持</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">有关与云提供商文件服务、其基础架构或使用该服务的任何解决方案相关的技术支持、请参阅该产品的BlueXP文档中的"获得帮助"。</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">要获得针对BlueXP及其存储解决方案和服务的技术支持、请使用下面所述的支持选项。</block>
+  <block id="97928a9e688f12c514398167899b0948" category="paragraph">在Google Cloud中、此功能可在具有127 GB通用SSD的n2-standard-2或等效(2个vCPU/8 GB RAM)实例上运行</block>
+  <block id="37224270f6fe9a8b986d9aebd0580f24" category="paragraph">在Azure中、此功能可在D8s_V4或具有127 GB高级SSD的等效虚拟机(8个vCPU/32 GB RAM)上运行</block>
+  <block id="de3597f52173f419dfcb5b6093c8f91b" category="paragraph">在AWS中、此配置可在m4.2倍大容量或等效(8个vCPU/32 GB RAM)实例上运行、并使用127 GB通用SSD</block>
+  <block id="13a8d1c98f73a6d8e45079d3d40dd107" category="paragraph">在Google Cloud中、此功能可在具有127 GB通用SSD的n2-standard-8或等效(8个vCPU/32 GB RAM)实例上运行</block>
 </blocks>
