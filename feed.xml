@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bluexp-edge-caching | NetApp Documentation</title>
+    <atom:link href="https://docs.netapp.com/zh-cn/bluexp-edge-caching/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>https://docs.netapp.com/zh-cn/bluexp-edge-caching</link>
+    <description>The latest updates from NetApp Documentation</description>
+    <language>zh-cn</language>
+    <ttl>60</ttl>
+    <pubDate>Mon, 27 Nov 2023 07:13:41 +0000</pubDate>
+    <lastBuildDate>Mon, 27 Nov 2023 07:13:41 +0000</lastBuildDate>
+    
+    
+    
+    <item>
+      <title>BlueXP边缘缓存的新增功能 (1 Aug 2023)</title>
+      <pubDate>Tue, 01 Aug 2023 18:16:42 +0000</pubDate>
+      <link>https://docs.netapp.com/zh-cn/bluexp-edge-caching/whats-new.html?time=1690913802</link>
+      <guid isPermaLink="false">Tue, 01 Aug 2023 18:16:42 +0000</guid>
+      <description><![CDATA[ 了解BlueXP边缘缓存的新增功能。 ]]></description>
+    </item>
+    
+    
+  </channel>
+</rss>
