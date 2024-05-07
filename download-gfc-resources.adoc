@@ -34,7 +34,7 @@ https://repo.cloudsync.netapp.com/gfc/2k19_GFC_2_3_0_55IMAGE.zip["包括 NetApp 
 
 * BlueXP Edge缓存边缘软件：
 +
-https://repo.cloudsync.netapp.com/gfc/GFC-2-3-0-55-Release.exe["NetApp GFC 软件安装包（ .exe ）"^]
+https://repo.cloudsync.netapp.com/gfc/GFC-2-4-1-72-Release.exe["NetApp GFC 软件安装包（ .exe ）"^]
 
 * 适用于Cloud Insights 的全局文件缓存信息板：
 +

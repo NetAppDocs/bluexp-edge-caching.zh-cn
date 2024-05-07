@@ -18,6 +18,12 @@ summary: 了解BlueXP边缘缓存的新增功能。
 
 
 
+== 2024年5月6日(2.4版)
+
+此版本可修复一些小问题。更新的软件包位于 https://docs.netapp.com/us-en/bluexp-edge-caching/download-gfc-resources.html#download-required-resources["此页面"]。
+
+
+
 == 2023年8月1日(2.3版)
 
 此版本可修复中所述的问题 https://docs.netapp.com/us-en/bluexp-edge-caching/fixed-issues.html["已修复的问题"]。可从获取更新的软件包 https://docs.netapp.com/us-en/bluexp-edge-caching/download-gfc-resources.html#download-required-resources["此页面"]。
