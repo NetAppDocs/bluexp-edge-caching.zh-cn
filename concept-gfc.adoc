@@ -16,7 +16,7 @@ summary: 借助NetApp BlueXP边缘缓存、您可以将分布式文件服务器�
 [role="lead"]
 借助NetApp BlueXP边缘缓存、您可以将分布式文件服务器孤岛整合到公有云中的一个统一全局存储空间中。这样就可以在云中创建一个可全局访问的文件系统，所有远程位置都可以像在本地一样使用该系统。
 
-BlueXP边缘缓存可通过两种部署模式来满足您的企业架构需求：在Cloud Volumes ONTAP实例中组合使用集成服务(Cloud Volumes Edge Cache)、或作为企业存储战略的附加组件(全局文件缓存)
+BlueXP边缘缓存可通过两种部署模式提供、以适合您的企业架构：作为与Cloud Volumes ONTAP实例相结合的集成服务(称为Cloud Volumes Edge Cache (CVEC))、或者作为企业存储策略的附加组件(称为全局文件缓存(GFC)。
 
 
 

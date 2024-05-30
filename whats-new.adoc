@@ -18,6 +18,14 @@ summary: 了解BlueXP边缘缓存的新增功能。
 
 
 
+== 2024年5月31日
+
+NetApp已宣布NetApp全局文件缓存的终止可用性(EOA)将于2024年5月31日结束。EOA会影响所有NetApp全局文件缓存产品、包括独立的全局文件缓存软件订阅以及与NetApp Cloud Volumes ONTAP捆绑的全局文件缓存解决方案(称为NetApp Cloud Volumes Edge Cache)。
+
+尽管我们宣布了这些产品的EOA、但NetApp将继续提供支持、直到至少2027年5月31日为止。 https://mysupport.netapp.com/info/communications/CPC-00578.html["有关NetApp全局文件缓存终止提供的详细信息、请参见"^]。
+
+
+
 == 2024年5月6日(2.4版)
 
 此版本可修复一些小问题。更新的软件包位于 https://docs.netapp.com/us-en/bluexp-edge-caching/download-gfc-resources.html#download-required-resources["此页面"]。

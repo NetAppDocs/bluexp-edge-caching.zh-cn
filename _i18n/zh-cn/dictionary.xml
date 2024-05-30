@@ -467,7 +467,6 @@
   <block id="240272be1a1d5fdc253c5305b97690a6" category="list-text">必须将网络优化设备(例如Riverbed Steelhead)配置为直通BlueXP边缘缓存专用端口(TCP 6618-6630)。</block>
   <block id="84ad7067fb4fe33b40b7fe328b59ab9f" category="summary">借助NetApp BlueXP边缘缓存、您可以将分布式文件服务器孤岛整合到公有云中的一个统一全局存储空间中。这样就可以在云中创建一个可全局访问的文件系统，所有远程位置都可以像在本地一样使用该系统。</block>
   <block id="4f6236843228fb802118a30a6c81a90a" category="doc">了解BlueXP边缘缓存</block>
-  <block id="e8410929e2565c64ddfb36cc3fe64caf" category="paragraph">BlueXP边缘缓存可通过两种部署模式来满足您的企业架构需求：在Cloud Volumes ONTAP实例中组合使用集成服务(Cloud Volumes Edge Cache)、或作为企业存储战略的附加组件(全局文件缓存)</block>
   <block id="f3ca9f1917b50d48c86e0bb25621722e" category="paragraph">实施BlueXP边缘缓存会占用一个集中式存储空间、而分布式存储架构则需要在每个位置占用本地数据管理、备份、安全管理、存储和基础架构空间。</block>
   <block id="151da762ddb055afbfc300d66c3117dd" category="inline-image-macro">显示远程办公室位置如何使用BlueXP边缘缓存访问单个共享文件系统的示意图。</block>
   <block id="f62fde91dac95b5d3e895ee32a7b77e6" category="paragraph"><block ref="f62fde91dac95b5d3e895ee32a7b77e6" category="inline-image-macro-rx" type="image"></block></block>
@@ -759,4 +758,9 @@
   <block id="70d2aaea6b19d033a76faef23053a806" category="section-title">2024年5月6日(2.4版)</block>
   <block id="33ac6c6578bc8387b0ba6aaebc3f939a" category="paragraph">此版本可修复一些小问题。更新的软件包位于<block ref="89fd140dfa15c4587519958830d6000f" category="inline-link-rx"></block>。</block>
   <block id="39e223ecfe3ee5dc48a36bdee3d5da31" category="paragraph"><block ref="39e223ecfe3ee5dc48a36bdee3d5da31" category="inline-link-rx"></block></block>
+  <block id="4ff2894f6fe94d8a4d90102c6b3fc4b1" category="paragraph">BlueXP边缘缓存可通过两种部署模式提供、以适合您的企业架构：作为与Cloud Volumes ONTAP实例相结合的集成服务(称为Cloud Volumes Edge Cache (CVEC))、或者作为企业存储策略的附加组件(称为全局文件缓存(GFC)。</block>
+  <block id="fc31bdab270f34f9dbc1c826f879ec7a" category="section-title">2024年5月31日</block>
+  <block id="a38c9755f3e363e5fcc012f982f27744" category="paragraph">NetApp已宣布NetApp全局文件缓存的终止可用性(EOA)将于2024年5月31日结束。EOA会影响所有NetApp全局文件缓存产品、包括独立的全局文件缓存软件订阅以及与NetApp Cloud Volumes ONTAP捆绑的全局文件缓存解决方案(称为NetApp Cloud Volumes Edge Cache)。</block>
+  <block id="fe85d677b887f84abb319ef4415495b6" category="inline-link">有关NetApp全局文件缓存终止提供的详细信息、请参见</block>
+  <block id="32537bd355f3c702f88504f670fd2349" category="paragraph">尽管我们宣布了这些产品的EOA、但NetApp将继续提供支持、直到至少2027年5月31日为止。<block ref="c260bd0a32453373dfa997871e7c7312" category="inline-link-rx"></block>。</block>
 </blocks>
