@@ -9,27 +9,10 @@
   <block id="2d586fed9d23ea26489008f327e1394f" category="list-text">登录到 NetApp 支持部门，网址为<block ref="4ae7ca7e30d53354eb9b40e218393b2c" category="inline-link-rx"></block> 使用您的 NSS 凭据</block>
   <block id="bd409d83b208b51683f34be90cb2a669" category="list-text">要获得 P1 问题描述呼叫的即时帮助，请拨打： +1 856.481.3990 （选项 2 ）</block>
   <block id="cb59b87e00d11222bfd9159d0d23836f" category="doc">入门</block>
-  <block id="201e09e85ad81db8a19ef9f20c05d1a5" category="inline-link-macro">此视频</block>
-  <block id="81b4cc67e8f60e41997293efceba160b" category="paragraph">观看 <block ref="182ef5a05e7c682b0210b8852ec20646" category="inline-link-macro-rx"></block> 以查看从开始到结束的步骤。</block>
   <block id="06ad314b340900d226b1196e1fe289e9" category="section-title">快速入门</block>
   <block id="990f23665d21283cae7ae6a6366d2e03" category="paragraph">按照以下步骤快速入门，或者向下滚动到其余部分以了解完整详细信息。</block>
-  <block id="7ca1af679f0ba86814f2ad58a578cb7c" category="inline-link">在 Azure 中启动 Cloud Volumes ONTAP</block>
-  <block id="6602afb860a6cca23c3b75bf601365eb" category="inline-link">在 AWS 中启动 Cloud Volumes ONTAP</block>
-  <block id="7be40d2cd621549d68e8fff4ffead179" category="section-title">将 Cloud Volumes ONTAP 部署为您的存储平台</block>
-  <block id="d0b9898fe413c415608114643e2b6efc" category="list-text">您应在 Cloud Volumes ONTAP 实例上配置 SMB 文件共享。</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步骤</block>
-  <block id="b61032810c3dc3333168d75ab853e222" category="list-text">选择部署 Cloud Volumes ONTAP 的工作环境。</block>
-  <block id="1e408f6922ab52afed30bf9f3fd18a98" category="list-text">阅读概述页面，然后单击 * 继续 * 。</block>
-  <block id="3c96cc9fcb38b9efb7ce7ced8d1aa073" category="inline-link-macro">存储平台</block>
-  <block id="2ddf0a5413911c8c522b1bb2dbbc2a38" category="list-text">如果 Cloud Volumes ONTAP 实例上没有可用的 SMB 共享，系统将提示您输入 SMB 服务器和 SMB 共享详细信息以立即创建共享。有关 SMB 配置的详细信息，请参见 <block ref="7b874b389af49bd37b4d4f24aa0d8f0d" category="inline-link-macro-rx"></block>。</block>
-  <block id="07e6022a350412b0d38723f6c0553658" category="paragraph">完成后，单击 * 继续 * 以创建 SMB 共享。</block>
-  <block id="9bd4f7e64b7c6543ad22515f64db1b01" category="inline-image-macro">一个屏幕截图，显示在 SMB 共享不可用时创建 SMB 共享所需的信息。</block>
-  <block id="c510089405fb065c62a7ed30808c3a4c" category="paragraph"><block ref="c510089405fb065c62a7ed30808c3a4c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ee68e5b99222bbc29a480fcb0d1d6ee2" category="inline-link-macro">前提条件</block>
-  <block id="2175de844bbfb8a1e195b989b54ba612" category="list-text">在全局文件缓存服务页面上，输入计划部署的全局文件缓存边缘实例的数量，然后确保您的系统满足网络配置和防火墙规则， Active Directory 设置和防病毒排除的要求。请参见 <block ref="391182c9255c8914347b7e13351c1a63" category="inline-link-macro-rx"></block> 有关详细信息：</block>
-  <block id="b7058a71800a15389821662470e7ae9b" category="list-text">确认已满足要求或您已获得满足这些要求的信息后，单击 * 继续 * 。</block>
-  <block id="c996fbb43976c45057849f97d91482c5" category="list-text">此服务帐户是域用户，它是 Cloud Volumes ONTAP 实例上 BUILTIN\Backup Operators 组的一部分。</block>
-  <block id="026ded920edc7d21e9ce48cd106d87a2" category="paragraph">信息板显示管理服务器实例和核心实例均为 * 启用 * 且正常运行。</block>
   <block id="e1fa96f0dfb2492f998b4f35bbd987b5" category="paragraph">在此示例中，我们将在您刚刚部署在公有云中的核心实例上配置 LMS 服务。此过程是一次性完成的，用于设置您的 LMS 服务。</block>
   <block id="0c8ba78cfb15615de4a900fdeb69cbed" category="list-text">单击 * " 继续访问此网站（不建议） "* 继续。此时将显示一个页面，用于配置 LMS 或检查现有许可证信息。</block>
   <block id="b8f60af9dc506c64f958249f3105cab1" category="list-text">选择注册模式：</block>
@@ -44,13 +27,6 @@
   <block id="fa47d0136b382d22f766fa761a04805a" category="paragraph"><block ref="fa47d0136b382d22f766fa761a04805a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b45036707cc90430d164ae3587cf21ba" category="paragraph">您将看到一条消息，指出您的 GFC 许可证订阅已成功注册并已激活此 LMS 实例。此后购买的任何产品将自动添加到 GFC 许可证订阅中。</block>
   <block id="bfbf9a67604bf6da34d29af94d1d924d" category="list-text">您也可以单击 * 许可证信息 * 选项卡查看所有 GFC 许可证信息。</block>
-  <block id="ef0a7c56552e1272d8c5d9e5fb599479" category="section-title">部署其他核心实例</block>
-  <block id="fcafc696f895c2c546168d2a1248735e" category="paragraph">在部署 Edge 实例时，您将配置一些实例以连接到第一个核心，而另一些实例则连接到第二个核心。这两个核心实例都可访问工作环境中的同一后端存储（您的 Cloud Volumes ONTAP 实例）。</block>
-  <block id="ffd917e3a188963aaca624d7e9be0145" category="list-text">在全局文件缓存信息板中，单击 * 添加核心实例 * 。</block>
-  <block id="451dee323842a4acb0d1dc8b7efe20c6" category="inline-image-macro">GFC 信息板的屏幕截图以及用于添加其他核心实例的按钮。</block>
-  <block id="61de456010a3bab3d4ffccc75733e75b" category="paragraph"><block ref="61de456010a3bab3d4ffccc75733e75b" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="8d27de6a961b36da305ccdb9c92c1cef" category="list-text">输入要加入 Active Directory 域的管理员用户凭据以及服务帐户用户凭据。然后单击 * 继续 * 。</block>
-  <block id="d4258bbf3853a6e9c45602dc946b8b71" category="paragraph">信息板反映了工作环境的第二个核心实例。</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="section-title">概述</block>
   <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">功能</block>
   <block id="b2af53c8b5aa3b46f7284a7035894ab4" category="list-text">将数据整合并集中到公有云中，并利用企业级存储解决方案的可扩展性和性能</block>
@@ -58,10 +34,6 @@
   <block id="1d40d5b2144a31da39c596193a7553cd" category="list-text">依靠可自我维持的自我管理缓存，并消除完整的数据副本和备份。利用本地文件缓存处理活动数据并降低存储成本</block>
   <block id="eabc5b86be92567d6584b6f9bda306bf" category="list-text">通过全局命名空间从分支位置进行透明访问，并实时锁定中央文件</block>
   <block id="e55dde8ab8d8ac9594c265cd439c94bf" category="section-title">支持的存储平台</block>
-  <block id="af1bba2ce5f90eecf243bb554ad8673d" category="section-title">自动化部署选项</block>
-  <block id="0e8f3fb260ced5550398e677e8e16659" category="list-text">Azure 中的 Cloud Volumes ONTAP</block>
-  <block id="bdcb25a0b74cb8c3c6dc4deb7e7dc876" category="list-text">AWS 中的 Cloud Volumes ONTAP</block>
-  <block id="a4bae3b774c4cc05ca00a01a97ff00ca" category="section-title">手动部署选项</block>
   <block id="98b63173dd4ecb2326d95d7300606052" category="paragraph">本示例中引用的拓扑是一种中心和轮辐模型，远程办公室 / 位置的网络正在访问云中的一组通用数据。此示例的要点如下：</block>
   <block id="8fef697f7f9f78c059ccfc40f4acea1e" category="list-text">集中式数据存储：</block>
   <block id="4cb06c74a96499a607c0c95ead19581f" category="list-text">企业级公有云存储平台，例如 Cloud Volumes ONTAP</block>
@@ -357,7 +329,6 @@
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXP通知</block>
   <block id="e182461a5cdbf7556eaec25749caec6a" category="list-text">它必须是后端文件服务器内置备份操作员组的成员(通过BlueXP部署时会自动启用此功能)。</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">一个</block>
-  <block id="bb28d23fa130988b09464a6057aef85b" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 部署 Cloud Volumes ONTAP</block>
   <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">两个</block>
   <block id="ca8a2087e5557e317599344687a57391" category="inline-image-macro">三个</block>
   <block id="981b8fcee42e1e726a67a2b9a98ea6e9" category="inline-image-macro">四个</block>
@@ -406,9 +377,7 @@
   <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">如果您已有客户级别的NSS帐户、并尝试添加合作伙伴级别的帐户、则也是如此。</block>
   <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">成功登录后、NetApp将存储NSS用户名。</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">使用此选项将提示您重新登录。请注意、这些帐户的令牌将在90天后过期。系统将发布通知、提醒您注意这一点。</block>
-  <block id="155ec659cc4e13b84e26ac8a60d0983e" category="list-text">Google Cloud中的Cloud Volumes ONTAP</block>
   <block id="e3e9432fcac5223a00dade599290aa9e" category="list-text">与客户的Active Directory域服务集成。</block>
-  <block id="6962e9afd3ce89facea38f30c619211e" category="list-text">如果随Cloud Volumes ONTAP (通过BlueXP完全部署的受支持配置)一起安装、则有两种定价选项：</block>
   <block id="b25d47777a73708955cbc4e4a8cf5e9f" category="paragraph">目前、使用BlueXP不支持其他存储平台、但可以使用原有部署过程进行部署。这些其他配置、例如、使用适用于ONTAP 系统的Amazon FSx的全局文件缓存、Azure NetApp Files 或Google Cloud上的Cloud Volumes Service 、均可使用原有过程进行支持。请参见<block ref="9cbd9a7390d82046b7f64435219915f0" category="inline-link-rx"></block> 了解详细信息。</block>
   <block id="204d44b6be54971c264dcdd956240244" category="admonition">向Edge设备添加防病毒软件可能会对用户性能产生10-20%的影响。</block>
   <block id="4a8d00e7906604240a5e2ec80e310482" category="list-text">客户负责安装、集成、支持和升级所添加的任何软件。</block>
@@ -427,7 +396,6 @@
   <block id="a92c52030822934c670502facf8a8f31" category="paragraph">在Google Cloud中部署Cloud Volumes ONTAP 系统时、可以使用新的"Edge Cache"许可证。您有权为Cloud Volumes ONTAP 系统上购买的每3 TiB容量部署一个全局文件缓存边缘系统。</block>
   <block id="89960279d43d6d504afb45e5a8dff137" category="section-title">设置向导和GFC配置UI已进行了增强、可执行NetApp许可证注册</block>
   <block id="402a1502f5c39fb55ca79d59e3184a34" category="section-title">优化的PSM-用于配置Edge Sync功能</block>
-  <block id="254d5c87d5ab437395f866390ea49cd0" category="inline-link">在 Google Cloud 中启动 Cloud Volumes ONTAP</block>
   <block id="17212542e3e7df3bdd7a3df903ed851c" category="paragraph"><block ref="17212542e3e7df3bdd7a3df903ed851c" category="inline-link-macro-rx"></block></block>
   <block id="55be43fdae1edd255f27ede47e8019f9" category="summary">开始在云中和远程办公室部署BlueXP边缘缓存之前、您需要了解许多要求。</block>
   <block id="d26f2f54b754de8a0e01b774a1618379" category="doc">在开始部署BlueXP边缘缓存之前</block>
@@ -480,10 +448,6 @@
   <block id="ad35f170096264970b205f86c0f47b53" category="paragraph">BlueXP边缘缓存核心实例会挂载到您选择的后端存储平台(例如Cloud Volumes ONTAP、Cloud Volumes Service、 和Azure NetApp Files)、并创建BlueXP边缘缓存"网络结构"、使其能够将非结构化数据集中并整合到一组数据中、无论数据驻留在公共云的一个存储平台上还是多个存储平台上。</block>
   <block id="811ddc6ece30a1f2530ff6342c1eb4a7" category="inline-image-macro">显示BlueXP边缘缓存部署详细信息的示意图、其中软件安装在远程办公室和云中的中央服务器中。</block>
   <block id="99f09f5ebafddfc5b5d7fce3d5ec4cb8" category="paragraph"><block ref="99f09f5ebafddfc5b5d7fce3d5ec4cb8" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="363b2bd43ef6f7aeb91ec76e095db39b" category="paragraph">根据您选择的部署选项、BlueXP边缘缓存支持的存储平台会有所不同。</block>
-  <block id="f8789afaf6be4e9a7e1d687266345079" category="paragraph">使用BlueXP部署时、以下类型的工作环境支持BlueXP边缘缓存：</block>
-  <block id="c9539e6a7ea02b24261db0b58156156f" category="paragraph">通过此配置、您可以在BlueXP中部署和管理整个BlueXP边缘缓存服务器端部署、包括BlueXP边缘缓存管理服务器和BlueXP边缘缓存核心。</block>
-  <block id="8e990b2873e828e4331073d3a2ac1f62" category="paragraph">Cloud Volumes ONTAP、Azure NetApp Files、Amazon FSx for ONTAP系统以及Google Cloud上的Cloud Volumes Service也支持BlueXP边缘缓存配置。此外， NetApp AFF 和 FAS 平台还提供内部解决方案。在这些安装中、必须手动配置和部署BlueXP边缘缓存服务器端组件、而不是使用BlueXP。</block>
   <block id="faf3daf8482ac48bad777b0aceb12529" category="section-title">BlueXP边缘缓存的工作原理</block>
   <block id="bfd753b1b317fe448cbf93742e4b8470" category="paragraph">BlueXP边缘缓存可创建一个软件网络结构、用于在全球远程办公室缓存活动数据集。因此，企业用户可以获得透明的数据访问保障，并在全球范围内获得最佳性能。</block>
   <block id="74df1466e72718d74f41b23bf918d610" category="inline-image-macro">显示边缘和核心的BlueXP边缘缓存组件的示意图。</block>
@@ -495,7 +459,6 @@
   <block id="da63fa9bb21eb25f5f57f093c864f2e2" category="list-text">BlueXP边缘缓存管理服务器：</block>
   <block id="2f0a1e2943548b4d2c575728fff09264" category="list-text">BlueXP边缘缓存核心：</block>
   <block id="07fb1269841f7291dfbea77bd07f01c9" category="list-text">对于Cloud Volumes ONTAP系统、您每年可以为每个BlueXP边缘缓存边缘实例支付3、000美元。</block>
-  <block id="7d78fe64ccb6332f6ee84a1d7a54e2cd" category="list-text">如果使用手动部署选项安装，则定价会有所不同。要查看成本概要，请参见<block ref="9302a3a91184fdbf4c3bfe67365aaae4" category="inline-link-rx"></block> 或者咨询您的NetApp解决方案工程师、讨论适合您企业部署的最佳方案。</block>
   <block id="54ec0cdb19cb605eacd486e1e3eae2e4" category="paragraph">BlueXP边缘缓存包括一个基于软件的许可证管理服务器(LMS)、可用于整合许可证管理、并使用自动化机制将许可证部署到所有Core和Edge实例。</block>
   <block id="6c7f33700ec1daf2a7db9d9ef1a1b6d8" category="paragraph">BlueXP (Cloud Volumes Edge Cache)中支持的BlueXP边缘缓存版本要求用作中央存储的后端存储平台必须是一个工作环境、您已在Azure、AWS或Google Cloud中部署Cloud Volumes ONTAP单节点或HA对。</block>
   <block id="1274f95b0e887774a67420d71a35a46f" category="summary">通过BlueXP边缘缓存、您可以创建一个集中式文件存储、为全球各地的远程位置提供服务。借助边缘缓存、经常访问的数据会保留在每个相关的远程边缘位置、并且可以在通过WAN访问数据时不会出现延迟、同时仍受中央控制。</block>
@@ -550,43 +513,14 @@
   <block id="f1b72fa6b54a99edca2e66f472f493c7" category="doc">已修复BlueXP边缘缓存中的问题</block>
   <block id="f7945208fb1c338c1989bf28a768a98d" category="summary">了解BlueXP边缘缓存的新增功能。</block>
   <block id="d225d0beffed18386600da1c04c58d1b" category="doc">BlueXP边缘缓存的新增功能</block>
-  <block id="1c65947ab38b89a358e8269992b0e84e" category="summary">您可以使用BlueXP在工作环境中部署BlueXP边缘缓存管理服务器和核心软件。</block>
-  <block id="21cc938ead97519fd156ee70b88b3636" category="section-title">使用BlueXP启用BlueXP边缘缓存</block>
-  <block id="51d59d9046ed7b3832e2bfad09d4b8e5" category="paragraph">在此配置中、您将在使用BlueXP创建Cloud Volumes ONTAP系统的同一工作环境中部署BlueXP边缘缓存管理服务器和BlueXP边缘缓存核心。</block>
   <block id="47a36c5a10f1475734cf25053e80cf30" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> 部署BlueXP边缘缓存管理服务器</block>
-  <block id="b1b6c2fd33beb079cbc593f3d52ddf73" category="paragraph">在与BlueXP边缘缓存管理服务器实例相同的工作环境中部署Cloud Volumes ONTAP实例。</block>
   <block id="62911a0b6181f704a710e644db7b7ef2" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 部署BlueXP边缘缓存核心</block>
-  <block id="e3b0e2fd2adf83a0311d88df519a6dfd" category="paragraph">在与Cloud Volumes ONTAP实例相同的工作环境中部署BlueXP边缘缓存核心的一个或多个实例、并将其加入您的Active Directory域。</block>
   <block id="47f7da84271a4944ceac63538d7ae699" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 许可BlueXP边缘缓存</block>
   <block id="47bf46e44fd4c8c797f0d58ba0b424e5" category="paragraph">在BlueXP Edge缓存核心实例上配置BlueXP Edge缓存许可证管理服务器(LMS)服务。要激活您的订阅，您需要使用您的 NSS 凭据或 NetApp 提供的客户 ID 和订阅编号。</block>
   <block id="d04885a778b925accc9afb2408cffc16" category="paragraph-title"><block ref="99e8b2f00e172bfcff96afdce69907bc" category="inline-image-macro-rx" type="image"></block> 部署BlueXP边缘缓存边缘实例</block>
   <block id="a3478e6d52ae4f0ad63d093777515615" category="inline-link-macro">部署BlueXP边缘缓存边缘实例</block>
-  <block id="72618ee12aaa89a8ff8190e4cfaebf76" category="paragraph">请参见 <block ref="8a8be2ad52d9aa8bdc89d7f5ec8c59df" category="inline-link-macro-rx"></block> 在每个远程位置部署BlueXP边缘缓存边缘实例。此步骤不能使用BlueXP完成。</block>
   <block id="370b94610a07d4acffd09200c2a83123" category="paragraph">请注意以下BlueXP边缘缓存附加要求：</block>
   <block id="7c91a8c26657bad5dc6f80e7c67c912e" category="paragraph">如果未在此实例上设置SMB文件共享、则在安装BlueXP边缘缓存组件期间、系统会提示您配置SMB共享。</block>
-  <block id="46142bb722729a4171bd2579b394eb8a" category="section-title">在您的工作环境中启用BlueXP边缘缓存</block>
-  <block id="eadb2d20eaa6748d72ca4e31f4cf7fd7" category="paragraph">安装向导将引导您完成部署BlueXP边缘缓存管理服务器实例和BlueXP边缘缓存核心实例的步骤、如下所示。</block>
-  <block id="38046ccb1bc6ee5625f331f7a91bd196" category="inline-image-macro">初始BlueXP边缘缓存安装页面的屏幕截图。</block>
-  <block id="1e32d0dc01f3acb91cc8fb39e39eb095" category="paragraph"><block ref="1e32d0dc01f3acb91cc8fb39e39eb095" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="f7beda78053648247d3f9629a2c42f17" category="list-text">在服务面板中，单击_Edge caching_服务的*Enable*。</block>
-  <block id="b9a1fe6427b805705142867f67304b90" category="inline-image-macro">工作环境中用于启用BlueXP边缘缓存的初始启用按钮的屏幕截图。</block>
-  <block id="4c4fef94540e00c4002331ad43f95233" category="paragraph"><block ref="4c4fef94540e00c4002331ad43f95233" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="85fa07be47d81c5197ca4c93c455c51d" category="inline-image-macro">显示部署BlueXP边缘缓存管理服务器和核心实例之前的前提条件的屏幕截图。</block>
-  <block id="eff6841b5a608ac2e86080c93573d7a9" category="paragraph"><block ref="eff6841b5a608ac2e86080c93573d7a9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="57238cb628026326ab2a13b138f32de6" category="list-text">输入用于访问BlueXP Edge缓存管理服务器VM的管理员凭据、然后单击*启用GFC服务*。对于Azure和Google Cloud、您可以输入凭据作为用户名和密码；对于AWS、请选择相应的密钥对。您可以根据需要更改 VM/ 实例名称。</block>
-  <block id="102731d12839fcdf80c8a340f57b9633" category="inline-image-macro">屏幕截图显示设置BlueXP边缘缓存管理服务器所需的配置信息。</block>
-  <block id="79ae50848d778e2349152140a8e8c157" category="paragraph"><block ref="79ae50848d778e2349152140a8e8c157" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="1efa2569b18a975cb0fddfca95e705b3" category="list-text">成功部署BlueXP Edge缓存管理服务后、单击*继续*。</block>
-  <block id="2806876fb455acac296ae939b8a94f6c" category="list-text">对于BlueXP边缘缓存核心、输入要加入Active Directory域的管理员用户凭据以及服务帐户用户凭据。然后单击 * 继续 * 。</block>
-  <block id="00ef81a37c6e8ac0a6fe56b325b7db51" category="list-text">BlueXP边缘缓存核心实例必须部署在与Cloud Volumes ONTAP实例相同的Active Directory域中。</block>
-  <block id="986cf0e4e5bba6bad325e7496575be8f" category="inline-image-macro">屏幕截图显示设置BlueXP Edge缓存Core Active Directory和服务帐户所需的配置信息。</block>
-  <block id="c4a1094670a1259e3ec4c869f345c566" category="paragraph"><block ref="c4a1094670a1259e3ec4c869f345c566" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="c9307dbd716d666024ead20261f53e8a" category="list-text">输入用于访问BlueXP Edge缓存核心虚拟机的管理员凭据、然后单击*部署GFC Core*。对于Azure和Google Cloud、您可以输入凭据作为用户名和密码；对于AWS、请选择相应的密钥对。您可以根据需要更改 VM/ 实例名称。</block>
-  <block id="19ec72e4262d3ab6fbb92027e1f26cc9" category="inline-image-macro">屏幕截图显示设置BlueXP边缘缓存核心实例所需的配置信息。</block>
-  <block id="ce03427a0bf4a8de6f5bd690a9caebf2" category="paragraph"><block ref="ce03427a0bf4a8de6f5bd690a9caebf2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="dbed4cab598866209032f387706537c9" category="list-text">成功部署BlueXP Edge缓存核心后、单击*转至信息板*。</block>
-  <block id="f241a6d4168de9bd2a9425e2bf94976a" category="inline-image-macro">安装完成后显示BlueXP边缘缓存信息板的屏幕截图。</block>
-  <block id="f3838279f687567e22d766b3e23a4bb2" category="paragraph"><block ref="f3838279f687567e22d766b3e23a4bb2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a9c5579a5e23d500a26ed5d9e2bb814e" category="section-title">为BlueXP边缘缓存安装授予许可</block>
   <block id="1adb6cc282d3984d92f2db8afe77b6a4" category="paragraph">在使用BlueXP边缘缓存之前、您需要在BlueXP边缘缓存核心实例上配置BlueXP边缘缓存许可证管理服务器(LMS)服务。要激活您的订阅，您需要使用您的 NSS 凭据或 NetApp 提供的客户 ID 和订阅编号。</block>
   <block id="d33c733b7e7c6ac488c5e037a47fef2d" category="list-text">使用以下URL打开BlueXP Edge缓存核心(您指定为LMS服务的核心)上的Global File Cache License Registration (全局文件缓存许可证注册)页面。将_BlueXP_替换为&lt;ip_address&gt;边缘缓存核心的IP地址：<block ref="72dbd330743fc50599ec44d0fe0192d1" category="inline-link-rx"></block></block>
@@ -598,10 +532,6 @@
   <block id="430c143aa87248f0c317c8d68b290ab7" category="paragraph">如果您已确定需要部署多个BlueXP边缘缓存核心以支持您的配置、请从信息板中单击*添加核心实例*并按照部署向导进行操作。</block>
   <block id="e8d5c13a3c195398396414913a71d18a" category="inline-link-macro">部署BlueXP边缘缓存边缘实例</block>
   <block id="2c0838925fad25a1f1019fa038adb1d5" category="paragraph">完成核心部署后，您需要 <block ref="1fca0e397bf060f87e7f331b5b2250c9" category="inline-link-macro-rx"></block> 在每个远程办公室中。</block>
-  <block id="95c4aa620413c0eaf7c913d9d77ddec5" category="paragraph">如果您的配置由于Edge实例数量众多而需要安装多个BlueXP边缘缓存Core、则可以向工作环境添加另一个Core。</block>
-  <block id="8015175e9bd0806cd209ae5de5e5f2a7" category="list-text">BlueXP边缘缓存核心实例必须与Cloud Volumes ONTAP实例位于同一Active Directory域中。</block>
-  <block id="fe2b660461c839a130aab1585883bdbd" category="list-text">输入用于访问BlueXP Edge缓存核心虚拟机的管理员凭据、然后单击*部署GFC Core*。对于Azure和Google Cloud、您可以输入凭据作为用户名和密码；对于AWS、请选择相应的密钥对。您可以根据需要更改虚拟机名称。</block>
-  <block id="471cbbd70af8c22b29c38b4c58b90bc1" category="paragraph"><block ref="471cbbd70af8c22b29c38b4c58b90bc1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="841cb7cfb619b5923fb3b38f50f53e0b" category="summary">您需要对用户进行有关通过BlueXP边缘缓存访问共享文件的最佳实践培训。</block>
   <block id="ae12b314fd246da90162110a32a17a86" category="paragraph">这是BlueXP边缘缓存部署的最后阶段、即最终用户实施阶段。</block>
   <block id="c5a9e206e2cba407d01faf1b9bc8aae6" category="paragraph">为了准备和简化最终用户的入职流程，请使用下面的电子邮件模板帮助您向最终用户介绍在 " 中央数据 " 环境中工作的意义。这将帮助您的用户利用BlueXP边缘缓存解决方案的所有优势。我们还发布了一个视频，可在需要时供 " 培训 " 用户共享。</block>
@@ -646,8 +576,6 @@
   <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">这是系统生成的ID、映射到您的电子邮件。在* NSS Management*页面上、您可以从显示电子邮件 <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> 菜单。</block>
   <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">如果您需要刷新登录凭据令牌、则中还会提供一个*更新凭据*选项 <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> 菜单。</block>
   <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="278930628a6575fa0fe23ecd27374bfb" category="paragraph">部署Cloud Volumes ONTAP 并配置SMB文件共享。有关详细信息，请参见<block ref="8198e799bf373d0d471ff3f551725308" category="inline-link-rx"></block>，<block ref="3718aa4b740ed1680c17ac188cf71498" category="inline-link-rx"></block>或<block ref="958eb36238d0859ba89677740ca359aa" category="inline-link-rx"></block>。</block>
-  <block id="b48c78d3da26a7311e5288a66ed4f4d8" category="paragraph">BlueXP边缘缓存支持在Azure、AWS和Google Cloud中部署Cloud Volumes ONTAP。有关详细的前提条件，要求和部署说明，请参见<block ref="8198e799bf373d0d471ff3f551725308" category="inline-link-rx"></block>，<block ref="3718aa4b740ed1680c17ac188cf71498" category="inline-link-rx"></block>或<block ref="958eb36238d0859ba89677740ca359aa" category="inline-link-rx"></block></block>
   <block id="45456d22bd7241b79d0f62620d5888d8" category="list-text">或者、对于Azure和GCP中的Cloud Volumes ONTAP 系统、您也可以选择Cloud Volumes ONTAP 边缘缓存软件包。通过此基于容量的许可证、您可以为购买的每3 TiB容量部署一个BlueXP边缘缓存边缘实例。<block ref="2ad67afc7a67ecb4970c40ef2d9c9dc1" category="inline-link-rx"></block>。</block>
   <block id="77474efd411b7748abfa1c88a3e0137c" category="paragraph"><block ref="77474efd411b7748abfa1c88a3e0137c" category="inline-link-rx"></block></block>
   <block id="975b3327995267bde41cd6b4ce0c772d" category="paragraph">此版本提供了以下列出的新功能。此外、它还修复了中所述的问题<block ref="c98734a3bbf4b45bac275605eaeefc3f" category="inline-link-rx"></block>。</block>
@@ -762,5 +690,33 @@
   <block id="fc31bdab270f34f9dbc1c826f879ec7a" category="section-title">2024年5月31日</block>
   <block id="a38c9755f3e363e5fcc012f982f27744" category="paragraph">NetApp已宣布NetApp全局文件缓存的终止可用性(EOA)将于2024年5月31日结束。EOA会影响所有NetApp全局文件缓存产品、包括独立的全局文件缓存软件订阅以及与NetApp Cloud Volumes ONTAP捆绑的全局文件缓存解决方案(称为NetApp Cloud Volumes Edge Cache)。</block>
   <block id="fe85d677b887f84abb319ef4415495b6" category="inline-link">有关NetApp全局文件缓存终止提供的详细信息、请参见</block>
-  <block id="32537bd355f3c702f88504f670fd2349" category="paragraph">尽管我们宣布了这些产品的EOA、但NetApp将继续提供支持、直到至少2027年5月31日为止。<block ref="c260bd0a32453373dfa997871e7c7312" category="inline-link-rx"></block>。</block>
+  <block id="24ac22613c3f1be0d76e3bfcefcc6ec1" category="paragraph">Cloud Volumes ONTAP、Azure NetApp Files、适用于ONTAP系统的Amazon FSx以及Google Cloud上的Cloud Volumes Service均支持BlueXP边缘缓存云配置。此外， NetApp AFF 和 FAS 平台还提供内部解决方案。在这两种类型的配置中、BlueXP边缘缓存服务器端组件都是手动配置和部署的、而不是使用BlueXP。</block>
+  <block id="630bda6df3ff7bb814a79444e1dabbc4" category="list-text">与Cloud Volumes ONTAP一起安装时、有两种定价选项：</block>
+  <block id="fd78745105091c2015d98f29269dd694" category="list-text">如果安装在其他平台(而不是Cloud Volumes ONTAP系统)上、则定价会有所不同。要查看成本概要，请参见<block ref="9302a3a91184fdbf4c3bfe67365aaae4" category="inline-link-rx"></block> 或者咨询您的NetApp解决方案工程师、讨论适合您企业部署的最佳方案。</block>
+  <block id="94f0fe03958717052e8669010ec89838" category="summary">您可以在其中一个存储系统上部署BlueXP边缘缓存管理服务器和核心软件。</block>
+  <block id="279ac5dd73c3a5783ebeb10e172c4f38" category="paragraph">重要说明</block>
+  <block id="8dc3b867202156e4823ca41b3bb6a73e" category="paragraph">从2024年5月开始、不再支持通过BlueXP用户界面启用、部署和管理全局文件缓存组件。您必须通过访问存储系统来执行这些步骤。</block>
+  <block id="644e85c2f551fdd59e00fa39649db4fe" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 部署存储平台</block>
+  <block id="94d9e0666aa5e380557e31da818019fe" category="paragraph">Cloud Volumes ONTAP、Azure NetApp Files、适用于ONTAP系统的Amazon FSx以及Google Cloud上的Cloud Volumes Service均支持BlueXP边缘缓存云配置。此外， NetApp AFF 和 FAS 平台还提供内部解决方案。部署存储系统后、配置SMB文件共享。</block>
+  <block id="a6de36f7bc7cc5e691accc7e05216eff" category="paragraph">在同一环境中部署BlueXP边缘缓存管理服务器的实例。</block>
+  <block id="e637e6a930df9f6584f08abf5aa66d6b" category="paragraph">将BlueXP边缘缓存核心的一个或多个实例部署在与存储系统相同的位置、并将其加入Active Directory域。</block>
+  <block id="d5801d597268a30f73151fa4b887f23c" category="paragraph">请参见 <block ref="8a8be2ad52d9aa8bdc89d7f5ec8c59df" category="inline-link-macro-rx"></block> 在每个远程位置部署BlueXP边缘缓存边缘实例。</block>
+  <block id="8a676956b87e4c2879e952df16fc8349" category="section-title">部署存储平台</block>
+  <block id="513fe58b31bec3bb61683a97f88ad1a9" category="paragraph">Cloud Volumes ONTAP (在AWS、Azure和Google上)、Azure NetApp Files、适用于ONTAP系统的Amazon FSx以及Cloud Volumes Service在Google Cloud上支持BlueXP边缘缓存云配置。此外， NetApp AFF 和 FAS 平台还提供内部解决方案。</block>
+  <block id="043b39a5bb9ba9f94a59f979372cabe2" category="list-text">您应在存储系统上配置SMB文件共享。</block>
+  <block id="d9b762ee5151400d1727e25846f5bedb" category="section-title">部署全局文件缓存核心</block>
+  <block id="aa62924956abdbb99bfb85c59d8f51bf" category="paragraph">请参见中的第7章<block ref="c37d59ba163d6e06d70bc7a9326dd95e" category="inline-link-rx"></block>。</block>
+  <block id="84037427a2c8d669a1e7b95e23492189" category="paragraph">NetApp将继续为现有客户提供这些产品的支持、至少为期3年。<block ref="c260bd0a32453373dfa997871e7c7312" category="inline-link-rx"></block>。</block>
+  <block id="ce6cf9ea6138c79aab74ff110d376b23" category="paragraph">此外、还删除了从BlueXP用户界面启用、部署和管理全局文件缓存组件的功能。</block>
+  <block id="91770f038cd944a1d3b9b347edeb2b10" category="sidebar">新增功能</block>
+  <block id="98121bd163ebeee7679c81cb42cf7994" category="sidebar">部署组件</block>
+  <block id="948b7b04e4691581ca1041a28de513f9" category="sidebar">将 Cloud Volumes ONTAP 部署为存储平台</block>
+  <block id="1b16252715ee63d29e9c78d78a69c523" category="sidebar">部署BlueXP边缘缓存管理服务器和核心</block>
+  <block id="e289bcbad000bdd54bcb8ae57eec662f" category="sidebar">培训用户</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">博客和社区</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 社区</block>
+  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP博客</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">云网络研讨会</block>
+  <block id="4c7d5d7dfde4a7bd82b54348182043d3" category="sidebar">其他资源</block>
+  <block id="f79eca534d02cb718a61576ea3936648" category="sidebar">BlueXP Edge缓存用例</block>
 </blocks>

@@ -59,26 +59,7 @@ image:diagram_gfc_image2.png["显示BlueXP边缘缓存部署详细信息的示�
 
 == 支持的存储平台
 
-根据您选择的部署选项、BlueXP边缘缓存支持的存储平台会有所不同。
-
-
-
-=== 自动化部署选项
-
-使用BlueXP部署时、以下类型的工作环境支持BlueXP边缘缓存：
-
-* Azure 中的 Cloud Volumes ONTAP
-* AWS 中的 Cloud Volumes ONTAP
-* Google Cloud中的Cloud Volumes ONTAP
-
-
-通过此配置、您可以在BlueXP中部署和管理整个BlueXP边缘缓存服务器端部署、包括BlueXP边缘缓存管理服务器和BlueXP边缘缓存核心。
-
-
-
-=== 手动部署选项
-
-Cloud Volumes ONTAP、Azure NetApp Files、Amazon FSx for ONTAP系统以及Google Cloud上的Cloud Volumes Service也支持BlueXP边缘缓存配置。此外， NetApp AFF 和 FAS 平台还提供内部解决方案。在这些安装中、必须手动配置和部署BlueXP边缘缓存服务器端组件、而不是使用BlueXP。
+Cloud Volumes ONTAP、Azure NetApp Files、适用于ONTAP系统的Amazon FSx以及Google Cloud上的Cloud Volumes Service均支持BlueXP边缘缓存云配置。此外， NetApp AFF 和 FAS 平台还提供内部解决方案。在这两种类型的配置中、BlueXP边缘缓存服务器端组件都是手动配置和部署的、而不是使用BlueXP。
 
 请参见 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf["《 NetApp 全局文件缓存用户指南》"^] 了解详细信息。
 
@@ -146,13 +127,13 @@ image:diagram_gfc_image3.png["显示边缘和核心的BlueXP边缘缓存组件�
 
 
 
-* 如果随Cloud Volumes ONTAP (通过BlueXP完全部署的受支持配置)一起安装、则有两种定价选项：
+* 与Cloud Volumes ONTAP一起安装时、有两种定价选项：
 +
 ** 对于Cloud Volumes ONTAP系统、您每年可以为每个BlueXP边缘缓存边缘实例支付3、000美元。
 ** 或者、对于Azure和GCP中的Cloud Volumes ONTAP 系统、您也可以选择Cloud Volumes ONTAP 边缘缓存软件包。通过此基于容量的许可证、您可以为购买的每3 TiB容量部署一个BlueXP边缘缓存边缘实例。 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#capacity-based-licensing["单击此处了解更多信息"^]。
 
 
-* 如果使用手动部署选项安装，则定价会有所不同。要查看成本概要，请参见 https://bluexp.netapp.com/global-file-cache/roi["计算您的节省潜力"^] 或者咨询您的NetApp解决方案工程师、讨论适合您企业部署的最佳方案。
+* 如果安装在其他平台(而不是Cloud Volumes ONTAP系统)上、则定价会有所不同。要查看成本概要，请参见 https://bluexp.netapp.com/global-file-cache/roi["计算您的节省潜力"^] 或者咨询您的NetApp解决方案工程师、讨论适合您企业部署的最佳方案。
 
 
 

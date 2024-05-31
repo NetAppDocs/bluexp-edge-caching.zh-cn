@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-gfc-getting-started.html 
 keywords: global file cache, core, management server 
-summary: 您可以使用BlueXP在工作环境中部署BlueXP边缘缓存管理服务器和核心软件。 
+summary: 您可以在其中一个存储系统上部署BlueXP边缘缓存管理服务器和核心软件。 
 ---
 = 入门
 :hardbreaks:
@@ -14,33 +14,32 @@ summary: 您可以使用BlueXP在工作环境中部署BlueXP边缘缓存管理�
 
 
 [role="lead"]
-您可以使用BlueXP在工作环境中部署BlueXP边缘缓存管理服务器和核心软件。
+您可以在其中一个存储系统上部署BlueXP边缘缓存管理服务器和核心软件。
+
+[]
+====
+重要说明
+
+从2024年5月开始、不再支持通过BlueXP用户界面启用、部署和管理全局文件缓存组件。您必须通过访问存储系统来执行这些步骤。
+
+====
 
 
-
-== 使用BlueXP启用BlueXP边缘缓存
-
-在此配置中、您将在使用BlueXP创建Cloud Volumes ONTAP系统的同一工作环境中部署BlueXP边缘缓存管理服务器和BlueXP边缘缓存核心。
-
-观看 link:https://www.youtube.com/watch?v=TGIQVssr43A["此视频"^] 以查看从开始到结束的步骤。
-
-
-
-=== 快速入门
+== 快速入门
 
 按照以下步骤快速入门，或者向下滚动到其余部分以了解完整详细信息。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 部署 Cloud Volumes ONTAP
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 部署存储平台
 [role="quick-margin-para"]
-部署Cloud Volumes ONTAP 并配置SMB文件共享。有关详细信息，请参见 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-otc-azure.html["在 Azure 中启动 Cloud Volumes ONTAP"^]， https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-otc-aws.html["在 AWS 中启动 Cloud Volumes ONTAP"^]或 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-gcp.html["在 Google Cloud 中启动 Cloud Volumes ONTAP"^]。
+Cloud Volumes ONTAP、Azure NetApp Files、适用于ONTAP系统的Amazon FSx以及Google Cloud上的Cloud Volumes Service均支持BlueXP边缘缓存云配置。此外， NetApp AFF 和 FAS 平台还提供内部解决方案。部署存储系统后、配置SMB文件共享。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 部署BlueXP边缘缓存管理服务器
 [role="quick-margin-para"]
-在与BlueXP边缘缓存管理服务器实例相同的工作环境中部署Cloud Volumes ONTAP实例。
+在同一环境中部署BlueXP边缘缓存管理服务器的实例。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 部署BlueXP边缘缓存核心
 [role="quick-margin-para"]
-在与Cloud Volumes ONTAP实例相同的工作环境中部署BlueXP边缘缓存核心的一个或多个实例、并将其加入您的Active Directory域。
+将BlueXP边缘缓存核心的一个或多个实例部署在与存储系统相同的位置、并将其加入Active Directory域。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 许可BlueXP边缘缓存
 [role="quick-margin-para"]
@@ -48,17 +47,17 @@ summary: 您可以使用BlueXP在工作环境中部署BlueXP边缘缓存管理�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["五个"] 部署BlueXP边缘缓存边缘实例
 [role="quick-margin-para"]
-请参见 link:task-deploy-gfc-edge-instances.html["部署BlueXP边缘缓存边缘实例"^] 在每个远程位置部署BlueXP边缘缓存边缘实例。此步骤不能使用BlueXP完成。
+请参见 link:task-deploy-gfc-edge-instances.html["部署BlueXP边缘缓存边缘实例"^] 在每个远程位置部署BlueXP边缘缓存边缘实例。
 
 
 
-=== 将 Cloud Volumes ONTAP 部署为您的存储平台
+=== 部署存储平台
 
-BlueXP边缘缓存支持在Azure、AWS和Google Cloud中部署Cloud Volumes ONTAP。有关详细的前提条件，要求和部署说明，请参见 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-otc-azure.html["在 Azure 中启动 Cloud Volumes ONTAP"^]， https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-otc-aws.html["在 AWS 中启动 Cloud Volumes ONTAP"^]或 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-gcp.html["在 Google Cloud 中启动 Cloud Volumes ONTAP"^]
+Cloud Volumes ONTAP (在AWS、Azure和Google上)、Azure NetApp Files、适用于ONTAP系统的Amazon FSx以及Cloud Volumes Service在Google Cloud上支持BlueXP边缘缓存云配置。此外， NetApp AFF 和 FAS 平台还提供内部解决方案。
 
 请注意以下BlueXP边缘缓存附加要求：
 
-* 您应在 Cloud Volumes ONTAP 实例上配置 SMB 文件共享。
+* 您应在存储系统上配置SMB文件共享。
 +
 如果未在此实例上设置SMB文件共享、则在安装BlueXP边缘缓存组件期间、系统会提示您配置SMB共享。
 
@@ -66,56 +65,9 @@ BlueXP边缘缓存支持在Azure、AWS和Google Cloud中部署Cloud Volumes ONTA
 
 
 
-=== 在您的工作环境中启用BlueXP边缘缓存
+=== 部署全局文件缓存核心
 
-安装向导将引导您完成部署BlueXP边缘缓存管理服务器实例和BlueXP边缘缓存核心实例的步骤、如下所示。
-
-image:screenshot_gfc_install1.png["初始BlueXP边缘缓存安装页面的屏幕截图。"]
-
-.步骤
-. 选择部署 Cloud Volumes ONTAP 的工作环境。
-. 在服务面板中，单击_Edge caching_服务的*Enable*。
-+
-image:screenshot_gfc_install2.png["工作环境中用于启用BlueXP边缘缓存的初始启用按钮的屏幕截图。"]
-
-. 阅读概述页面，然后单击 * 继续 * 。
-. 如果 Cloud Volumes ONTAP 实例上没有可用的 SMB 共享，系统将提示您输入 SMB 服务器和 SMB 共享详细信息以立即创建共享。有关 SMB 配置的详细信息，请参见 link:concept-before-you-begin-to-deploy-gfc.html#storage-platform-volumes["存储平台"^]。
-+
-完成后，单击 * 继续 * 以创建 SMB 共享。
-
-+
-image:screenshot_gfc_install3.png["一个屏幕截图，显示在 SMB 共享不可用时创建 SMB 共享所需的信息。"]
-
-. 在全局文件缓存服务页面上，输入计划部署的全局文件缓存边缘实例的数量，然后确保您的系统满足网络配置和防火墙规则， Active Directory 设置和防病毒排除的要求。请参见 link:concept-before-you-begin-to-deploy-gfc.html#prerequisites["前提条件"] 有关详细信息：
-+
-image:screenshot_gfc_install4.png["显示部署BlueXP边缘缓存管理服务器和核心实例之前的前提条件的屏幕截图。"]
-
-. 确认已满足要求或您已获得满足这些要求的信息后，单击 * 继续 * 。
-. 输入用于访问BlueXP Edge缓存管理服务器VM的管理员凭据、然后单击*启用GFC服务*。对于Azure和Google Cloud、您可以输入凭据作为用户名和密码；对于AWS、请选择相应的密钥对。您可以根据需要更改 VM/ 实例名称。
-+
-image:screenshot_gfc_install5.png["屏幕截图显示设置BlueXP边缘缓存管理服务器所需的配置信息。"]
-
-. 成功部署BlueXP Edge缓存管理服务后、单击*继续*。
-. 对于BlueXP边缘缓存核心、输入要加入Active Directory域的管理员用户凭据以及服务帐户用户凭据。然后单击 * 继续 * 。
-+
-** BlueXP边缘缓存核心实例必须部署在与Cloud Volumes ONTAP实例相同的Active Directory域中。
-** 此服务帐户是域用户，它是 Cloud Volumes ONTAP 实例上 BUILTIN\Backup Operators 组的一部分。
-+
-image:screenshot_gfc_install6.png["屏幕截图显示设置BlueXP Edge缓存Core Active Directory和服务帐户所需的配置信息。"]
-
-
-
-. 输入用于访问BlueXP Edge缓存核心虚拟机的管理员凭据、然后单击*部署GFC Core*。对于Azure和Google Cloud、您可以输入凭据作为用户名和密码；对于AWS、请选择相应的密钥对。您可以根据需要更改 VM/ 实例名称。
-+
-image:screenshot_gfc_install7.png["屏幕截图显示设置BlueXP边缘缓存核心实例所需的配置信息。"]
-
-. 成功部署BlueXP Edge缓存核心后、单击*转至信息板*。
-+
-image:screenshot_gfc_install8.png["安装完成后显示BlueXP边缘缓存信息板的屏幕截图。"]
-
-
-
-信息板显示管理服务器实例和核心实例均为 * 启用 * 且正常运行。
+请参见中的第7章 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf["《 NetApp 全局文件缓存用户指南》"^]。
 
 
 
@@ -160,36 +112,3 @@ image:screenshot_gfc_license_subscription.png["在 GFC 许可证订阅页面中�
 如果您已确定需要部署多个BlueXP边缘缓存核心以支持您的配置、请从信息板中单击*添加核心实例*并按照部署向导进行操作。
 
 完成核心部署后，您需要 link:download-gfc-resources.html["部署BlueXP边缘缓存边缘实例"^] 在每个远程办公室中。
-
-
-
-== 部署其他核心实例
-
-如果您的配置由于Edge实例数量众多而需要安装多个BlueXP边缘缓存Core、则可以向工作环境添加另一个Core。
-
-在部署 Edge 实例时，您将配置一些实例以连接到第一个核心，而另一些实例则连接到第二个核心。这两个核心实例都可访问工作环境中的同一后端存储（您的 Cloud Volumes ONTAP 实例）。
-
-. 在全局文件缓存信息板中，单击 * 添加核心实例 * 。
-+
-image:screenshot_gfc_add_another_core.png["GFC 信息板的屏幕截图以及用于添加其他核心实例的按钮。"]
-
-. 输入要加入 Active Directory 域的管理员用户凭据以及服务帐户用户凭据。然后单击 * 继续 * 。
-+
-** BlueXP边缘缓存核心实例必须与Cloud Volumes ONTAP实例位于同一Active Directory域中。
-** 此服务帐户是域用户，它是 Cloud Volumes ONTAP 实例上 BUILTIN\Backup Operators 组的一部分。
-+
-image:screenshot_gfc_install6.png["屏幕截图显示设置BlueXP Edge缓存Core Active Directory和服务帐户所需的配置信息。"]
-
-
-
-. 输入用于访问BlueXP Edge缓存核心虚拟机的管理员凭据、然后单击*部署GFC Core*。对于Azure和Google Cloud、您可以输入凭据作为用户名和密码；对于AWS、请选择相应的密钥对。您可以根据需要更改虚拟机名称。
-+
-image:screenshot_gfc_install7.png["屏幕截图显示设置BlueXP边缘缓存核心实例所需的配置信息。"]
-
-. 成功部署BlueXP Edge缓存核心后、单击*转至信息板*。
-+
-image:screenshot_gfc_dashboard_2cores.png["安装完成后显示BlueXP边缘缓存信息板的屏幕截图。"]
-
-
-
-信息板反映了工作环境的第二个核心实例。

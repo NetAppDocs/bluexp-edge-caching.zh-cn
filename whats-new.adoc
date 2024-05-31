@@ -22,7 +22,9 @@ summary: 了解BlueXP边缘缓存的新增功能。
 
 NetApp已宣布NetApp全局文件缓存的终止可用性(EOA)将于2024年5月31日结束。EOA会影响所有NetApp全局文件缓存产品、包括独立的全局文件缓存软件订阅以及与NetApp Cloud Volumes ONTAP捆绑的全局文件缓存解决方案(称为NetApp Cloud Volumes Edge Cache)。
 
-尽管我们宣布了这些产品的EOA、但NetApp将继续提供支持、直到至少2027年5月31日为止。 https://mysupport.netapp.com/info/communications/CPC-00578.html["有关NetApp全局文件缓存终止提供的详细信息、请参见"^]。
+NetApp将继续为现有客户提供这些产品的支持、至少为期3年。 https://mysupport.netapp.com/info/communications/CPC-00578.html["有关NetApp全局文件缓存终止提供的详细信息、请参见"^]。
+
+此外、还删除了从BlueXP用户界面启用、部署和管理全局文件缓存组件的功能。
 
 
 

@@ -1,0 +1,39 @@
+---
+indexpage:
+  title: BlueXP Edge缓存文档
+  summary: 通过BlueXP边缘缓存、您可以创建一个集中式文件存储、为全球各地的远程位置提供服务。借助边缘缓存、经常访问的数据会保留在每个相关的远程边缘位置、并且可以在通过WAN访问数据时不会出现延迟、同时仍受中央控制。
+  keywords: bluexp, caching, edge, cloud volumes ontap, storage, deploy, cache, platform
+  lead: 通过BlueXP边缘缓存、您可以创建一个集中式文件存储、为全球各地的远程位置提供服务。借助边缘缓存、经常访问的数据会保留在每个相关的远程边缘位置、并且可以在通过WAN访问数据时不会出现延迟、同时仍受中央控制。
+  tiles:
+  - title: 入门
+    links:
+    - title: 了解BlueXP边缘缓存
+      url: concept-gfc.html
+    - title: 新增功能
+      url: whats-new.html
+    - title: 限制
+      url: concept-gfc.html#limitations
+  - title: 部署组件
+    links:
+    - title: 将 Cloud Volumes ONTAP 部署为存储平台
+      url: task-gfc-getting-started.html#deploy-cloud-volumes-ontap-as-your-storage-platform
+    - title: 部署BlueXP边缘缓存管理服务器和核心
+      url: task-gfc-getting-started.html#enable-bluexp-edge caching-in-your-working-environment
+    - title: 部署BlueXP Edge缓存边缘实例
+      url: task-deploy-gfc-edge-instances.html
+  - title: 培训用户
+    links:
+    - title: 最终用户培训
+      url: concept-gfc-enduser-training.html
+  - title: 博客和社区
+    links:
+    - title: NetApp 社区
+      url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
+    - title: BlueXP博客
+      url: https://bluexp.netapp.com/blog
+    - title: 云网络研讨会
+      url: https://bluexp.netapp.com/events
+  - title: 其他资源
+    links:
+    - title: BlueXP Edge缓存用例
+      url: https://bluexp.netapp.com/global-file-cache
